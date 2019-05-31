@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/bootstrap-grid.min.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway:500|Roboto+Slab&display=swap");
+
+html, body {
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+button { border: none }
+
+.perfect-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.border { border: 1px solid #dee2e6 }
+
+.br-5 { border-radius: 5px; }
+.br-10 { border-radius: 10px; }
+.br-25 { border-radius: 25px; }
+.br-50 { border-radius: 50px; }
+.br-100 { border-radius: 100px; }
+
+.w-25 { width: 25%; }
+.w-33 { width: 33%; }
+.w-50 { width: 50%; }
+.w-75 { width: 75%; }
+.w-100 { width: 100%; }
+
+.shadow { box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15); }
+
+// .text-white { color: white; }

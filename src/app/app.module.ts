@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './views/home/home.module';
+import { SvgsModule } from './partials/svgs/svgs.module';
 
 @NgModule({
 	declarations: [
@@ -12,7 +13,8 @@ import { HomeModule } from './views/home/home.module';
 	imports: [
 		BrowserModule.withServerTransition({ appId: 'serverApp' }),
 		AppRoutingModule,
-		HomeModule
+		HomeModule,
+		SvgsModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

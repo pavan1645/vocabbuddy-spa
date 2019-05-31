@@ -1,3 +1,21 @@
-<p>
-  home works!
-</p>
+<div class="home perfect-center w-100">
+	<nav></nav>
+	<div class="row actions shadow br-25 w-75 text-white">
+		<button class="learn w-50 perfect-center" [ngClass]="{'active': activeBtn == 0}" (click)="loadComponent(0)">
+			<svg-list-ul class="icon"></svg-list-ul>
+			<h4>LEARN</h4>
+		</button>
+		<button class="quiz w-50 perfect-center" [ngClass]="{'active': activeBtn == 1}" (click)="loadComponent(1)">
+			<svg-quiz class="icon"></svg-quiz>
+			<h4>QUIZ</h4>
+		</button>
+		<button class="third w-50 perfect-center" [ngClass]="{'active': activeBtn == 2}" (click)="loadComponent(2)">
+			<svg-stopwatch class="icon"></svg-stopwatch>
+			<h4>Coming Soon</h4>
+		</button>
+		<button class="fourth w-50 perfect-center" [ngClass]="{'active': activeBtn == 3}" (click)="loadComponent(3)">
+			<svg-stopwatch class="icon"></svg-stopwatch>
+			<h4>Coming Soon</h4>
+		</button>
+	</div>
+</div>

@@ -1,0 +1,46 @@
+.home {
+	// background: radial-gradient(#1488CCAA, #2B32B2AA);
+	background-color: #F5F5F5;
+	height: 100vh;
+}
+
+nav { position: fixed; }
+
+.actions {
+	height: 75vw;
+	overflow: hidden;
+
+	button {
+		height: calc(75vw/2);
+	}
+
+	button.active {
+		&:nth-child(1) { transform: translate(50%, 50%) scale(2); }
+		&:nth-child(2) { transform: translate(-50%, 50%) scale(2); }
+		&:nth-child(3) { transform: translate(50%, -50%) scale(2); }
+		&:nth-child(4) { transform: translate(-50%, -50%) scale(2); }
+
+		z-index: 1;
+		transition: all 0.2s;
+	}
+
+	h4 {
+		// text-shadow: 0 2px 5px #00000082;
+		margin: 0;
+		color: white;
+	}
+	
+	.icon {
+		width: 2rem;
+		margin-bottom: 0.5rem;
+		fill: white;
+		// filter: drop-shadow(0 2px 5px #00000082);
+	}
+
+	.third .icon, .fourth .icon { transform: scaleX(-1) }
+}
+
+.learn { background: rgba($color: #ef5350, $alpha: 1) }
+.quiz { background: rgba($color: #7E57C2, $alpha: 1) }
+.third { background: rgba($color: #42A5F5, $alpha: 1) }
+.fourth { background: rgba($color: #FFA726, $alpha: 1) }
