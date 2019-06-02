@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SvgListUl, SvgQuiz, SvgHistory, SvgStopwatch } from './svgs.component';
+import { SvgListUl, SvgQuiz, SvgHistory, SvgStopwatch, SvgArrowLeft } from './svgs.component';
 
-const components = [ SvgListUl, SvgQuiz, SvgHistory, SvgStopwatch ]
+const components = [ SvgListUl, SvgQuiz, SvgHistory, SvgStopwatch, SvgArrowLeft ]
 
 @NgModule({
 	declarations: components,

@@ -1,3 +1,14 @@
-<p>
-  learn works!
-</p>
+<div>
+	<nav class="p-3 border-bottom f18 d-flex bg-light">
+		<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
+		Learn
+	</nav>
+	
+	<ul>
+		<a *ngFor="let section of sections" [routerLink]="section.name">
+			<li>
+				{{section.name}}
+			</li>
+		</a>
+	</ul>
+</div>
