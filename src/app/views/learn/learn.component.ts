@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-const WORDS = require("../../../assets/words.json");
-const SECTIONS = require("../../../assets/section-mapping.json");
+import WORDS from "../../../assets/words.json";
+import SECTIONS from "../../../assets/section-mapping.json";
 
 @Component({
 	selector: 'app-learn',
@@ -8,8 +8,8 @@ const SECTIONS = require("../../../assets/section-mapping.json");
 	styleUrls: ['./learn.component.scss']
 })
 export class LearnComponent implements OnInit {
-	private sections: [] = SECTIONS;
-	private words: [] = WORDS;
+	private sections: any[] = SECTIONS;
+	private words: any[] = WORDS;
 
 	constructor() { }
 	
