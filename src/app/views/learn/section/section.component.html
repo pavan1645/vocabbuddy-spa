@@ -1,0 +1,8 @@
+<div>
+	<p>Switch val: {{switchVal}}</p>
+	<p>Word Index: {{[currWord.wordIndex]}}</p>
+	<p>Word: {{wordDefs[currWord.wordIndex].word}}</p>
+	<button (click)="answer(-1)">Not Remembered</button>
+	<button (click)="answer(1)">Remembered</button>
+	<button (click)="calc()">Next Word</button>
+</div>

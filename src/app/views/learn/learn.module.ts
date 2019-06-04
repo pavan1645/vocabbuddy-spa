@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { LearnComponent } from './learn.component';
 import { SvgsModule } from 'src/app/partials/svgs/svgs.module';
+import { SectionComponent } from './section/section.component';
 
 const routes: Routes = [
 	{
@@ -11,13 +12,14 @@ const routes: Routes = [
 	},
 	{
 		path: ":section",
-		component: LearnComponent
+		component: SectionComponent
 	}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  declarations: [SectionComponent]
 })
 export class LearnRoutingModule { }
 
