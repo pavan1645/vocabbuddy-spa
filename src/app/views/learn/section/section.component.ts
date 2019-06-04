@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import WORDS from "../../../../assets/words.json";
@@ -12,7 +12,7 @@ let progess = new Globals().progress;
 	templateUrl: './section.component.html',
 	styleUrls: ['./section.component.scss']
 })
-export class SectionComponent {
+export class SectionComponent implements OnInit {
 	
 	private section: any;
 	private sectionName: string = "";
@@ -23,12 +23,14 @@ export class SectionComponent {
 	private switchVal: number = -1;
 
 
-	constructor(private activatedRoute: ActivatedRoute, private sharedService: SharedService) {
-		activatedRoute.params.subscribe(params => {
+	constructor(private activatedRoute: ActivatedRoute, private sharedService: SharedService) { }
+	
+	ngOnInit() {
+		this.activatedRoute.params.subscribe(params => {
 			this.sectionName = params["section"];
 			this.secWords = progess.find(s => s.name == this.sectionName).words;
 			this.calc();
-		})
+		})	
 	}
 	
 	calc() {

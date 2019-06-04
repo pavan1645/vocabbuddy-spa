@@ -7,7 +7,8 @@
 	<ul>
 		<a *ngFor="let section of sections" [routerLink]="section.name">
 			<li>
-				{{section.name}}
+				<p>{{section.name}}</p>
+				<p>{{section.remainingWords}}</p>
 			</li>
 		</a>
 	</ul>

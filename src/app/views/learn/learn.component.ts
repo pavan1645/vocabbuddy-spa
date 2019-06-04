@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import SECTIONS from "../../../assets/section-mapping.json";
+import { Globals } from 'src/app/globals.js';
+
+let progress = new Globals().progress;
 
 @Component({
 	selector: 'app-learn',
@@ -7,11 +9,14 @@ import SECTIONS from "../../../assets/section-mapping.json";
 	styleUrls: ['./learn.component.scss']
 })
 export class LearnComponent implements OnInit {
-	private sections: any[] = SECTIONS;
-
+	private sections: any[] = progress;
+	
 	constructor() { }
 	
 	ngOnInit() {
+		this.sections.forEach(s => {
+			s["remainingWords"] = s.words.filter(f => f.isRemembered < 2).length;
+		});
 	}
 	
 }
