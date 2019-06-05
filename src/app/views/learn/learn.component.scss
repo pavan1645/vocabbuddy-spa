@@ -2,11 +2,69 @@
 
 .icon {
 	width: 1rem;
+	fill: white;
 }
 
 ul { padding: 0; margin: 0 }
 li {
 	list-style: none;
 	padding: 1rem 1.5rem;
+	// background-color: map-get($map: $colors, $key: 'light');
 	border-bottom: 1px solid lightgray;
+}
+
+.line {
+	height: 4px;
+	margin-top: 0.5rem;
+	background-color: map-get($map: $my-colors, $key: "lightgray");
+	border-radius: 25px;
+	position: relative;
+
+	.overlay {
+		position: absolute;
+		height: 100%;
+		left: 0;
+		top: 0;
+		border-radius: 25px;
+	}
+}
+
+.tag {
+	color: white;
+	background-color: map-get($map: $colors, $key: "gray");
+	border-radius: 50px;
+	padding: 4px 8px;
+
+	&.completed { background-color: map-get($map: $my-colors, $key: "green"); }
+}
+
+li.grey { color: map-get($map: $colors, $key: "gray"); }
+
+li.red .line .overlay { background-color: map-get($map: $my-colors, $key: "red"); }
+li.yellow .line .overlay { background-color: map-get($map: $my-colors, $key: "yellow"); }
+li.blue .line .overlay { background-color: map-get($map: $my-colors, $key: "blue"); }
+li.green .line .overlay { background-color: map-get($map: $my-colors, $key: "green"); }
+
+.cta-practice {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	span {
+		height: 4px;
+		width: 33%;
+		background: repeating-linear-gradient(45deg, map-get($map: $my-colors, $key: "green") 20px, rgba($color: map-get($map: $my-colors, $key: "green"), $alpha: 0.5) 40px)
+	}
+
+	span:first-of-type { border-top-left-radius: 25px; border-bottom-left-radius: 25px; }
+	span:last-of-type { border-top-right-radius: 25px; border-bottom-right-radius: 25px; }
+
+	a {
+		border: 1px solid;
+		border-radius: 25px;
+		padding: 4px;
+		border-color: map-get($map: $my-colors, $key: "green");
+		color: map-get($map: $my-colors, $key: "green");
+		width: 34%;
+	}
 }

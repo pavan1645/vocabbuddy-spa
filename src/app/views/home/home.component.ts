@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
 		setTimeout(() => {
 			if (this.activeBtn == 0) this.router.navigateByUrl("/learn");
 			if (this.activeBtn == 1) this.router.navigateByUrl("/practice");
-		}, 500);
+		}, 600);
 	}
 
 }

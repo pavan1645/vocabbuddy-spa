@@ -1,15 +1,40 @@
 <div>
-	<nav class="p-3 border-bottom f18 d-flex bg-light">
-		<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
+	<nav class="p-3 border-bottom f18 d-flex bg-red text-white">
+		<a routerLink="/">
+			<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
+		</a>
 		Learn
 	</nav>
 	
 	<ul>
-		<a *ngFor="let section of sections" [routerLink]="section.name">
-			<li>
-				<p>{{section.name}}</p>
-				<p>{{section.remainingWords}}</p>
-			</li>
-		</a>
+		<li [ngClass]="section.completeClass" *ngFor="let section of sections">
+			<a [routerLink]="section.name" class="row">
+				<p class="w-50">{{section.name}}</p>
+				
+				<!-- SECTION NOT STARTED -->
+				<div class="w-50 f11 row align-content-end" *ngIf="section.state == 0">
+					<span class="tag ml-auto">Not Started</span>
+				</div>
+				
+				<!-- SECTION STARTED -->
+				<div class="w-50 f11 text-center" *ngIf="section.state == 1">
+					<p>{{section.remainingWords}} remaining</p>
+					<div class="mx-auto w-75 line">
+						<div class="overlay" [ngStyle]="{'width': section.completePercent + '%'}"></div>
+					</div>
+				</div>
+				
+				<!-- SECTION COMPLETED -->
+				<div class="w-50 f11 row align-content-end" *ngIf="section.state == 2">
+					<span class="tag ml-auto completed">Completed</span>
+				</div>
+			</a>
+
+			<div class="cta-practice f12 pt-3" *ngIf="section.state == 2">
+				<span></span>
+				<a routerLink="/practice" class="text-center">Take a Quiz!</a>
+				<span></span>
+			</div>
+		</li>
 	</ul>
 </div>

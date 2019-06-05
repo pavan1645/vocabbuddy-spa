@@ -6,6 +6,8 @@ export class Globals {
 	}
 
 	set progress(val) {
+		console.log("setter called");
+		
 		Globals.progressJson = val;
 		localStorage.setItem("progress", JSON.stringify(Globals.progressJson));
 	}

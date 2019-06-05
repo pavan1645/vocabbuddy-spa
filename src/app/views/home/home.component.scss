@@ -1,6 +1,8 @@
+@import "../../../assets/variables.scss";
+
 .home {
 	// background: radial-gradient(#1488CCAA, #2B32B2AA);
-	background-color: #F5F5F5;
+	background-color: map-get($map: $colors, $key: "light");
 	height: 100vh;
 }
 
@@ -21,7 +23,7 @@ nav { position: fixed; }
 		&:nth-child(4) { transform: translate(-50%, -50%) scale(2); }
 
 		z-index: 1;
-		transition: all 0.2s;
+		transition: all 0.2s ease 0.3s;
 	}
 
 	h4 {
@@ -40,7 +42,7 @@ nav { position: fixed; }
 	.third .icon, .fourth .icon { transform: scaleX(-1) }
 }
 
-.learn { background: rgba($color: #ef5350, $alpha: 1) }
-.quiz { background: rgba($color: #7E57C2, $alpha: 1) }
-.third { background: rgba($color: #42A5F5, $alpha: 1) }
-.fourth { background: rgba($color: #FFA726, $alpha: 1) }
+.learn { background: linear-gradient(-45deg, rgba($color: map-get($my-colors, "red"), $alpha: 0.82), map-get($my-colors, "red")); }
+.quiz { background: linear-gradient(45deg, rgba($color: map-get($my-colors, "blue"), $alpha: 0.82), map-get($my-colors, "blue")); }
+.third { background: linear-gradient(-135deg, rgba($color: map-get($my-colors, "green"), $alpha: 0.82), map-get($my-colors, "green")); }
+.fourth { background: linear-gradient(135deg, rgba($color: map-get($my-colors, "yellow"), $alpha: 0.82), map-get($my-colors, "yellow")); }
