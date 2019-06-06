@@ -1,8 +1,47 @@
-<div>
-	<p>Switch val: {{switchVal}}</p>
-	<p>Word Index: {{[currWord.wordIndex]}}</p>
-	<p>Word: {{wordDefs[currWord.wordIndex].word}}</p>
-	<button (click)="answer(-1)">Not Remembered</button>
-	<button (click)="answer(1)">Remembered</button>
-	<button (click)="calc()">Next Word</button>
+<div class="main">
+	<nav class="p-3 ">
+		<a routerLink="/learn">
+			<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
+		</a>
+	</nav>
+	
+	<div class="holder perfect-center" [ngClass]="{'transition': removeCard == 1}">
+		
+		<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [ngClass]="{'removed': removeCard == 1, 'show': defShow}">
+			<ng-container *ngTemplateOutlet="cardcontent"></ng-container>
+		</div>
+		
+		<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[1]" [ngClass]="{'show': defShow}">
+			<ng-container *ngTemplateOutlet="cardcontent"></ng-container>
+			
+		</div>
+		
+		<div class="card bg-white shadow" [attr.data-index]="dataIndex[2]"></div>
+		<div class="card bg-white shadow" [attr.data-index]="dataIndex[3]"></div>
+		
+	</div>
+	
 </div>
+
+
+<ng-template #cardcontent>
+	<div class="def perfect-center p-4" [ngClass]="{'my-auto': defShow}">
+		<p class="font-bold d-flex align-items-center word" [ngClass]="{'f25': !defShow}">
+			<span class="icon-wrapper mr-2 perfect-center" (click)="readWord()" [ngClass]="{'speak': speakActive}">
+				<svg-microphone class="icon perfect-center"></svg-microphone>					
+			</span>
+			<span>{{wordDefs[currWord.wordIndex].word}}</span>
+		</p>
+
+		<button class="f12 text-blue" (click)="showDef()">Show Definition</button>
+
+		<p class="f14 mt-4 mb-3 meaning">{{wordDefs[currWord.wordIndex].meaning}}</p>
+
+		<p class="f12 text-gray-dark example">Eg. <em>incontrovertible facts that left the jury with no choice but to convict</em></p>
+	</div>
+	
+	<div class="actions">
+		<button class="p-3 text-white font-bold bg-blue" (click)="answer(1)">Remembered</button>
+		<button class="p-3 text-white font-bold bg-gray" (click)="answer(-1)">Not Remembered</button>
+	</div>
+</ng-template>

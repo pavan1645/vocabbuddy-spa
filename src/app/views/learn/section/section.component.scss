@@ -1,0 +1,105 @@
+@import "../../../../assets/variables.scss";
+
+.main { 
+	background: radial-gradient(rgba($color: map-get($map: $my-colors, $key: "green"), $alpha: 0.8), map-get($map: $my-colors, $key: "green"));
+}
+
+.holder { 
+	height: 100vh;
+}
+
+nav {
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}
+
+.icon {
+	width: 1rem;
+	fill: white;
+}
+
+.card {
+	width: 75vw;
+	height: 75vw;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 0;
+	display: none;
+	overflow: hidden;
+	
+	.word { font-family: $font-title; }
+
+	.def button, .word {
+		transform: translateY(calc(37.5vw - 100% - 1.5rem));	// card width: 75/2 = 37.5, padding: 1.5rem
+	}
+	
+	.actions button:first-of-type { margin-bottom: 1px }
+
+	.meaning, .example, .actions { 
+		transition: all 0.5s 0.3s;
+		pointer-events: none;
+		opacity: 0;
+	}
+	
+	.icon-wrapper {
+		height: 30px;
+		width: 30px;
+		border: 1px solid map-get($map: $colors, $key: "gray");
+		border-radius: 50%;
+		position: absolute;
+		left: 0;
+		transform: translateX(calc(-100% - 0.5rem));		
+
+		.icon {
+			fill: map-get($map: $colors, $key: "secondary");
+			align-items: unset;
+		} 
+	
+		&.speak { border: 1px solid map-get($map: $my-colors, $key: "blue"); }
+		&.speak .icon { fill: map-get($map: $my-colors, $key: "blue"); }
+	}
+	
+}
+
+.transition .card { transition: all 0.75s; }
+
+.card.removed {
+	animation: removeCard 0.5s forwards;
+}
+
+
+.card[data-index="0"], .card[data-index="1"], .card[data-index="2"] { display: flex; }
+
+.card[data-index="0"] {
+	z-index: 3;
+
+	&.show {
+		.word { transform: translateY(0); transition: all 0.3s; }
+		.def button { display: none; }
+		.meaning, .example, .actions  {
+			pointer-events: all;
+			opacity: 1;
+		}
+	}
+}
+.card[data-index="1"] {
+	transform: scale(0.9) translateY(10%);
+	z-index: 2;
+}
+.card[data-index="2"] {
+	transform: scale(0.8) translateY(22%);
+	z-index: 1;
+}
+
+.card button {
+	display: block;
+	width: 100%;
+}
+
+@keyframes removeCard {
+	to { 
+		transform: rotate(60deg) translateY(-200%); 
+		opacity: 0; 
+	}
+}

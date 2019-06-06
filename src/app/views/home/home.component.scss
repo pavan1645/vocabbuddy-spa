@@ -42,7 +42,7 @@ nav { position: fixed; }
 	.third .icon, .fourth .icon { transform: scaleX(-1) }
 }
 
-.learn { background: linear-gradient(-45deg, rgba($color: map-get($my-colors, "red"), $alpha: 0.82), map-get($my-colors, "red")); }
-.quiz { background: linear-gradient(45deg, rgba($color: map-get($my-colors, "blue"), $alpha: 0.82), map-get($my-colors, "blue")); }
-.third { background: linear-gradient(-135deg, rgba($color: map-get($my-colors, "green"), $alpha: 0.82), map-get($my-colors, "green")); }
+.learn { background: linear-gradient(-45deg, rgba($color: map-get($my-colors, "green"), $alpha: 0.82), map-get($my-colors, "green")); }
+.quiz { background: linear-gradient(45deg, rgba($color: map-get($my-colors, "red"), $alpha: 0.82), map-get($my-colors, "red")); }
+.third { background: linear-gradient(-135deg, rgba($color: map-get($my-colors, "blue"), $alpha: 0.82), map-get($my-colors, "blue")); }
 .fourth { background: linear-gradient(135deg, rgba($color: map-get($my-colors, "yellow"), $alpha: 0.82), map-get($my-colors, "yellow")); }

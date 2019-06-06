@@ -22,6 +22,10 @@ export class SectionComponent implements OnInit {
 	private currWord: any;
 	private switchVal: number = -1;
 
+	private removeCard: number = 0;
+	private dataIndex: number[] = [0, 1, 2, 3];
+	private defShow: boolean = false;
+	private speakActive: boolean = false;
 
 	constructor(private activatedRoute: ActivatedRoute, private sharedService: SharedService) { }
 	
@@ -31,6 +35,18 @@ export class SectionComponent implements OnInit {
 			this.secWords = progess.find(s => s.name == this.sectionName).words;
 			this.calc();
 		})	
+	}
+
+	play() {
+		const _this = this;
+		_this.removeCard = 1;
+		setTimeout(() => {
+			_this.dataIndex.unshift(-1);
+			setTimeout(() => {
+				_this.dataIndex.shift();
+				_this.removeCard = 0;
+			}, 750);
+		}, 750);
 	}
 	
 	calc() {
@@ -54,8 +70,10 @@ export class SectionComponent implements OnInit {
 			this.currWord = this.pendingWords[randInt];
 		}
 	}
-
+	
 	answer(val: number) {
+		this.defShow = false;
+
 		let rememberVal = this.currWord.isRemembered;
 		if (val === -1) {
 			this.currWord.isRemembered = ((rememberVal - 1) < 0) ? 0 : (rememberVal - 1);
@@ -65,6 +83,25 @@ export class SectionComponent implements OnInit {
 		
 		this.sharedService.updateProgress(this.sectionName, this.currWord);
 		this.calc();
+		this.play();
+	}
+
+	showDef() {
+		this.defShow = true;
+	}
+
+	readWord() {
+		const _this = this;
+		this.speakActive = true;
+
+		const ssu = new SpeechSynthesisUtterance(this.wordDefs[this.currWord.wordIndex].word);
+		ssu.rate = 0.75;
+
+		window.speechSynthesis.speak(ssu);
+
+		ssu.addEventListener("end", function () {
+			_this.speakActive = false;			
+		})
 	}
 	
 }

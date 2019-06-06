@@ -10,7 +10,8 @@ html, body {
 	line-height: 1;
 }
 
-button { border: none }
+button { border: none; background-color: inherit }
+button:focus { outline: none }
 
 a, a:focus {
 	color: inherit;
@@ -70,3 +71,5 @@ li:focus { outline: none }
 }
 
 .text-center { text-align: center; }
+
+.font-bold { font-weight: bold; }
