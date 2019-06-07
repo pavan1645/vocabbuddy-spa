@@ -33,6 +33,11 @@ nav {
 		.word { font-size: 16px; }
 	}
 
+	.pending {
+		position: absolute;
+		right: 8px;
+		top: 8px;
+	}
 	.word { font-family: $font-title; font-size: 25px; }
 
 	.def button, .word {

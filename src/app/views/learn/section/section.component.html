@@ -25,6 +25,7 @@
 
 
 <ng-template #cardcontent let-wordIndex="wordIndex">
+	<p class="pending f12 text-gray">{{pendingWords.length}} remaining</p>
 	<div class="def perfect-center p-4">
 		<p class="font-bold d-flex align-items-center word">
 			<span class="icon-wrapper mr-2 perfect-center" (click)="readWord()" [ngClass]="{'speak': speakActive}">
