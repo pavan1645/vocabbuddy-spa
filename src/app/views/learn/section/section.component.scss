@@ -28,7 +28,12 @@ nav {
 	display: none;
 	overflow: hidden;
 	
-	.word { font-family: $font-title; }
+	&.show {
+		.def { margin-top: auto; margin-bottom: auto }
+		.word { font-size: 16px; }
+	}
+
+	.word { font-family: $font-title; font-size: 25px; }
 
 	.def button, .word {
 		transform: translateY(calc(37.5vw - 100% - 1.5rem));	// card width: 75/2 = 37.5, padding: 1.5rem
@@ -60,12 +65,20 @@ nav {
 		&.speak .icon { fill: map-get($map: $my-colors, $key: "blue"); }
 	}
 	
+	.def {
+		button .icon {
+			display: inline-block;
+			width: 0.5rem;
+			transform: rotate(180deg);
+			fill: map-get($map: $my-colors, $key: "blue");
+		}
+	}
 }
 
-.transition .card { transition: all 0.75s; }
+.transition .card { transition: all 0.3s; }
 
 .card.removed {
-	animation: removeCard 0.5s forwards;
+	animation: removeCard 1s forwards;
 }
 
 
@@ -84,11 +97,11 @@ nav {
 	}
 }
 .card[data-index="1"] {
-	transform: scale(0.9) translateY(10%);
+	transform: scale(0.9) translateY(12%);
 	z-index: 2;
 }
 .card[data-index="2"] {
-	transform: scale(0.8) translateY(22%);
+	transform: scale(0.8) translateY(27%);
 	z-index: 1;
 }
 

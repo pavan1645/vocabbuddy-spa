@@ -5,7 +5,7 @@ import WORDS from "../../../../assets/words.json";
 import { Globals } from 'src/app/globals.js';
 import { SharedService } from 'src/app/shared.service.js';
 
-let progess = new Globals().progress;
+let progress = new Globals().progress;
 
 @Component({
 	selector: 'app-section',
@@ -20,6 +20,7 @@ export class SectionComponent implements OnInit {
 	private secWords: any[] = [];
 	private pendingWords: any[] = [];
 	private currWord: any;
+	private oldWord: any;
 	private switchVal: number = -1;
 
 	private removeCard: number = 0;
@@ -32,8 +33,8 @@ export class SectionComponent implements OnInit {
 	ngOnInit() {
 		this.activatedRoute.params.subscribe(params => {
 			this.sectionName = params["section"];
-			this.secWords = progess.find(s => s.name == this.sectionName).words;
-			this.calc();
+			this.secWords = progress.find(s => s.name == this.sectionName).words;
+			this.calc(true);
 		})	
 	}
 
@@ -45,12 +46,12 @@ export class SectionComponent implements OnInit {
 			setTimeout(() => {
 				_this.dataIndex.shift();
 				_this.removeCard = 0;
-			}, 750);
-		}, 750);
+			}, 300);	// card pushed up animation
+		}, 1000);		// card removing animation
 	}
 	
-	calc() {
-		this.section = progess.find(s => s.name == this.sectionName);
+	calc(firstItr: boolean = false) {
+		this.section = progress.find(s => s.name == this.sectionName);
 
 		this.pendingWords = this.section.words.filter(f => f.isRemembered < 2);
 				
@@ -69,10 +70,15 @@ export class SectionComponent implements OnInit {
 		} else {
 			this.currWord = this.pendingWords[randInt];
 		}
+
+		if (firstItr) this.oldWord = JSON.parse(JSON.stringify(this.currWord));
+		setTimeout(() => {
+			this.oldWord = JSON.parse(JSON.stringify(this.currWord));
+		}, 1000);
 	}
 	
 	answer(val: number) {
-		this.defShow = false;
+		setTimeout(() => { this.defShow = false; }, 1000);				// let def be shown till card is removed
 
 		let rememberVal = this.currWord.isRemembered;
 		if (val === -1) {
@@ -82,8 +88,8 @@ export class SectionComponent implements OnInit {
 		}
 		
 		this.sharedService.updateProgress(this.sectionName, this.currWord);
-		this.calc();
 		this.play();
+		this.calc();
 	}
 
 	showDef() {

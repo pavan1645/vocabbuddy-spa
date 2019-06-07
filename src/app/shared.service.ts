@@ -15,8 +15,8 @@ export class SharedService {
 
 		const sectionIndex = progress.findIndex(s => s.name == sectionName);
 		const wordIndex = progress[sectionIndex].words.findIndex(w => w.wordIndex == word.wordIndex);
-		progress[sectionIndex].words[wordIndex] = word;
-
+		progress[sectionIndex].words[wordIndex] = {...word};
+		
 		globals.progress = progress;
 	}
 

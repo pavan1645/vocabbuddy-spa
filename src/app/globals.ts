@@ -1,8 +1,8 @@
 export class Globals {
-	private static progressJson;
+	private static progressJson: any[];
 
 	get progress() {
-		return Globals.progressJson;
+		return [...Globals.progressJson];
 	}
 
 	set progress(val) {
