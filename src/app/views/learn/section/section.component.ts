@@ -109,5 +109,13 @@ export class SectionComponent implements OnInit {
 			_this.speakActive = false;			
 		})
 	}
+
+	italicizeEg(wordDef): string {
+		if (!wordDef.example) return "";
+		const regex = new RegExp(wordDef.word.substring(0, wordDef.word.length - 2) + "\\w+");
+		const match = wordDef.example.match(regex);
+		if (!match) return "empty";
+		return wordDef.example.replace(regex, "<em>" + match[0] +  "</em>");
+	}
 	
 }
