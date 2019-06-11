@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
+import { FormsModule } from "@angular/forms";
 import { LearnComponent } from './learn.component';
 import { SvgsModule } from 'src/app/partials/svgs/svgs.module';
 import { SectionComponent } from './section/section.component';
@@ -30,6 +31,7 @@ export class LearnRoutingModule { }
   imports: [
     CommonModule,
 	LearnRoutingModule,
+	FormsModule,
 	SvgsModule
   ]
 })

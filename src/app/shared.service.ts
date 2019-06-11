@@ -10,7 +10,7 @@ export class SharedService {
 	
 	constructor() { }
 	
-	updateProgress(sectionName, word) {
+	updateProgress(sectionName: string, word: any): void {
 		let progress = globals.progress;
 
 		const sectionIndex = progress.findIndex(s => s.name == sectionName);
@@ -18,6 +18,14 @@ export class SharedService {
 		progress[sectionIndex].words[wordIndex] = {...word};
 		
 		globals.progress = progress;
+	}
+
+	updateWord(wordIndex: number, notes: any): void {
+		let words = globals.words;
+		// const wordIndex = words.findIndex(w => w.word == word);
+		words[wordIndex].notes = notes;
+
+		globals.words = words;
 	}
 
 }
