@@ -9,7 +9,7 @@ let progress = new Globals().progress;
 	styleUrls: ['./learn.component.scss']
 })
 export class LearnComponent implements OnInit {
-	private sections: any[] = progress;
+	sections: any[] = progress;
 	
 	constructor() { }
 	

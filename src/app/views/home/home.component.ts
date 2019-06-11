@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 	styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-	private activeBtn = -1;
+	activeBtn = -1;
 
 	constructor(private router: Router) { }
 	

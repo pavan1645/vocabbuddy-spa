@@ -13,25 +13,21 @@ const globals = new Globals();
 })
 export class SectionComponent implements OnInit {
 	
-	private section: any;
 	private sectionName: string = "";
-	private wordDefs: any[] = globals.words;
 	private secWords: any[] = [];
 	private pendingWords: any[] = [];
-	private currWord: any;
-	private oldWord: any;
+	section: any;
+	wordDefs: any[] = globals.words;
+	currWord: any;
+	oldWord: any;
 	private switchVal: number = 0;
-	private counts: any = {
-		mastered: 0,
-		reviewing: 0,
-		learning: 0
-	}
 
-	private removeCard: number = 0;
-	private dataIndex: number[] = [0, 1, 2, 3];
-	private defShow: boolean = false;
-	private speakActive: boolean = false;
-	private flipped: boolean = false;
+	counts: any = {}
+	removeCard: number = 0;
+	dataIndex: number[] = [0, 1, 2, 3];
+	defShow: boolean = false;
+	speakActive: boolean = false;
+	flipped: boolean = false;
 
 	constructor(private activatedRoute: ActivatedRoute, private sharedService: SharedService) { }
 	
