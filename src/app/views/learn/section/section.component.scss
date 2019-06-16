@@ -2,6 +2,7 @@
 
 .main { 
 	background: radial-gradient(rgba($color: map-get($map: $my-colors, $key: "green"), $alpha: 0.8), map-get($map: $my-colors, $key: "green"));
+	position: relative;
 }
 
 .holder { 
