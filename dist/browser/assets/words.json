@@ -1,0 +1,4916 @@
+[
+	{
+	  "type": "v",
+	  "definition": "(of a monarch) renounce one's throne.",
+	  "example": "in 1918 Kaiser Wilhelm abdicated as German emperor",
+	  "word": "abdicate",
+	  "pronunciation": "ˈabdɪkeɪt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a state of temporary disuse or suspension.",
+	  "example": "matters were held in abeyance pending further enquiries",
+	  "word": "abeyance",
+	  "pronunciation": "əˈbeɪəns"
+	},
+	{
+	  "type": "n",
+	  "definition": "an act of washing oneself.",
+	  "example": "the women performed their ablutions",
+	  "word": "ablution",
+	  "pronunciation": "əˈbluːʃ(ə)n"
+	},
+	{
+	  "type": "v",
+	  "definition": "renounce or reject (something desired or valuable).",
+	  "example": "he attempts to abnegate personal responsibility",
+	  "word": "abnegate",
+	  "pronunciation": "ˈabnɪɡeɪt"
+	},
+	{
+	  "type": "v",
+	  "definition": "shorten (a book, film, speech, etc.) without losing the sense.",
+	  "example": "an abridged text of his speech",
+	  "word": "abridge",
+	  "pronunciation": "əˈbrɪdʒ"
+	},
+	{
+	  "type": "v",
+	  "definition": "repeal or do away with (a law, right, or formal agreement).",
+	  "example": "a proposal to abrogate temporarily the right to strike",
+	  "word": "abrogate",
+	  "pronunciation": "ˈabrəɡeɪt"
+	},
+	{
+	  "type": "v",
+	  "definition": "leave hurriedly and secretly, typically to escape from custody or avoid arrest.",
+	  "example": "the barman absconded with a week's takings",
+	  "word": "abscond",
+	  "pronunciation": "əbˈskɒnd"
+	},
+	{
+	  "type": "v",
+	  "definition": "declare (someone) free from guilt, obligation, or punishment.",
+	  "example": "the pardon absolved them of any crimes",
+	  "word": "absolve",
+	  "pronunciation": "əbˈzɒlv"
+	},
+	{
+	  "type": "n",
+	  "definition": "the practice of restraining oneself from indulging in something, typically alcohol or sex.",
+	  "example": "I started drinking again after six years of abstinence",
+	  "word": "abstinence",
+	  "pronunciation": "ˈabstɪnəns"
+	},
+	{
+	  "type": "adj",
+	  "definition": "difficult to understand; obscure.",
+	  "example": "an abstruse philosophical inquiry",
+	  "word": "abstruse",
+	  "pronunciation": "əbˈstruːs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a touch on a person's shoulders with a sword at the bestowing of a knighthood.",
+	  "example": null,
+	  "word": "accolade",
+	  "pronunciation": "ˈakəleɪd"
+	},
+	{
+	  "type": "n",
+	  "definition": "an additional item of dress or equipment.",
+	  "example": "the accoutrements of religious ritual",
+	  "word": "accouterments",
+	  "pronunciation": "əˈkuːtəm(ə)nt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "sharp-tasting; sour.",
+	  "example": null,
+	  "word": "acidulous",
+	  "pronunciation": "əˈsijələs"
+	},
+	{
+	  "type": "v",
+	  "definition": "accept something reluctantly but without protest.",
+	  "example": "Sara acquiesced in his decision",
+	  "word": "acquiesce",
+	  "pronunciation": "ˌakwēˈes"
+	},
+	{
+	  "type": "v",
+	  "definition": "free (someone) from a criminal charge by a verdict of not guilty.",
+	  "example": "she was acquitted on all counts",
+	  "word": "acquit",
+	  "pronunciation": "əˈkwit"
+	},
+	{
+	  "type": "v",
+	  "definition": "urge or request (someone) solemnly or earnestly to do something.",
+	  "example": "I adjure you to tell me the truth",
+	  "word": "adjure",
+	  "pronunciation": "əˈdʒʊə"
+	},
+	{
+	  "type": "v",
+	  "definition": "represent in outline.",
+	  "example": "Hobhouse had already adumbrated the idea of a welfare state",
+	  "word": "adumbrate",
+	  "pronunciation": "ˈadʌmbreɪt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "happening as a result of an external factor or chance rather than design or inherent nature.",
+	  "example": "adventitious similarities",
+	  "word": "adventitious",
+	  "pronunciation": "ˌadv(ə)nˈtɪʃəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who publicly supports or recommends a particular cause or policy.",
+	  "example": "he was an untiring advocate of economic reform",
+	  "word": "advocate",
+	  "pronunciation": "ˈadvəkət"
+	},
+	{
+	  "type": "n",
+	  "definition": "(in classical art and mythology) an attribute of Zeus and Athene (or their Roman counterparts Jupiter and Minerva) usually represented as a goatskin shield.",
+	  "example": null,
+	  "word": "aegis",
+	  "pronunciation": "ˈiːdʒɪs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "concerned with beauty or the appreciation of beauty.",
+	  "example": "the pictures give great aesthetic pleasure",
+	  "word": "aesthetic",
+	  "pronunciation": "iːsˈθɛtɪk"
+	},
+	{
+	  "type": "n",
+	  "definition": "a natural liking for and understanding of someone or something.",
+	  "example": "he had a special affinity with horses",
+	  "word": "affinity",
+	  "pronunciation": "əˈfɪnɪti"
+	},
+	{
+	  "type": "n",
+	  "definition": "a divine creative impulse or inspiration.",
+	  "example": null,
+	  "word": "afflatus",
+	  "pronunciation": "əˈfleɪtəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a list of items to be discussed at a formal meeting.",
+	  "example": "the question of nuclear weapons had been removed from the agenda",
+	  "word": "agenda",
+	  "pronunciation": "əˈdʒɛndə"
+	},
+	{
+	  "type": "v",
+	  "definition": "increase the power, status, or wealth of.",
+	  "example": "an action intended to aggrandize the Frankish dynasty",
+	  "word": "aggrandize",
+	  "pronunciation": null
+	},
+	{
+	  "type": null,
+	  "definition": "Definition of AGGRIEVE. transitive v. 1. : to give pain or trouble to : distress. : to inflict injury on.",
+	  "example": null,
+	  "word": "aggrieve",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a person descended from the same male ancestor as another specified or implied person, especially through the male line.",
+	  "example": "the heir will be the nearest agnate",
+	  "word": "agnate",
+	  "pronunciation": "ˈaɡneɪt"
+	},
+	{
+	  "type": "adv",
+	  "definition": "with hands on the hips and elbows turned outwards.",
+	  "example": "she stood with arms akimbo, frowning at the small boy",
+	  "word": "akimbo",
+	  "pronunciation": "əˈkɪmbəʊ"
+	},
+	{
+	  "type": "n",
+	  "definition": "brisk and cheerful readiness.",
+	  "example": "she accepted the invitation with alacrity",
+	  "word": "alacrity",
+	  "pronunciation": "əˈlakrɪti"
+	},
+	{
+	  "type": "n",
+	  "definition": "the medieval forerunner of chemistry, concerned with the transmutation of matter, in particular with attempts to convert base metals into gold or find a universal elixir.",
+	  "example": "occult sciences, such as alchemy and astrology",
+	  "word": "alchemy",
+	  "pronunciation": "ˈalkɪmi"
+	},
+	{
+	  "type": "adj",
+	  "definition": "depending on the throw of a dice or on chance; random.",
+	  "example": "aleatory music",
+	  "word": "aleatory",
+	  "pronunciation": "ˈālēəˌtôrē"
+	},
+	{
+	  "type": "n",
+	  "definition": "an expression designed to call something to mind without mentioning it explicitly; an indirect or passing reference.",
+	  "example": "an allusion to Shakespeare",
+	  "word": "allusion",
+	  "pronunciation": "əˈlo͞oZHən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing a disinterested and selfless concern for the well-being of others; unselfish.",
+	  "example": "it was an entirely altruistic act",
+	  "word": "altruistic",
+	  "pronunciation": "ˌaltro͞oˈistik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "relating to or adapted for walking.",
+	  "example": "continuous ambulatory dialysis",
+	  "word": "ambulatory",
+	  "pronunciation": "ˈambyələˌtôrē"
+	},
+	{
+	  "type": "v",
+	  "definition": "make (something bad or unsatisfactory) better.",
+	  "example": "the reform did much to ameliorate living standards",
+	  "word": "ameliorate",
+	  "pronunciation": "əˈmēlyəˌrāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "an official pardon for people who have been convicted of political offences.",
+	  "example": "an amnesty for political prisoners",
+	  "word": "amnesty",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "anecdotes or literary gossip about a person.",
+	  "example": null,
+	  "word": "ana",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "something or someone that one vehemently dislikes.",
+	  "example": "racial hatred was anathema to her",
+	  "word": "anathema",
+	  "pronunciation": "əˈnaTHəmə"
+	},
+	{
+	  "type": "adj",
+	  "definition": "providing necessary support to the primary activities or operation of an organization, system, etc.",
+	  "example": "ancillary staff",
+	  "word": "ancillary",
+	  "pronunciation": "ˈansəˌlerē"
+	},
+	{
+	  "type": "n",
+	  "definition": "strong hostility.",
+	  "example": "he no longer felt any animosity towards her",
+	  "word": "animosity",
+	  "pronunciation": "ˌanəˈmäsədē"
+	},
+	{
+	  "type": "n",
+	  "definition": "hostility or ill feeling.",
+	  "example": "the author's animus towards her",
+	  "word": "animus",
+	  "pronunciation": "ˈanəməs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "deviating from what is standard, normal, or expected.",
+	  "example": "an anomalous situation",
+	  "word": "anomalous",
+	  "pronunciation": "əˈnämələs"
+	},
+	{
+	  "type": "n",
+	  "definition": "lack of the usual social or ethical standards in an individual or group.",
+	  "example": "the theory that high-rise architecture leads to anomie in the residents",
+	  "word": "anomie",
+	  "pronunciation": "ˈanəˌmē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of or belonging to the time before the biblical Flood.",
+	  "example": "gigantic bones of antediluvian animals",
+	  "word": "antediluvian",
+	  "pronunciation": "ˌan(t)ēdəˈlo͞ovēən"
+	},
+	{
+	  "type": "n",
+	  "definition": "a contradiction between two beliefs or conclusions that are in themselves reasonable; a paradox.",
+	  "example": "there are not many short novels capable of accommodating bewildering antinomies",
+	  "word": "antinomy",
+	  "pronunciation": "anˈtinəmē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "relating to or situated on the opposite side of the earth.",
+	  "example": null,
+	  "word": "antipodal",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "inability (or impaired ability) to understand or produce speech, as a result of brain damage.",
+	  "example": null,
+	  "word": "aphasia",
+	  "pronunciation": "əˈfāZH(ē)ə"
+	},
+	{
+	  "type": "n",
+	  "definition": "a pithy observation which contains a general truth.",
+	  "example": "the old aphorism âthe child is father to the manâ",
+	  "word": "aphorism",
+	  "pronunciation": "ˈafəˌrizəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a story or statement) of doubtful authenticity, although widely circulated as being true.",
+	  "example": "an apocryphal story about a former president",
+	  "word": "apocryphal",
+	  "pronunciation": "əˈpäkrəfəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "the abandonment or renunciation of a religious or political belief or principle.",
+	  "example": "the execution of their leader for apostasy brought widespread criticism",
+	  "word": "apostasy",
+	  "pronunciation": "əˈpästəsē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of land) used or suitable for growing crops.",
+	  "example": "acres of arable land",
+	  "word": "arable",
+	  "pronunciation": "ˈerəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "involving or requiring strenuous effort; difficult and tiring.",
+	  "example": "an arduous journey",
+	  "word": "arduous",
+	  "pronunciation": "ˈärjo͞oəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "complete, utter.",
+	  "example": "what arrant nonsense!",
+	  "word": "arrant",
+	  "pronunciation": "ˈerənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "an ambitious or ruthlessly self-seeking person.",
+	  "example": "he regarded trade as a haven for arrivistes",
+	  "word": "arriviste",
+	  "pronunciation": "ˌärēˈvēst"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who follows an ascetic life.",
+	  "example": "St Paul the Egyptian was a desert ascetic",
+	  "word": "ascetic",
+	  "pronunciation": "əˈsedik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "free from contamination caused by harmful bacteria, viruses, or other microorganisms; surgically sterile or sterilized.",
+	  "example": null,
+	  "word": "aseptic",
+	  "pronunciation": "āˈseptik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing great care and perseverance.",
+	  "example": "she was assiduous in pointing out every feature",
+	  "word": "assiduous",
+	  "pronunciation": "əˈsijo͞oəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "the allocation or attribution of someone or something as belonging to something.",
+	  "example": "this document explains the principles governing the assignation of lexical units to lexemes",
+	  "word": "assignation",
+	  "pronunciation": "ˌasiɡˈnāSH(ə)n"
+	},
+	{
+	  "type": "adj",
+	  "definition": "melancholy or irritable.",
+	  "example": "an atrabilious old man",
+	  "word": "atrabilious",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a vowel prefixed to past tenses of vs in Greek and certain other Indo-European languages.",
+	  "example": null,
+	  "word": "augment",
+	  "pronunciation": "ôɡˈment"
+	},
+	{
+	  "type": "adj",
+	  "definition": "severe or strict in manner or attitude.",
+	  "example": "he was an austere man, with a rigidly puritanical outlook",
+	  "word": "austere",
+	  "pronunciation": "ôˈstir"
+	},
+	{
+	  "type": "n",
+	  "definition": "a strong dislike or disinclination.",
+	  "example": "they made plain their aversion to the use of force",
+	  "word": "aversion",
+	  "pronunciation": "əˈvərZHən"
+	},
+	{
+	  "type": "n",
+	  "definition": "a wild and drunken celebration.",
+	  "example": "the debauched and alcoholic president was said to be organizing unceasing bacchanals",
+	  "word": "bacchanal",
+	  "pronunciation": "ˈbäkənäl"
+	},
+	{
+	  "type": "n",
+	  "definition": "one's sphere of operations or area of interest.",
+	  "example": "after the war, the Middle East remained his bailiwick",
+	  "word": "bailiwick",
+	  "pronunciation": "ˈbāləˌwik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "so lacking in originality as to be obvious and boring.",
+	  "example": "songs with banal, repeated words",
+	  "word": "banal",
+	  "pronunciation": "bəˈnäl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not operating on an elevated level; mundane.",
+	  "example": "serious discussion of scientific problems was regarded as banausic",
+	  "word": "banausic",
+	  "pronunciation": "bəˈnôzik"
+	},
+	{
+	  "type": "n",
+	  "definition": "a form of hockey played on a field or on ice with a ball and large curved sticks.",
+	  "example": null,
+	  "word": "bandy",
+	  "pronunciation": "ˈbandē"
+	},
+	{
+	  "type": "n",
+	  "definition": "the baroque style or period.",
+	  "example": "the interior of the church is in lavish baroque",
+	  "word": "baroque",
+	  "pronunciation": "bəˈrōk"
+	},
+	{
+	  "type": "n",
+	  "definition": "(especially in a literary work) an effect of anticlimax created by an unintentional lapse in mood from the sublime to the trivial or ridiculous.",
+	  "example": "his epic poem has passages of almost embarrassing bathos",
+	  "word": "bathos",
+	  "pronunciation": "ˈbāTHäs"
+	},
+	{
+	  "type": "v",
+	  "definition": "envy (someone) the possession or enjoyment of (something).",
+	  "example": "she begrudged Martin his affluence",
+	  "word": "begrudge",
+	  "pronunciation": "bəˈɡrəj"
+	},
+	{
+	  "type": "n",
+	  "definition": "a huge or monstrous creature.",
+	  "example": "behemoths like the brontosaurus",
+	  "word": "behemoth",
+	  "pronunciation": "bəˈhēməTH"
+	},
+	{
+	  "type": "v",
+	  "definition": "(of an appearance) fail to give a true impression of (something).",
+	  "example": "his lively, alert manner belied his years",
+	  "word": "belie",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the leading sheep of a flock, with a bell on its neck.",
+	  "example": "Basildon is now the bellwether of Britain's voting behaviour",
+	  "word": "bellwether",
+	  "pronunciation": "ˈbelˌweT͟Hər"
+	},
+	{
+	  "type": "n",
+	  "definition": "the utterance of a blessing, especially at the end of a religious service.",
+	  "example": "he said the benediction",
+	  "word": "benediction",
+	  "pronunciation": "ˌbenəˈdikSH(ə)n"
+	},
+	{
+	  "type": "adj",
+	  "definition": "gentle and kind.",
+	  "example": "his benign but firm manner",
+	  "word": "benign",
+	  "pronunciation": "bəˈnīn"
+	},
+	{
+	  "type": "n",
+	  "definition": "a blessing.",
+	  "example": "the rewards and benisons of marriage",
+	  "word": "benison",
+	  "pronunciation": "ˈbenəsən"
+	},
+	{
+	  "type": "v",
+	  "definition": "damage (someone's reputation).",
+	  "example": "he had besmirched the good name of his family",
+	  "word": "besmirch",
+	  "pronunciation": "bəˈsmərCH"
+	},
+	{
+	  "type": "adj",
+	  "definition": "excessively fond of drinking alcohol.",
+	  "example": null,
+	  "word": "bibulous",
+	  "pronunciation": "ˈbibyələs"
+	},
+	{
+	  "type": "v",
+	  "definition": "divide into two branches or forks.",
+	  "example": "just below Cairo the river bifurcates",
+	  "word": "bifurcated",
+	  "pronunciation": "ˈbīfərˌkāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "affected by or associated with nausea or vomiting.",
+	  "example": "a bilious attack",
+	  "word": "bilious",
+	  "pronunciation": "ˈbilyəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a temporary camp without tents or cover, used especially by soldiers or mountaineers.",
+	  "example": null,
+	  "word": "bivouac",
+	  "pronunciation": "ˈbivo͞oˌak"
+	},
+	{
+	  "type": "v",
+	  "definition": "make white or pale by extracting colour.",
+	  "example": "the cold light blanched her face",
+	  "word": "blanch",
+	  "pronunciation": "blan(t)SH"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing a casual and cheerful indifference considered to be callous or improper.",
+	  "example": "a blithe disregard for the rules of the road",
+	  "word": "blithe",
+	  "pronunciation": "blīT͟H"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who devotes themselves to a sociable and luxurious lifestyle.",
+	  "example": "he was a diplomat, bon vivant, and womanizer par excellence",
+	  "word": "bon vivant",
+	  "pronunciation": "ˌbän vēˈvänt"
+	},
+	{
+	  "type": "n",
+	  "definition": "an unnecessary, wasteful, or fraudulent project.",
+	  "example": "he characterized the defense program as an unworkable boondoggle",
+	  "word": "boondoggle",
+	  "pronunciation": "ˈbo͞onˌdäɡəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "covered by trees or bushes; wooded.",
+	  "example": "a slow-moving river meandering between bosky banks",
+	  "word": "bosky",
+	  "pronunciation": "ˈbäskē"
+	},
+	{
+	  "type": "v",
+	  "definition": "carry out (a task) badly or carelessly.",
+	  "example": "he was accused of botching the job",
+	  "word": "botch",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "remove material that is considered improper or offensive from (a text or account), especially with the result that the text becomes weaker or less effective.",
+	  "example": "a bowdlerized version of the story",
+	  "word": "bowdlerize",
+	  "pronunciation": "ˈbōdləˌrīz"
+	},
+	{
+	  "type": "adj",
+	  "definition": "fresh and invigorating.",
+	  "example": "the bracing sea air",
+	  "word": "bracing",
+	  "pronunciation": "ˈbrāsiNG"
+	},
+	{
+	  "type": "n",
+	  "definition": "boastful or arrogant behaviour.",
+	  "example": null,
+	  "word": "braggadocio",
+	  "pronunciation": "ˌbraɡəˈdō(t)SHēˌō"
+	},
+	{
+	  "type": "v",
+	  "definition": "raise (a difficult subject) for discussion.",
+	  "example": "he broached the subject he had been avoiding all evening",
+	  "word": "broach",
+	  "pronunciation": "brōCH"
+	},
+	{
+	  "type": "n",
+	  "definition": "a small stream.",
+	  "example": "the Lake District boasts lovely lakes and babbling brooks",
+	  "word": "brook",
+	  "pronunciation": "bro͝ok"
+	},
+	{
+	  "type": "n",
+	  "definition": "a ridiculous but amusing person; a clown.",
+	  "example": null,
+	  "word": "buffoon",
+	  "pronunciation": "bəˈfo͞on"
+	},
+	{
+	  "type": "n",
+	  "definition": "a defensive wall.",
+	  "example": "the inner-city ring road follows the line of the ancient bulwarks",
+	  "word": "bulwark",
+	  "pronunciation": "ˈbo͝olˌwərk"
+	},
+	{
+	  "type": "adj",
+	  "definition": "irritatingly self-assertive.",
+	  "example": "an impossibly bumptious and opinionated ass",
+	  "word": "bumptious",
+	  "pronunciation": "ˈbəm(p)SHəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "relating to Byzantium, the Byzantine Empire, or the Eastern Orthodox Church.",
+	  "example": null,
+	  "word": "byzantine",
+	  "pronunciation": "ˈbizənˌtēn"
+	},
+	{
+	  "type": "n",
+	  "definition": "a secret political clique or faction.",
+	  "example": "a cabal of dissidents",
+	  "word": "cabal",
+	  "pronunciation": "kəˈbäl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a collection of items of the same type stored in a hidden or inaccessible place.",
+	  "example": "an arms cache",
+	  "word": "cache",
+	  "pronunciation": "kaSH"
+	},
+	{
+	  "type": "n",
+	  "definition": "a flat capsule enclosing a dose of unpleasant-tasting medicine.",
+	  "example": null,
+	  "word": "cachet",
+	  "pronunciation": "kaˈSHā"
+	},
+	{
+	  "type": "n",
+	  "definition": "the infirmity of old age; senility.",
+	  "example": "my father was attacked with symptoms of caducity",
+	  "word": "caducity",
+	  "pronunciation": "kəˈd(y)o͞osədē"
+	},
+	{
+	  "type": "n",
+	  "definition": "variant spelling of ",
+	  "example": null,
+	  "word": "callous",
+	  "pronunciation": "ˈkaləs"
+	},
+	{
+	  "type": "v",
+	  "definition": "slander (someone).",
+	  "example": null,
+	  "word": "calumny",
+	  "pronunciation": "ˈkaləmnē"
+	},
+	{
+	  "type": "n",
+	  "definition": "an unfounded rumour or story.",
+	  "example": "the old canard that LA is a cultural wasteland",
+	  "word": "canard",
+	  "pronunciation": "kəˈnär(d)"
+	},
+	{
+	  "type": "n",
+	  "definition": "the quality of being open and honest; frankness.",
+	  "example": "a man of refreshing candour",
+	  "word": "candor",
+	  "pronunciation": "ˈkandər"
+	},
+	{
+	  "type": "v",
+	  "definition": "cease to resist an opponent or an unwelcome demand; yield.",
+	  "example": "the patriots had to capitulate to the enemy forces",
+	  "word": "capitulate",
+	  "pronunciation": "kəˈpiCHəˌlāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "given to sudden and unaccountable changes of mood or behaviour.",
+	  "example": "a capricious and often brutal administration",
+	  "word": "capricious",
+	  "pronunciation": "kəˈpriSHəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "reprimand (someone) severely.",
+	  "example": "he was castigated for not setting a good example",
+	  "word": "castigate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a large-scale and violent event in the natural world.",
+	  "example": "the cataclysm at the end of the Cretaceous Period",
+	  "word": "cataclysm",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the process of releasing, and thereby providing relief from, strong or repressed emotions.",
+	  "example": "music is a means of catharsis for them",
+	  "word": "catharsis",
+	  "pronunciation": "kəˈTHärsəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a caustic substance.",
+	  "example": null,
+	  "word": "caustic",
+	  "pronunciation": "ˈkôstik"
+	},
+	{
+	  "type": "n",
+	  "definition": "a petty or unnecessary objection.",
+	  "example": null,
+	  "word": "cavil",
+	  "pronunciation": "ˈkavəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "swiftness of movement.",
+	  "example": null,
+	  "word": "celerity",
+	  "pronunciation": "səˈlerədē"
+	},
+	{
+	  "type": "v",
+	  "definition": "express severe disapproval of (someone or something), especially in a formal statement.",
+	  "example": "the company was heavily censured by inspectors from the Department of Trade",
+	  "word": "censure",
+	  "pronunciation": "ˈsen(t)SHər"
+	},
+	{
+	  "type": "adj",
+	  "definition": "moving or tending to move away from a centre.",
+	  "example": null,
+	  "word": "centrifugal",
+	  "pronunciation": "senˈtrif(y)əɡəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "cautiously or suspiciously reluctant to do something.",
+	  "example": "she had been chary of telling the whole truth",
+	  "word": "chary",
+	  "pronunciation": "ˈCHerē"
+	},
+	{
+	  "type": "v",
+	  "definition": "rebuke or reprimand severely.",
+	  "example": "he chastised his colleagues for their laziness",
+	  "word": "chastise",
+	  "pronunciation": "ˈCHasˌtīz"
+	},
+	{
+	  "type": "n",
+	  "definition": "the use of deception or subterfuge to achieve one's purpose.",
+	  "example": "storylines packed with political chicanery",
+	  "word": "chicanery",
+	  "pronunciation": "SHəˈkān(ə)rē"
+	},
+	{
+	  "type": null,
+	  "definition": "Definition of CHIMERICAL. 1. : existing only as the product of unchecked imagination : fantastically visionary or improbable.",
+	  "example": null,
+	  "word": "chimerical",
+	  "pronunciation": "kīˈmerik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an illness) persisting for a long time or constantly recurring.",
+	  "example": "chronic bronchitis",
+	  "word": "chronic",
+	  "pronunciation": "ˈkränik"
+	},
+	{
+	  "type": "n",
+	  "definition": "the use of many words where fewer would do, especially in a deliberate attempt to be vague or evasive.",
+	  "example": "his admission came after years of circumlocution",
+	  "word": "circumlocution",
+	  "pronunciation": "ˌsərkəmˌləˈkyo͞oSH(ə)n"
+	},
+	{
+	  "type": "adj",
+	  "definition": "wary and unwilling to take risks.",
+	  "example": "the officials were very circumspect in their statements",
+	  "word": "circumspect",
+	  "pronunciation": "ˈsərkəmˌspekt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a group of sycophantic followers.",
+	  "example": "the President was surrounded by a claque of scheming bureaucrats",
+	  "word": "claque",
+	  "pronunciation": "klak"
+	},
+	{
+	  "type": "n",
+	  "definition": "mercy; lenience.",
+	  "example": "an appeal for clemency",
+	  "word": "clemency",
+	  "pronunciation": "ˈklemənsē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a small close-knit group of people who do not readily allow others to join them.",
+	  "example": "his flat became a haven for a clique of young men of similar tastes",
+	  "word": "clique",
+	  "pronunciation": "klēk"
+	},
+	{
+	  "type": "v",
+	  "definition": "come together to form one mass or whole.",
+	  "example": "the puddles had coalesced into shallow streams",
+	  "word": "coalesce",
+	  "pronunciation": "ˌkōəˈles"
+	},
+	{
+	  "type": "v",
+	  "definition": "think deeply about something; meditate or reflect.",
+	  "example": "he stroked his beard and retired to cogitate",
+	  "word": "cogitate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an argument, theory, or policy) logical and consistent.",
+	  "example": "they failed to develop a coherent economic strategy",
+	  "word": "coherent",
+	  "pronunciation": "ˌkōˈhirənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of language) used in ordinary or familiar conversation; not formal or literary.",
+	  "example": "colloquial and everyday language",
+	  "word": "colloquial",
+	  "pronunciation": "kəˈlōkwēəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of two things) able to exist or occur together without problems or conflict.",
+	  "example": "the careers structure here is not compatible with having a family",
+	  "word": "compatible",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a collection of concise but detailed information about a particular subject, especially in a book or other publication.",
+	  "example": "an invaluable compendium of useful information about language",
+	  "word": "compendium",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a feeling of guilt or moral scruple that prevents or follows the doing of something bad.",
+	  "example": "they used their tanks without compunction",
+	  "word": "compunction",
+	  "pronunciation": "kəmˈpəNG(k)SH(ə)n"
+	},
+	{
+	  "type": "adj",
+	  "definition": "naturally accompanying or associated.",
+	  "example": "she loved travel, with all its concomitant worries",
+	  "word": "concomitant",
+	  "pronunciation": "kənˈkämədənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "an extensive fire which destroys a great deal of land or property.",
+	  "example": "tinder-dry conditions sparked fears of a conflagration in many drought-devastated communities",
+	  "word": "conflagration",
+	  "pronunciation": "ˌkänfləˈɡrāSH(ə)n"
+	},
+	{
+	  "type": "adj",
+	  "definition": "causing or likely to cause an argument; controversial.",
+	  "example": "a contentious issue",
+	  "word": "contentious",
+	  "pronunciation": "kənˈten(t)SHəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "transport or carry to a place.",
+	  "example": "pipes were laid to convey water to the house",
+	  "word": "convey",
+	  "pronunciation": "kənˈvā"
+	},
+	{
+	  "type": "n",
+	  "definition": "a firmly held belief or opinion.",
+	  "example": "she takes pride in stating her political convictions",
+	  "word": "conviction",
+	  "pronunciation": "kənˈvikSH(ə)n"
+	},
+	{
+	  "type": "adj",
+	  "definition": "abundant in supply or quantity.",
+	  "example": "she took copious notes",
+	  "word": "copious",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "confirm or give support to (a statement, theory, or finding).",
+	  "example": "the witness had corroborated the boy's account of the attack",
+	  "word": "corroborate",
+	  "pronunciation": "kəˈräbəˌrāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a solemn procession, especially for a funeral.",
+	  "example": "a funeral cortÃ¨ge",
+	  "word": "cortege",
+	  "pronunciation": "kôrˈteZH"
+	},
+	{
+	  "type": "n",
+	  "definition": "a small group of people with shared interests or tastes, especially one that is exclusive of other people.",
+	  "example": "a coterie of friends and advisers",
+	  "word": "coterie",
+	  "pronunciation": "ˈkōdərē"
+	},
+	{
+	  "type": "v",
+	  "definition": "yearn to possess (something, especially something belonging to another).",
+	  "example": "I covet one of their smart bags",
+	  "word": "covet",
+	  "pronunciation": "ˈkəvət"
+	},
+	{
+	  "type": "n",
+	  "definition": "a cowardly person.",
+	  "example": null,
+	  "word": "craven",
+	  "pronunciation": "ˈkrāvən"
+	},
+	{
+	  "type": "n",
+	  "definition": "a principle or standard by which something may be judged or decided.",
+	  "example": "they award a green label to products that meet certain environmental criteria",
+	  "word": "criterion",
+	  "pronunciation": "ˌkrīˈtirēən"
+	},
+	{
+	  "type": "n",
+	  "definition": "a tunnel carrying a stream or open drain under a road or railway.",
+	  "example": null,
+	  "word": "culvert",
+	  "pronunciation": "ˈkəlvərt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "hasty and therefore not thorough or detailed.",
+	  "example": "a cursory glance at the figures",
+	  "word": "cursory",
+	  "pronunciation": "ˈkərs(ə)rē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a scarcity or lack of something.",
+	  "example": "there is a dearth of evidence",
+	  "word": "dearth",
+	  "pronunciation": "dÉ™rTH"
+	},
+	{
+	  "type": "n",
+	  "definition": "a sudden and ignominious failure; a fiasco.",
+	  "example": "the only man to reach double figures in the second-innings debacle",
+	  "word": "debacle",
+	  "pronunciation": "dāˈbäk(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a tree or shrub) shedding its leaves annually.",
+	  "example": "sun-loving deciduous trees like aspen",
+	  "word": "deciduous",
+	  "pronunciation": "diˈsijo͞oəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "kill, destroy, or remove a large proportion of.",
+	  "example": "the inhabitants of the country had been decimated",
+	  "word": "decimate",
+	  "pronunciation": "ˈdesəˌmāt"
+	},
+	{
+	  "type": "v",
+	  "definition": "embezzle (funds with which one has been entrusted).",
+	  "example": "the officials were charged with defalcating government money",
+	  "word": "defalcate",
+	  "pronunciation": "dəˈfalkāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "polite submission and respect.",
+	  "example": "he addressed her with the deference due to age",
+	  "word": "deference",
+	  "pronunciation": "ˈdef(ə)rəns"
+	},
+	{
+	  "type": "adj",
+	  "definition": "neatly skilful and quick in one's movements.",
+	  "example": "a deft piece of footwork",
+	  "word": "deft",
+	  "pronunciation": "deft"
+	},
+	{
+	  "type": "n",
+	  "definition": "belief in the existence of a supreme being, specifically of a creator who does not intervene in the universe.",
+	  "example": null,
+	  "word": "deism",
+	  "pronunciation": "ˈdēˌizəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "causing harm or damage.",
+	  "example": "divorce is assumed to have deleterious effects on children",
+	  "word": "deleterious",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "indicate the exact position of (a border or boundary).",
+	  "example": "his finger found a precisely outlined section delineated in red marker",
+	  "word": "delineate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "make (someone) believe something that is not true.",
+	  "example": "too many theorists have deluded the public",
+	  "word": "delude",
+	  "pronunciation": "dəˈlo͞od"
+	},
+	{
+	  "type": "n",
+	  "definition": "(in 19th-century France) a class of women considered to be of doubtful social standing and morality.",
+	  "example": "the demi-monde of arms deals",
+	  "word": "demimonde",
+	  "pronunciation": "ˈdemēˌmänd"
+	},
+	{
+	  "type": "n",
+	  "definition": "the final part of a play, film, or narrative in which the strands of the plot are drawn together and matters are explained or resolved.",
+	  "example": "the film's denouement was unsatisfying and ambiguous",
+	  "word": "denouement",
+	  "pronunciation": "ˌdāno͞oˈmäN"
+	},
+	{
+	  "type": "n",
+	  "definition": "public condemnation of someone or something.",
+	  "example": "denunciation of his reckless methods",
+	  "word": "denunciation",
+	  "pronunciation": "dəˌnənsēˈāSH(ə)n"
+	},
+	{
+	  "type": "n",
+	  "definition": "moral corruption; wickedness.",
+	  "example": "a tale of depravity hard to credit",
+	  "word": "depravity",
+	  "pronunciation": "dəˈpravədē"
+	},
+	{
+	  "type": "v",
+	  "definition": "diminish in value over a period of time.",
+	  "example": "the latest cars will depreciate heavily in the first year",
+	  "word": "depreciate",
+	  "pronunciation": "dəˈprēSHēˌāt"
+	},
+	{
+	  "type": "v",
+	  "definition": "steal from, typically using force; plunder.",
+	  "example": "many types of predators depredate bird nests",
+	  "word": "depredate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "catch sight of.",
+	  "example": "she descried two figures",
+	  "word": "descry",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "treat (a sacred place or thing) with violent disrespect.",
+	  "example": "more than 300 graves were desecrated",
+	  "word": "desecrate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "remove the moisture from (something), typically in order to preserve it.",
+	  "example": "desiccated coconut",
+	  "word": "desiccate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "extremely poor and lacking the means to provide for oneself.",
+	  "example": "the charity cares for destitute children",
+	  "word": "destitute",
+	  "pronunciation": "ˈdestəˌt(y)o͞ot"
+	},
+	{
+	  "type": "n",
+	  "definition": "a jewelled crown or headband worn as a symbol of sovereignty.",
+	  "example": "the queen wore a jewelled diadem",
+	  "word": "diadem",
+	  "pronunciation": "ˈdīəˌdem"
+	},
+	{
+	  "type": "n",
+	  "definition": "a forceful and bitter val attack against someone or something.",
+	  "example": "a diatribe against consumerism",
+	  "word": "diatribe",
+	  "pronunciation": "ˈdīəˌtrīb"
+	},
+	{
+	  "type": "n",
+	  "definition": "a division or contrast between two things that are or are represented as being opposed or entirely different.",
+	  "example": "a rigid dichotomy between science and mysticism",
+	  "word": "dichotomy",
+	  "pronunciation": "dīˈkädəmē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "intended to teach, particularly in having moral instruction as an ulterior motive.",
+	  "example": "a didactic novel that set out to expose social injustice",
+	  "word": "didactic",
+	  "pronunciation": "dīˈdaktik"
+	},
+	{
+	  "type": "v",
+	  "definition": "spread over a wide area or between a large number of people.",
+	  "example": "technologies diffuse rapidly",
+	  "word": "diffuse",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "leave the main subject temporarily in speech or writing.",
+	  "example": "I have digressed a little from my original plan",
+	  "word": "digress",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who cultivates an area of interest, such as the arts, without real commitment or knowledge.",
+	  "example": "there is no room for the dilettante in this business",
+	  "word": "dilettante",
+	  "pronunciation": "ˌdiləˈtänt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing good judgement.",
+	  "example": "the brasserie attracts discerning customers",
+	  "word": "discerning",
+	  "pronunciation": "dəˈsərniNG"
+	},
+	{
+	  "type": "v",
+	  "definition": "make (someone) feel uneasy or embarrassed.",
+	  "example": "he was not noticeably discomfited by her tone",
+	  "word": "discomfit",
+	  "pronunciation": "disˈkəmfət"
+	},
+	{
+	  "type": "n",
+	  "definition": "a deduction from the usual cost of something.",
+	  "example": "rail commuters get a discount on season tickets",
+	  "word": "discount",
+	  "pronunciation": "ˈdiskount"
+	},
+	{
+	  "type": "n",
+	  "definition": "a feeling of worry or unease.",
+	  "example": "public disquiet about animal testing",
+	  "word": "disquiet",
+	  "pronunciation": "disˈkwīət"
+	},
+	{
+	  "type": "v",
+	  "definition": "(with reference to a feeling or emotion) disappear or cause to disappear.",
+	  "example": "the concern she'd felt for him had wholly dissipated",
+	  "word": "dissipate",
+	  "pronunciation": "ˈdisəˌpāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of or during the day.",
+	  "example": "flight demands good eyesight, so birds tend to be diurnal",
+	  "word": "diurnal",
+	  "pronunciation": "dīˈərnl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a celebrated female opera singer.",
+	  "example": "a pop diva",
+	  "word": "diva",
+	  "pronunciation": "ˈdēvə"
+	},
+	{
+	  "type": "adj",
+	  "definition": "ready to accept control or instruction; submissive.",
+	  "example": "a cheap and docile workforce",
+	  "word": "docile",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "remove (an item of clothing).",
+	  "example": "the manager doffed his hat to her",
+	  "word": "doff",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "comic verse composed in irregular rhythm.",
+	  "example": "doggerel verses",
+	  "word": "doggerel",
+	  "pronunciation": "ˈdôɡərəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "inclined to lay down principles as undeniably true.",
+	  "example": "she was not tempted to be dogmatic about what she believed",
+	  "word": "dogmatic",
+	  "pronunciation": "dôɡˈmadik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "feeling or expressing great sorrow or distress.",
+	  "example": "a dolorous and repetitive tale of atrocity",
+	  "word": "dolorous",
+	  "pronunciation": "ˈdōlərəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an animal) having normal physical functions suspended or slowed down for a period of time; in or as if in a deep sleep.",
+	  "example": "dormant butterflies",
+	  "word": "dormant",
+	  "pronunciation": "ˈdôrmənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a collection of documents about a particular person, event, or subject.",
+	  "example": "we have a dossier on him",
+	  "word": "dossier",
+	  "pronunciation": "ˈdôsēˌā"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of laws or their application) excessively harsh and severe.",
+	  "example": "the Nazis destroyed the independence of the press by a series of draconian laws",
+	  "word": "draconian",
+	  "pronunciation": "drəˈkōnēən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of sound) sweet and soothing (often used ironically).",
+	  "example": "record the dulcet tones of your family and friends",
+	  "word": "dulcet",
+	  "pronunciation": "ˈdəlsət"
+	},
+	{
+	  "type": "v",
+	  "definition": "deceive; trick.",
+	  "example": "the newspaper was duped into publishing an untrue story",
+	  "word": "dupe",
+	  "pronunciation": "d(y)o͞op"
+	},
+	{
+	  "type": "n",
+	  "definition": "the movement of the tide out to sea.",
+	  "example": "the tide was on the ebb",
+	  "word": "ebb",
+	  "pronunciation": "eb"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person or their behaviour) unconventional and slightly strange.",
+	  "example": "he noted her eccentric appearance",
+	  "word": "eccentric",
+	  "pronunciation": "ikˈsentrik"
+	},
+	{
+	  "type": "n",
+	  "definition": "brilliant display or effect.",
+	  "example": "he finished his recital with great Ã©clat",
+	  "word": "eclat",
+	  "pronunciation": "āˈklä"
+	},
+	{
+	  "type": "adj",
+	  "definition": "deriving ideas, style, or taste from a broad and diverse range of sources.",
+	  "example": "universities offering an eclectic mix of courses",
+	  "word": "eclectic",
+	  "pronunciation": "əˈklektik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "relating to or given to eating.",
+	  "example": null,
+	  "word": "edacious",
+	  "pronunciation": "əˈdāSHəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "erase (a mark) from a surface.",
+	  "example": "with time, the words are effaced by the rain",
+	  "word": "efface",
+	  "pronunciation": "əˈfās"
+	},
+	{
+	  "type": "adj",
+	  "definition": "affected, over-refined, and ineffectual.",
+	  "example": "effete trendies from art college",
+	  "word": "effete",
+	  "pronunciation": "əˈfēt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "thinking only of oneself, without regard for the feelings or desires of others; self-centred.",
+	  "example": "egocentric loners with an overinflated sense of self-worth",
+	  "word": "egocentric",
+	  "pronunciation": "ˌēɡōˈsentrik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "outstandingly bad; shocking.",
+	  "example": "egregious abuses of copyright",
+	  "word": "egregious",
+	  "pronunciation": "əˈɡrējəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "energy, style, and enthusiasm.",
+	  "example": "they performed with uncommon elan onstage",
+	  "word": "elan",
+	  "pronunciation": "āˈlän"
+	},
+	{
+	  "type": "adj",
+	  "definition": "another term for ",
+	  "example": "an elliptical orbit",
+	  "word": "elliptical",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "make (something) clear; explain.",
+	  "example": "work such as theirs will help to elucidate this matter",
+	  "word": "elucidate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "make (something) more attractive by the addition of decorative details or features.",
+	  "example": "blue silk embellished with golden embroidery",
+	  "word": "embellish",
+	  "pronunciation": "əmˈbeliSH"
+	},
+	{
+	  "type": "v",
+	  "definition": "leave one's own country in order to settle permanently in another.",
+	  "example": "Rose's parents emigrated to Australia",
+	  "word": "emigrate",
+	  "pronunciation": "ˈeməˌɡrāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person sent as a diplomatic representative on a special mission.",
+	  "example": "he sent an emissary to Constantinople for bilateral talks",
+	  "word": "emissary",
+	  "pronunciation": "ˈeməˌserē"
+	},
+	{
+	  "type": "v",
+	  "definition": "match or surpass (a person or achievement), typically by imitation.",
+	  "example": "most rulers wished to emulate Alexander the Great",
+	  "word": "emulate",
+	  "pronunciation": "ˈemyəˌlāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a speech or piece of writing that praises someone or something highly.",
+	  "example": "the poet produced an appropriate encomium after the king's death",
+	  "word": "encomium",
+	  "pronunciation": "enˈkōmēəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a plant or animal) native or restricted to a certain place.",
+	  "example": "a marsupial endemic to north-eastern Australia",
+	  "word": "endemic",
+	  "pronunciation": "enˈdemik"
+	},
+	{
+	  "type": "v",
+	  "definition": "make (someone) feel drained of energy or vitality.",
+	  "example": "enervating heat",
+	  "word": "enervate",
+	  "pronunciation": "ˈenərˌvāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "charming and attractive.",
+	  "example": "an engaging smile",
+	  "word": "engaging",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a person or thing that is mysterious or difficult to understand.",
+	  "example": "Madeleine was still an enigma to him",
+	  "word": "enigma",
+	  "pronunciation": "iˈniɡmə"
+	},
+	{
+	  "type": "n",
+	  "definition": "a feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement.",
+	  "example": "he succumbed to ennui and despair",
+	  "word": "ennui",
+	  "pronunciation": "änˈwē"
+	},
+	{
+	  "type": "v",
+	  "definition": "establish or settle (someone) in a comfortable, safe place.",
+	  "example": "Agnes ensconced herself in their bedroom",
+	  "word": "ensconce",
+	  "pronunciation": "ənˈskäns"
+	},
+	{
+	  "type": "v",
+	  "definition": "envelop completely and hide from view.",
+	  "example": "heavy grey clouds enshrouded the city",
+	  "word": "enshroud",
+	  "pronunciation": "inˈSHroud"
+	},
+	{
+	  "type": "n",
+	  "definition": "an ephemeral plant.",
+	  "example": "ephemerals avoid the periods of drought as seeds",
+	  "word": "ephemeral",
+	  "pronunciation": "əˈfem(ə)rəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having characteristics of both sexes or no characteristics of either sex; of indeterminate sex.",
+	  "example": "the sort of epicene beauty peculiar to boys of a certain age",
+	  "word": "epicene",
+	  "pronunciation": "ˈepəˌsēn"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a product) made or used as a substitute, typically an inferior one, for something else.",
+	  "example": "ersatz coffee",
+	  "word": "ersatz",
+	  "pronunciation": "ˈerˌzäts"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing great knowledge or learning.",
+	  "example": "Ken could turn any conversation into an erudite discussion",
+	  "word": "erudite",
+	  "pronunciation": "ˈer(y)əˌdīt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a long, steep slope, especially one at the edge of a plateau or separating areas of land at different heights.",
+	  "example": null,
+	  "word": "escarpment",
+	  "pronunciation": "əˈskärpmənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "fit to be eaten; edible.",
+	  "example": null,
+	  "word": "esculent",
+	  "pronunciation": "ˈeskyələnt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.",
+	  "example": "esoteric philosophical debates",
+	  "word": "esoteric",
+	  "pronunciation": "ˌesəˈterik"
+	},
+	{
+	  "type": "v",
+	  "definition": "catch sight of.",
+	  "example": "she espied her daughter rounding the corner",
+	  "word": "espy",
+	  "pronunciation": "əˈspī"
+	},
+	{
+	  "type": "adj",
+	  "definition": "evaluating other cultures according to preconceptions originating in the standards and customs of one's own culture.",
+	  "example": null,
+	  "word": "ethnocentric",
+	  "pronunciation": "ˌeTHnōˈsentrik"
+	},
+	{
+	  "type": "v",
+	  "definition": "make (a plant) pale through lack of light.",
+	  "example": "the seedling had been etiolated by having been grown in darkness",
+	  "word": "etiolate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "praise highly in speech or writing.",
+	  "example": "he was eulogized as a rock star",
+	  "word": "eulogize",
+	  "pronunciation": "ˈyo͞oləˌjīz"
+	},
+	{
+	  "type": null,
+	  "definition": "Euthenics /juËËÎ¸ÉnÉªks/ is the study of the improvement of human functioning and well-being by improvement of living conditions.",
+	  "example": null,
+	  "word": "euthenics",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "reveal the presence of (a quality or feeling); indicate.",
+	  "example": "the news stories evinced the usual mixture of sympathy and satisfaction",
+	  "word": "evince",
+	  "pronunciation": "əˈvins"
+	},
+	{
+	  "type": "v",
+	  "definition": "make (a problem, bad situation, or negative feeling) worse.",
+	  "example": "rising inflation was exacerbated by the collapse of oil prices",
+	  "word": "exacerbate",
+	  "pronunciation": "iɡˈzasərˌbāt"
+	},
+	{
+	  "type": "v",
+	  "definition": "demand and obtain (something) from someone.",
+	  "example": "he exacted promises that another Watergate would never be allowed to happen",
+	  "word": "exacting",
+	  "pronunciation": "iɡˈzaktiNG"
+	},
+	{
+	  "type": "v",
+	  "definition": "think or speak very highly of (someone or something).",
+	  "example": "the party will continue to exalt their hero",
+	  "word": "exalt",
+	  "pronunciation": "iɡˈzôlt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person or thing serving as a typical example or appropriate model.",
+	  "example": "the place is an exemplar of multicultural Britain",
+	  "word": "exemplar",
+	  "pronunciation": "iɡˈzemplər"
+	},
+	{
+	  "type": "adj",
+	  "definition": "pressing; demanding.",
+	  "example": "the exigent demands of her contemporaries' music took a toll on her voice",
+	  "word": "exigent",
+	  "pronunciation": "ˈekzəjənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a price or amount charged) unreasonably high.",
+	  "example": "some hotels charge exorbitant rates for phone calls",
+	  "word": "exorbitant",
+	  "pronunciation": "iɡˈzôrbəd(ə)nt"
+	},
+	{
+	  "type": "v",
+	  "definition": "make (an action or process) happen sooner or be accomplished more quickly.",
+	  "example": "he promised to expedite economic reforms",
+	  "word": "expedite",
+	  "pronunciation": "ˈekspəˌdīt"
+	},
+	{
+	  "type": "n",
+	  "definition": "the closing words of a manuscript, early printed book, or chanted liturgical text.",
+	  "example": null,
+	  "word": "explicit",
+	  "pronunciation": "ikˈsplisit"
+	},
+	{
+	  "type": "v",
+	  "definition": "obliterate or remove completely (something unwanted or unpleasant).",
+	  "example": "the kind of man that could expunge an unsatisfactory incident from his memory",
+	  "word": "expunge",
+	  "pronunciation": "ikˈspənj"
+	},
+	{
+	  "type": "v",
+	  "definition": "eradicate or destroy completely.",
+	  "example": "timber wolves were extirpated from New England more than a century ago",
+	  "word": "extirpate",
+	  "pronunciation": "ˈekstərˌpāt"
+	},
+	{
+	  "type": "v",
+	  "definition": "praise enthusiastically.",
+	  "example": "he extolled the virtues of the Russian peoples",
+	  "word": "extol",
+	  "pronunciation": "ikˈstōl"
+	},
+	{
+	  "type": "n",
+	  "definition": "the principal front of a building, that faces on to a street or open space.",
+	  "example": "the house has a half-timbered facade",
+	  "word": "facade",
+	  "pronunciation": "fəˈsäd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "treating serious issues with deliberately inappropriate humour; flippant.",
+	  "example": "a facetious remark",
+	  "word": "facetious",
+	  "pronunciation": "fəˈsēSHəs"
+	},
+	{
+	  "type": "combining form",
+	  "definition": "in nouns of action derived from vs ending in -fy (such as liquefaction from liquefy ).",
+	  "example": null,
+	  "word": "faction",
+	  "pronunciation": "ˈfakSH(ə)n"
+	},
+	{
+	  "type": "n",
+	  "definition": "a mistaken belief, especially one based on unsound arguments.",
+	  "example": "the notion that the camera never lies is a fallacy",
+	  "word": "fallacy",
+	  "pronunciation": "ˈfaləsē"
+	},
+	{
+	  "type": "n",
+	  "definition": "the animals of a particular region, habitat, or geological period.",
+	  "example": "the flora and fauna of Siberia",
+	  "word": "fauna",
+	  "pronunciation": "ˈfônə"
+	},
+	{
+	  "type": "adj",
+	  "definition": "displaying exaggerated flattery or affection; obsequious.",
+	  "example": "fawning adoration",
+	  "word": "fawning",
+	  "pronunciation": "ˈfôniNG"
+	},
+	{
+	  "type": "adj",
+	  "definition": "lacking initiative or strength of character; irresponsible.",
+	  "example": "her feckless younger brother",
+	  "word": "feckless",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "producing or capable of producing an abundance of offspring or new growth; highly fertile.",
+	  "example": "a lush and fecund garden",
+	  "word": "fecund",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "pretend to be affected by (a feeling, state, or injury).",
+	  "example": "she feigned nervousness",
+	  "word": "feign",
+	  "pronunciation": "fān"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of an animal) in a wild state, especially after escape from captivity or domestication.",
+	  "example": "a feral cat",
+	  "word": "feral",
+	  "pronunciation": "ˈferəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a chain or manacle used to restrain a prisoner, typically placed around the ankles.",
+	  "example": "he lay bound with fetters of iron",
+	  "word": "fetter",
+	  "pronunciation": "ˈfedər"
+	},
+	{
+	  "type": "adj",
+	  "definition": "giving an impression of vague unworldliness or mystery.",
+	  "example": "a rather fey romantic novelist",
+	  "word": "fey",
+	  "pronunciation": "fā"
+	},
+	{
+	  "type": "n",
+	  "definition": "faithfulness to a person, cause, or belief, demonstrated by continuing loyalty and support.",
+	  "example": "his fidelity to liberal ideals",
+	  "word": "fidelity",
+	  "pronunciation": "fəˈdelədē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "relating to or due from a son or daughter.",
+	  "example": "a display of filial affection",
+	  "word": "filial",
+	  "pronunciation": "ˈfilyəl"
+	},
+	{
+	  "type": "v",
+	  "definition": "(in bridge and whist) play (a card) in the hope of winning a trick with it because any card that could beat it is in the hand of the opponent who has already played.",
+	  "example": null,
+	  "word": "finesse",
+	  "pronunciation": "fəˈnes"
+	},
+	{
+	  "type": "n",
+	  "definition": "a protozoan that has one or more flagella used for swimming.",
+	  "example": null,
+	  "word": "flagellate",
+	  "pronunciation": "ˈflajəˌlāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a young bird that has just fledged.",
+	  "example": "the bird had been ringed as a fledgling",
+	  "word": "fledgling",
+	  "pronunciation": "ˈflejliNG"
+	},
+	{
+	  "type": "v",
+	  "definition": "wave (something) about to attract attention.",
+	  "example": "âHappy New Year!â he yelled, flourishing a bottle of whisky",
+	  "word": "flourish",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "achieve (something) by luck rather than skill.",
+	  "example": null,
+	  "word": "fluke",
+	  "pronunciation": "flo͞ok"
+	},
+	{
+	  "type": "n",
+	  "definition": "food, especially dried hay or straw, for cattle and other livestock.",
+	  "example": "young people ending up as factory fodder",
+	  "word": "fodder",
+	  "pronunciation": "ˈfädər"
+	},
+	{
+	  "type": "v",
+	  "definition": "instigate or stir up (an undesirable or violent sentiment or course of action).",
+	  "example": "they accused him of fomenting political unrest",
+	  "word": "foment",
+	  "pronunciation": "ˌfōˈment"
+	},
+	{
+	  "type": "v",
+	  "definition": "make or go on a foray.",
+	  "example": "the place into which they were forbidden to foray",
+	  "word": "foray",
+	  "pronunciation": "ˈfôrˌā"
+	},
+	{
+	  "type": "v",
+	  "definition": "lose or be deprived of (property or a right or privilege) as a penalty for wrongdoing.",
+	  "example": "those unable to meet their taxes were liable to forfeit their estates",
+	  "word": "forfeit",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "happening by chance rather than intention.",
+	  "example": "the similarity between the paintings may not be simply fortuitous",
+	  "word": "fortuitous",
+	  "pronunciation": "fôrˈto͞oədəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "an attacking player in football, hockey, or other sports.",
+	  "example": null,
+	  "word": "forward",
+	  "pronunciation": "ˈfôrwərd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "attempting to avoid notice or attention, typically because of guilt or a belief that discovery would lead to trouble; secretive.",
+	  "example": "they spent a furtive day together",
+	  "word": "furtive",
+	  "pronunciation": "ˈfərdiv"
+	},
+	{
+	  "type": "n",
+	  "definition": "a series of shots fired or missiles thrown all at the same time or in quick succession.",
+	  "example": "marchers had to dodge a fusillade of missiles",
+	  "word": "fusillade",
+	  "pronunciation": "ˈfyo͞osəˌläd"
+	},
+	{
+	  "type": "n",
+	  "definition": "thick, hard-wearing twilled cloth with a short nap, usually dyed in dark colours.",
+	  "example": "the coarse fustian of prison clothing",
+	  "word": "fustian",
+	  "pronunciation": "ˈfəsCHən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "incapable of producing any useful result; pointless.",
+	  "example": "a futile attempt to keep fans from mounting the stage",
+	  "word": "futile",
+	  "pronunciation": "ˈfyo͞odl"
+	},
+	{
+	  "type": "v",
+	  "definition": "deny or contradict (a fact or statement).",
+	  "example": "the impact of the railways cannot be gainsaid",
+	  "word": "gainsay",
+	  "pronunciation": "ˌɡānˈsā"
+	},
+	{
+	  "type": "n",
+	  "definition": "a clumsy or stupid person (often as a term of abuse).",
+	  "example": null,
+	  "word": "galoot",
+	  "pronunciation": "ɡəˈlo͞ot"
+	},
+	{
+	  "type": "v",
+	  "definition": "shock or excite (someone) into taking action.",
+	  "example": "the urgency of his voice galvanized them into action",
+	  "word": "galvanize",
+	  "pronunciation": "ˈɡalvəˌnīz"
+	},
+	{
+	  "type": "n",
+	  "definition": "a street urchin.",
+	  "example": "a small girl with her hair cut gamin short",
+	  "word": "gamin",
+	  "pronunciation": "ˈɡamən"
+	},
+	{
+	  "type": "n",
+	  "definition": "the complete range or scope of something.",
+	  "example": "the whole gamut of human emotion",
+	  "word": "gamut",
+	  "pronunciation": "ˈɡamət"
+	},
+	{
+	  "type": "n",
+	  "definition": "a granary.",
+	  "example": null,
+	  "word": "garner",
+	  "pronunciation": "ˈɡärnər"
+	},
+	{
+	  "type": "adj",
+	  "definition": "excessively talkative, especially on trivial matters.",
+	  "example": "a garrulous cab driver",
+	  "word": "garrulous",
+	  "pronunciation": "ˈɡer(y)ələs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "characterized by exaggerated or affected politeness, refinement, or respectability.",
+	  "example": "her genteel upbringing",
+	  "word": "genteel",
+	  "pronunciation": "jenˈtēl"
+	},
+	{
+	  "type": "v",
+	  "definition": "manipulate the boundaries of (an electoral constituency) so as to favour one party or class.",
+	  "example": "an attempt to gerrymander the election result",
+	  "word": "gerrymander",
+	  "pronunciation": "ˈjerēˌmandər"
+	},
+	{
+	  "type": "v",
+	  "definition": "use gestures, especially dramatic ones, instead of speaking or to emphasize one's words.",
+	  "example": "they were shouting and gesticulating frantically at drivers who did not slow down",
+	  "word": "gesticulate",
+	  "pronunciation": "jeˈstikyəˌlāt"
+	},
+	{
+	  "type": "v",
+	  "definition": "encircle (a person or part of the body) with a belt or band.",
+	  "example": "a young man was to be girded with the belt of knighthood",
+	  "word": "gird",
+	  "pronunciation": "ɡərd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "done without good reason; uncalled for.",
+	  "example": "gratuitous violence",
+	  "word": "gratuitous",
+	  "pronunciation": "ɡrəˈt(y)o͞oədəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "extreme importance; seriousness.",
+	  "example": "crimes of the utmost gravity",
+	  "word": "gravity",
+	  "pronunciation": "ˈɡravədē"
+	},
+	{
+	  "type": "n",
+	  "definition": "an ugly, twisted expression on a person's face, typically expressing disgust, pain, or wry amusement.",
+	  "example": "she gave a grimace of pain",
+	  "word": "grimace",
+	  "pronunciation": "ˈɡriməs"
+	},
+	{
+	  "type": "v",
+	  "definition": "lie or crawl abjectly on the ground with one's face downwards.",
+	  "example": "he grovelled at George's feet",
+	  "word": "grovel",
+	  "pronunciation": "ˈɡrävəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "sly or cunning intelligence.",
+	  "example": "he used all his guile and guts to free himself from the muddle he was in",
+	  "word": "guile",
+	  "pronunciation": "ɡīl"
+	},
+	{
+	  "type": "n",
+	  "definition": "an external form, appearance, or manner of presentation, typically concealing the true nature of something.",
+	  "example": "he visited in the guise of an inspector",
+	  "word": "guise",
+	  "pronunciation": "ɡīz"
+	},
+	{
+	  "type": "adj",
+	  "definition": "easily persuaded to believe something; credulous.",
+	  "example": "an attempt to persuade a gullible public to spend their money",
+	  "word": "gullible",
+	  "pronunciation": "ˈɡələb(ə)l"
+	},
+	{
+	  "type": "n",
+	  "definition": "technical term for ",
+	  "example": null,
+	  "word": "halitosis",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a person or thing that announces or signals the approach of another.",
+	  "example": "witch hazels are the harbingers of spring",
+	  "word": "harbinger",
+	  "pronunciation": "ˈhärbənjər"
+	},
+	{
+	  "type": "n",
+	  "definition": "a journey especially when undertaken to escape from a dangerous or undesirable situation.",
+	  "example": "So our favorite loudmouth abandoned his broadcast booth in Palm Beach and joined the great hegira and traffic jam, having realized that these days Florida is a great state to get far, far away from.",
+	  "word": "hegira",
+	  "pronunciation": "ˈhejərə"
+	},
+	{
+	  "type": "n",
+	  "definition": "an official employed to oversee state ceremonial, precedence, and the use of armorial bearings, and (historically) to make proclamations, carry official messages, and oversee tournaments.",
+	  "example": "a herald announced the armistice",
+	  "word": "herald",
+	  "pronunciation": "ˈherəld"
+	},
+	{
+	  "type": "n",
+	  "definition": "belief or opinion contrary to orthodox religious (especially Christian) doctrine.",
+	  "example": "Huss was burned for heresy",
+	  "word": "heresy",
+	  "pronunciation": "ˈherəsē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a pause or break in continuity in a sequence or activity.",
+	  "example": "there was a brief hiatus in the war with France",
+	  "word": "hiatus",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "unwilling or unable to change because of tradition or convention.",
+	  "example": "they are working to change hidebound corporate cultures",
+	  "word": "hidebound",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "excessively theatrical or dramatic in character or style.",
+	  "example": "a histrionic outburst",
+	  "word": "histrionic",
+	  "pronunciation": "ˌhistrēˈänik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "greyish white.",
+	  "example": "hoary cobwebs",
+	  "word": "hoary",
+	  "pronunciation": "ˈhôrē"
+	},
+	{
+	  "type": "n",
+	  "definition": "special honour or respect shown publicly.",
+	  "example": "many villagers come here to pay homage to the Virgin",
+	  "word": "homage",
+	  "pronunciation": "ˈ(h)ämij"
+	},
+	{
+	  "type": "n",
+	  "definition": "a system of complementary medicine in which ailments are treated by minute doses of natural substances that in larger amounts would produce symptoms of the ailment.",
+	  "example": null,
+	  "word": "homeopathy",
+	  "pronunciation": "ˌhōmēˈäpəTHē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of the same kind; alike.",
+	  "example": "if all jobs and workers were homogeneous",
+	  "word": "homogeneous",
+	  "pronunciation": "ˌhōməˈjēnēəs"
+	},
+	{
+	  "type": null,
+	  "definition": "The hortative ( i/ËhÉrtÉtÉªv/; abbreviated HORT) is a group of semantically similar deontic modalities in some languages. Hortative modalities encourage or urge. In English, there are seven hortative modalities: the adhortative, exhortative, suprahortative, cohortative, dehortative, inhortative, and infrahortative.",
+	  "example": null,
+	  "word": "hortative",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "excessive pride or self-confidence.",
+	  "example": "the self-assured hubris among economists was shaken in the late 1980s",
+	  "word": "hubris",
+	  "pronunciation": "ˈ(h)yo͞obrəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "the care, cultivation, and breeding of crops and animals.",
+	  "example": "all aspects of animal husbandry",
+	  "word": "husbandry",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "exaggerated statements or claims not meant to be taken literally.",
+	  "example": "he vowed revenge with oaths and hyperboles",
+	  "word": "hyperbole",
+	  "pronunciation": "hīˈpərbəlē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "deserving or causing public disgrace or shame.",
+	  "example": "no other party risked ignominious defeat",
+	  "word": "ignominious",
+	  "pronunciation": "ˌiɡnəˈminēəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "an extremely confused, complicated, or embarrassing situation.",
+	  "example": "the abdication imbroglio of 1936",
+	  "word": "imbroglio",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "unimportant under the circumstances; irrelevant.",
+	  "example": "the difference in our ages is immaterial",
+	  "word": "immaterial",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "about to happen.",
+	  "example": "they were in imminent danger of being swept away",
+	  "word": "imminent",
+	  "pronunciation": "ˈimənənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "unchanging over time or unable to be changed.",
+	  "example": "an immutable fact",
+	  "word": "immutable",
+	  "pronunciation": "i(m)ˈmyo͞odəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having little or no money.",
+	  "example": "a titled but impecunious family",
+	  "word": "impecunious",
+	  "pronunciation": "ˌimpəˈkyo͞onēəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "arrogant and domineering.",
+	  "example": "his imperious demands",
+	  "word": "imperious",
+	  "pronunciation": "ˌimˈpirēəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not allowing fluid to pass through.",
+	  "example": "an impervious layer of basaltic clay",
+	  "word": "impervious",
+	  "pronunciation": "imˈpərvēəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "unable to be appeased or placated.",
+	  "example": "he was an implacable enemy of Ted's",
+	  "word": "implacable",
+	  "pronunciation": "imˈplakəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "unable to take effective action; helpless or powerless.",
+	  "example": "he was seized with an impotent anger",
+	  "word": "impotent",
+	  "pronunciation": "ˈimpətnt"
+	},
+	{
+	  "type": "v",
+	  "definition": "dispute the truth, validity, or honesty of (a statement or motive); call into question.",
+	  "example": "the father does not impugn her capacity as a good mother",
+	  "word": "impugn",
+	  "pronunciation": "imˈpyo͞on"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of something regarded as unpleasant) continuing without pause or interruption.",
+	  "example": "the incessant beat of the music",
+	  "word": "incessant",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "just begun and so not fully formed or developed; rudimentary.",
+	  "example": "a still inchoate democracy",
+	  "word": "inchoate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "beginning to happen or develop.",
+	  "example": "he could feel incipient anger building up",
+	  "word": "incipient",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "not able to be denied or disputed.",
+	  "example": "incontrovertible proof",
+	  "word": "incontrovertible",
+	  "pronunciation": "ˌinkäntrəˈvərdəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not exactly known, established, or defined.",
+	  "example": "the carpet is an indeterminate dull shade",
+	  "word": "indeterminate",
+	  "pronunciation": "ˌindəˈtərmənət"
+	},
+	{
+	  "type": "adj",
+	  "definition": "originating or occurring naturally in a particular place; native.",
+	  "example": "the indigenous peoples of Siberia",
+	  "word": "indigenous",
+	  "pronunciation": "inˈdijənəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a needy person.",
+	  "example": null,
+	  "word": "indigent",
+	  "pronunciation": "ˈindəjənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "impossible to doubt; unquestionable.",
+	  "example": "an indubitable truth",
+	  "word": "indubitable",
+	  "pronunciation": "inˈd(y)o͞obədəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "too great or extreme to be expressed or described in words.",
+	  "example": "the ineffable mysteries of the soul",
+	  "word": "ineffable",
+	  "pronunciation": "inˈefəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "unable to be resisted or avoided; inescapable.",
+	  "example": "the ineluctable facts of history",
+	  "word": "ineluctable",
+	  "pronunciation": "ˌinəˈləktəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing no skill; clumsy.",
+	  "example": "the referee's inept handling of the match",
+	  "word": "inept",
+	  "pronunciation": "iˈnept"
+	},
+	{
+	  "type": "n",
+	  "definition": "the state of being well known for some bad quality or deed.",
+	  "example": "a day that will live in infamy",
+	  "word": "infamy",
+	  "pronunciation": "ˈinfəmē"
+	},
+	{
+	  "type": "v",
+	  "definition": "hinder, restrain, or prevent (an action or process).",
+	  "example": "cold inhibits plant growth",
+	  "word": "inhibit",
+	  "pronunciation": "inˈhibit"
+	},
+	{
+	  "type": "adj",
+	  "definition": "grossly unfair and morally wrong.",
+	  "example": "an iniquitous tax",
+	  "word": "iniquitous",
+	  "pronunciation": "iˈnikwidəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "physical or mental restlessness or disturbance.",
+	  "example": null,
+	  "word": "inquietude",
+	  "pronunciation": "inˈkwīəˌt(y)o͞od"
+	},
+	{
+	  "type": "adj",
+	  "definition": "proceeding in a gradual, subtle way, but with very harmful effects.",
+	  "example": "sexual harassment is a serious and insidious problem",
+	  "word": "insidious",
+	  "pronunciation": "inˈsidēəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "lacking flavour; weak or tasteless.",
+	  "example": "mugs of insipid coffee",
+	  "word": "insipid",
+	  "pronunciation": "inˈsipid"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing a casual lack of concern.",
+	  "example": "an insouciant shrug",
+	  "word": "insouciant",
+	  "pronunciation": "inˈso͞osēənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "the time during which a throne is vacant between two successive reigns or regimes",
+	  "example": "the democratic regime proved to be a short-lived interregnum between dictatorships",
+	  "word": "interregnum",
+	  "pronunciation": "ˌin(t)ərˈreɡnəm"
+	},
+	{
+	  "type": "n",
+	  "definition": "an intransigent person.",
+	  "example": null,
+	  "word": "intransigent",
+	  "pronunciation": "inˈtransəjənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "fearless; adventurous (often used for rhetorical or humorous effect).",
+	  "example": "our intrepid reporter",
+	  "word": "intrepid",
+	  "pronunciation": "inˈtrepəd"
+	},
+	{
+	  "type": "v",
+	  "definition": "accustom (someone) to something, especially something unpleasant.",
+	  "example": "these children have been inured to violence",
+	  "word": "inured",
+	  "pronunciation": "əˈn(y)o͝or"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having a particular habit, activity, or interest that is long-established and unlikely to change.",
+	  "example": "an inveterate gambler",
+	  "word": "inveterate",
+	  "pronunciation": "inˈvedərət"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing a tendency to be easily angered.",
+	  "example": "an irascible and difficult man",
+	  "word": "irascible",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing a lack of respect for people or things that are generally taken seriously.",
+	  "example": "she is irreverent about the whole business of politics",
+	  "word": "irreverent",
+	  "pronunciation": "əˈrev(ə)rənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "travelling from place to place.",
+	  "example": "itinerant traders",
+	  "word": "itinerant",
+	  "pronunciation": "īˈtinərənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a translucent, colourless, or smoky gem variety of zircon.",
+	  "example": null,
+	  "word": "jargon",
+	  "pronunciation": "ˈjärɡən"
+	},
+	{
+	  "type": "n",
+	  "definition": "a short excursion or journey made for pleasure.",
+	  "example": "her regular jaunts to Europe",
+	  "word": "jaunt",
+	  "pronunciation": "jônt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of ideas or writings) dry and uninteresting.",
+	  "example": null,
+	  "word": "jejune",
+	  "pronunciation": "jəˈjo͞on"
+	},
+	{
+	  "type": "n",
+	  "definition": "danger of loss, harm, or failure.",
+	  "example": "the whole peace process is in jeopardy",
+	  "word": "jeopardy",
+	  "pronunciation": "ˈjepərdē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having, showing, or done with good judgement or sense.",
+	  "example": "the judicious use of public investment",
+	  "word": "judicious",
+	  "pronunciation": "jo͞oˈdiSHəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a large, heavy vehicle, especially an articulated lorry.",
+	  "example": "the juggernaut thundered through the countryside",
+	  "word": "juggernaut",
+	  "pronunciation": "ˈjəɡərˌnôt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a point where two or more things are joined.",
+	  "example": "the junction of the two rivers",
+	  "word": "junction",
+	  "pronunciation": "ˈjəNG(k)SH(ə)n"
+	},
+	{
+	  "type": "n",
+	  "definition": "a military or political group that rules a country after taking power by force.",
+	  "example": "the country's ruling military junta",
+	  "word": "junta",
+	  "pronunciation": "ˈho͝on(t)ə"
+	},
+	{
+	  "type": "v",
+	  "definition": "place or deal with close together for contrasting effect.",
+	  "example": "black-and-white photos of slums were starkly juxtaposed with colour images",
+	  "word": "juxtapose",
+	  "pronunciation": "ˈjəkstəˌpōz"
+	},
+	{
+	  "type": "n",
+	  "definition": "(in Hinduism and Buddhism) the sum of a person's actions in this and previous states of existence, viewed as deciding their fate in future existences.",
+	  "example": null,
+	  "word": "karma",
+	  "pronunciation": "ˈkärmə"
+	},
+	{
+	  "type": "adj",
+	  "definition": "liable to change; easily altered.",
+	  "example": "persons whose blood pressure is more labile will carry an enhanced risk of heart attack",
+	  "word": "labile",
+	  "pronunciation": "ˈlāˌbīl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "tearful or given to weeping.",
+	  "example": "she was pink-eyed and lachrymose",
+	  "word": "lachrymose",
+	  "pronunciation": "ˈlakrəˌmōs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person, speech, or style of writing) using very few words.",
+	  "example": "his laconic reply suggested a lack of interest in the topic",
+	  "word": "laconic",
+	  "pronunciation": "ləˈkänik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of light or fire) glowing, gleaming, or flickering with a soft radiance.",
+	  "example": "the magical, lambent light of the north",
+	  "word": "lambent",
+	  "pronunciation": "ˈlambənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a passionate expression of grief or sorrow.",
+	  "example": "his mother's night-long laments for his father",
+	  "word": "lament",
+	  "pronunciation": "ləˈment"
+	},
+	{
+	  "type": "n",
+	  "definition": "generosity in bestowing money or gifts upon others.",
+	  "example": "presumably public money is not dispensed with such largesse to anyone else",
+	  "word": "largess",
+	  "pronunciation": "lärˈjes"
+	},
+	{
+	  "type": "n",
+	  "definition": "a state of physical or mental weariness; lack of energy.",
+	  "example": "she was overcome by lassitude and retired to bed",
+	  "word": "lassitude",
+	  "pronunciation": "ˈlasəˌt(y)o͞od"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a quality or state) existing but not yet developed or manifest; hidden or concealed.",
+	  "example": "they have a huge reserve of latent talent",
+	  "word": "latent",
+	  "pronunciation": "ˈlātnt"
+	},
+	{
+	  "type": "v",
+	  "definition": "praise (a person or their achievements) highly.",
+	  "example": "the obituary lauded him as a great statesman and soldier",
+	  "word": "laud",
+	  "pronunciation": "lôd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not sufficiently strict, severe, or careful.",
+	  "example": "lax security arrangements at the airport",
+	  "word": "lax",
+	  "pronunciation": "laks"
+	},
+	{
+	  "type": "adj",
+	  "definition": "denoting or relating to software or hardware that has been superseded but is difficult to replace because of its wide use.",
+	  "example": null,
+	  "word": "legacy",
+	  "pronunciation": "ˈleɡəsē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a recurrent theme throughout a musical or literary composition, associated with a particular person, idea, or situation.",
+	  "example": "there are two leitmotifs in his score marking the heroine and her Fairy Godmother",
+	  "word": "leitmotif",
+	  "pronunciation": "ˈlītmōˌtēf"
+	},
+	{
+	  "type": "n",
+	  "definition": "an embankment built to prevent the overflow of a river.",
+	  "example": null,
+	  "word": "levee",
+	  "pronunciation": "ˈlevē"
+	},
+	{
+	  "type": "n",
+	  "definition": "the treatment of a serious matter with humour or lack of due respect.",
+	  "example": "as an attempt to introduce a note of levity, the words were a disastrous flop",
+	  "word": "levity",
+	  "pronunciation": "ˈlevədē"
+	},
+	{
+	  "type": "n",
+	  "definition": "the binding or thickening agent of a sauce, often based on egg yolks.",
+	  "example": null,
+	  "word": "liaison",
+	  "pronunciation": "ˈlēəˌzän"
+	},
+	{
+	  "type": "n",
+	  "definition": "a drink poured out as an offering to a deity.",
+	  "example": "he poured the libation of rum on the ground",
+	  "word": "libation",
+	  "pronunciation": "līˈbāSHən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing excessive sexual drive; lustful.",
+	  "example": "libidinous teenagers",
+	  "word": "libidinous",
+	  "pronunciation": "ləˈbidənəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person or their body) thin, supple, and graceful.",
+	  "example": "the kind of outfit that should be left to lissom teenagers",
+	  "word": "lissome",
+	  "pronunciation": "ˈlisəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person or their manner) lacking energy or enthusiasm.",
+	  "example": "bouts of listless depression",
+	  "word": "listless",
+	  "pronunciation": "ˈlis(t)ləs"
+	},
+	{
+	  "type": "v",
+	  "definition": "walk or run with a long bounding stride.",
+	  "example": "the dog was loping along by his side",
+	  "word": "lope",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "expressed clearly; easy to understand.",
+	  "example": "a lucid account",
+	  "word": "lucid",
+	  "pronunciation": "ˈlo͞osəd"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who inspires or influences others, especially one prominent in a particular sphere.",
+	  "example": "one of the luminaries of child psychiatry",
+	  "word": "luminary",
+	  "pronunciation": "ˈlo͞oməˌnerē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "giving off light; bright or shining.",
+	  "example": "the luminous dial on his watch",
+	  "word": "luminous",
+	  "pronunciation": "ˈlo͞omənəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of, like, or relating to a wolf or wolves.",
+	  "example": "a lupine howl",
+	  "word": "lupine",
+	  "pronunciation": "ˈlo͞opin"
+	},
+	{
+	  "type": "v",
+	  "definition": "(especially with reference to food) soften or become softened by soaking in a liquid.",
+	  "example": "macerate the mustard seeds in vinegar",
+	  "word": "macerate",
+	  "pronunciation": "ˈmasəˌrāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a plot or scheme.",
+	  "example": "he was cheated by the political machinations of the legislature",
+	  "word": "machination",
+	  "pronunciation": "ˌmakəˈnāSHən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "generous or forgiving, especially towards a rival or less powerful person.",
+	  "example": "she should be magnanimous in victory",
+	  "word": "magnanimous",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a general feeling of discomfort, illness, or unease whose exact cause is difficult to identify.",
+	  "example": "a general air of malaise",
+	  "word": "malaise",
+	  "pronunciation": "məˈlāz"
+	},
+	{
+	  "type": "n",
+	  "definition": "the mistaken use of a word in place of a similar-sounding one, often with an amusing effect (e.g. âdance a flamingo â instead of flamenco ).",
+	  "example": null,
+	  "word": "malapropism",
+	  "pronunciation": "ˈmaləˌpräp"
+	},
+	{
+	  "type": "n",
+	  "definition": "wrongdoing, especially (US) by a public official.",
+	  "example": null,
+	  "word": "malfeasance",
+	  "pronunciation": "ˌmalˈfēzəns"
+	},
+	{
+	  "type": "n",
+	  "definition": "a document listing a ship's contents, cargo, passengers, and crew, for the use of customs officers.",
+	  "example": null,
+	  "word": "manifest",
+	  "pronunciation": "ˈmanəˌfest"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having failed to become what one might have been.",
+	  "example": "he was a creature of suppressed passions, an artist manquÃ©",
+	  "word": "manque",
+	  "pronunciation": "mäNGˈkā"
+	},
+	{
+	  "type": "v",
+	  "definition": "release from slavery; set free.",
+	  "example": "old Angus had never manumitted a single slave",
+	  "word": "manumit",
+	  "pronunciation": "ˌmanyəˈmit"
+	},
+	{
+	  "type": "n",
+	  "definition": "an officer of the highest rank in the armed forces of some countries.",
+	  "example": "Marshal Tito",
+	  "word": "marshal",
+	  "pronunciation": "ˈmärSHəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who demands complete obedience; a strict disciplinarian.",
+	  "example": "the woman in charge was a martinet who treated all those beneath her like children",
+	  "word": "martinet",
+	  "pronunciation": "ˌmärtnˈet"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who is killed because of their religious or other beliefs.",
+	  "example": "the first Christian martyr",
+	  "word": "martyr",
+	  "pronunciation": "ˈmärdər"
+	},
+	{
+	  "type": "v",
+	  "definition": "be enrolled at a college or university.",
+	  "example": "they had recently matriculated as undergraduates at Jesus College",
+	  "word": "matriculate",
+	  "pronunciation": "məˈtrikyəˌlāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "the cultural, social, or political environment in which something develops.",
+	  "example": "Oxbridge was the matrix of the ideology",
+	  "word": "matrix",
+	  "pronunciation": "ˈmātriks"
+	},
+	{
+	  "type": "adj",
+	  "definition": "self-pityingly or tearfully sentimental.",
+	  "example": "a bout of maudlin self-pity",
+	  "word": "maudlin",
+	  "pronunciation": "ˈmôdlən"
+	},
+	{
+	  "type": "n",
+	  "definition": "an unorthodox or independent-minded person.",
+	  "example": "he's the maverick of the senate",
+	  "word": "maverick",
+	  "pronunciation": "ˈmav(ə)rik"
+	},
+	{
+	  "type": "v",
+	  "definition": "(of a river or road) follow a winding course.",
+	  "example": "a river that meandered gently through a meadow",
+	  "word": "meander",
+	  "pronunciation": "mēˈandər"
+	},
+	{
+	  "type": "n",
+	  "definition": "a varied mixture.",
+	  "example": "a melange of tender vegetables and herbs",
+	  "word": "melange",
+	  "pronunciation": "māˈlänj"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a sound) pleasingly smooth and musical to hear.",
+	  "example": "her low mellifluous voice",
+	  "word": "mellifluous",
+	  "pronunciation": "məˈliflo͞oəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not telling the truth; lying.",
+	  "example": "mendacious propaganda",
+	  "word": "mendacious",
+	  "pronunciation": "menˈdāSHəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "primarily concerned with making money at the expense of ethics.",
+	  "example": "she's nothing but a mercenary little gold-digger",
+	  "word": "mercenary",
+	  "pronunciation": "ˈmərsəˌnerē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "subject to sudden or unpredictable changes of mood or mind.",
+	  "example": "his mercurial temperament",
+	  "word": "mercurial",
+	  "pronunciation": "ˌmərˈkyo͝orēəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "an unpleasant or unhealthy smell or vapour.",
+	  "example": "a miasma of stale alcohol hung around him",
+	  "word": "miasma",
+	  "pronunciation": "mīˈazmə"
+	},
+	{
+	  "type": "n",
+	  "definition": "another term for ",
+	  "example": null,
+	  "word": "mien",
+	  "pronunciation": "mēn"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person's social environment.",
+	  "example": "Gregory came from the same aristocratic milieu as Sidonius",
+	  "word": "milieu",
+	  "pronunciation": "milˈyo͞o"
+	},
+	{
+	  "type": "n",
+	  "definition": "a follower or underling of a powerful person, especially a servile or unimportant one.",
+	  "example": "he gets oppressed minions like me to fob them off",
+	  "word": "minion",
+	  "pronunciation": "ˈminyən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "full of mirth; merry or amusing.",
+	  "example": "mirthful laughter",
+	  "word": "mirthful",
+	  "pronunciation": "ˈmərTHfəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "subject to debate, dispute, or uncertainty.",
+	  "example": "whether the temperature rise was mainly due to the greenhouse effect was a moot point",
+	  "word": "moot",
+	  "pronunciation": "mo͞ot"
+	},
+	{
+	  "type": "n",
+	  "definition": "a substance, typically an inorganic oxide, that combines with a dye or stain and thereby fixes it in a material.",
+	  "example": null,
+	  "word": "mordant",
+	  "pronunciation": "ˈmôrdnt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person) at the point of death.",
+	  "example": "on examination she was moribund and dehydrated",
+	  "word": "moribund",
+	  "pronunciation": "ˈmôrəˌbənd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "sullen and ill-tempered.",
+	  "example": "she was morose and silent when she got home",
+	  "word": "morose",
+	  "pronunciation": "məˈrōs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a pouting expression used to convey annoyance or distaste.",
+	  "example": null,
+	  "word": "moue",
+	  "pronunciation": "mo͞o"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who remains aloof or independent, especially from party politics.",
+	  "example": null,
+	  "word": "mugwump",
+	  "pronunciation": "ˈməɡˌwəmp"
+	},
+	{
+	  "type": "adj",
+	  "definition": "characterized by or displaying great generosity.",
+	  "example": "a munificent bequest",
+	  "word": "munificent",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the quality of being short-sighted.",
+	  "example": "he wore spectacles to correct a mild degree of myopia",
+	  "word": "myopia",
+	  "pronunciation": "mīˈōpēə"
+	},
+	{
+	  "type": "n",
+	  "definition": "a countless or extremely great number of people or things.",
+	  "example": "myriads of insects danced around the light above my head",
+	  "word": "myriad",
+	  "pronunciation": "ˈmirēəd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of a process or organization) just coming into existence and beginning to display signs of future potential.",
+	  "example": "the nascent space industry",
+	  "word": "nascent",
+	  "pronunciation": "ˈnāsənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "failing to take proper care over something.",
+	  "example": "the council had been negligent in its supervision of the children in care",
+	  "word": "negligent",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the inescapable agent of someone's or something's downfall.",
+	  "example": "injury, consistently his nemesis, struck him down during the match",
+	  "word": "nemesis",
+	  "pronunciation": "ˈneməsəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a new convert to a religion.",
+	  "example": "a neophyte of the monastery of St James",
+	  "word": "neophyte",
+	  "pronunciation": "ˈnēəˌfīt"
+	},
+	{
+	  "type": "n",
+	  "definition": "the practice among those with power or influence of favouring relatives or friends, especially by giving them jobs.",
+	  "example": "his years in office were marked by corruption and nepotism",
+	  "word": "nepotism",
+	  "pronunciation": "ˈnepəˌtizəm"
+	},
+	{
+	  "type": "adv",
+	  "definition": "in a mean or meagre manner.",
+	  "example": null,
+	  "word": "niggardly",
+	  "pronunciation": "ˈniɡərdlē"
+	},
+	{
+	  "type": "n",
+	  "definition": "the rejection of all religious and moral principles, often in the belief that life is meaningless.",
+	  "example": "he could not accept Bacon's nihilism, his insistence that man is a futile being",
+	  "word": "nihilism",
+	  "pronunciation": "ˈnīəˌlizəm"
+	},
+	{
+	  "type": "n",
+	  "definition": "a luminous cloud or a halo surrounding a supernatural being or a saint.",
+	  "example": "a nimbus of power played around him, brighter than lightning",
+	  "word": "nimbus",
+	  "pronunciation": "ˈnimbəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "(in Buddhism) a transcendent state in which there is neither suffering, desire, nor sense of self, and the subject is released from the effects of karma and the cycle of death and rebirth. It represents the final goal of Buddhism.",
+	  "example": "there are no shortcuts to nirvana",
+	  "word": "nirvana",
+	  "pronunciation": "nərˈvänə"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having an extremely offensive smell.",
+	  "example": "noisome vapours from the smouldering waste",
+	  "word": "noisome",
+	  "pronunciation": "ˈnoisəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "living the life of a nomad; wandering.",
+	  "example": "nomadic herdsmen",
+	  "word": "nomadic",
+	  "pronunciation": "nōˈmadik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a role or status) existing in name only.",
+	  "example": "Thailand retained nominal independence under Japanese military occupation",
+	  "word": "nominal",
+	  "pronunciation": "ˈnämən(ə)l"
+	},
+	{
+	  "type": "v",
+	  "definition": "surprise and confuse (someone) so much that they are unsure how to react.",
+	  "example": "Diane was nonplussed by such an odd question",
+	  "word": "nonplus",
+	  "pronunciation": "nänˈpləs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a fictitious prose narrative of book length, typically representing character and action with some degree of realism.",
+	  "example": "the novels of Jane Austen",
+	  "word": "novel",
+	  "pronunciation": "ˈnävəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a subtle difference in or shade of meaning, expression, or sound.",
+	  "example": "he was familiar with the nuances of the local dialect",
+	  "word": "nuance",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "make legally null and void; invalidate.",
+	  "example": "judges were unwilling to nullify government decisions",
+	  "word": "nullify",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "stubbornly refusing to change one's opinion or course of action.",
+	  "example": "I argued this point with him, but he was obdurate",
+	  "word": "obdurate",
+	  "pronunciation": "ˈäbd(y)ərət"
+	},
+	{
+	  "type": "v",
+	  "definition": "destroy utterly; wipe out.",
+	  "example": "the memory was so painful that he obliterated it from his mind",
+	  "word": "obliterate",
+	  "pronunciation": "əˈblidəˌrāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "strong public condemnation.",
+	  "example": "he endured years of contempt and obloquy",
+	  "word": "obloquy",
+	  "pronunciation": "ˈäbləkwē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not discovered or known about; uncertain.",
+	  "example": "his origins and parentage are obscure",
+	  "word": "obscure",
+	  "pronunciation": "əbˈskyo͝or"
+	},
+	{
+	  "type": "adj",
+	  "definition": "obedient or attentive to an excessive or servile degree.",
+	  "example": "they were served by obsequious waiters",
+	  "word": "obsequious",
+	  "pronunciation": "əbˈsēkwēəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "noisy and difficult to control.",
+	  "example": "the boy is cocky and obstreperous",
+	  "word": "obstreperous",
+	  "pronunciation": "əbˈstrepərəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "remove (a need or difficulty).",
+	  "example": "the presence of roller blinds obviated the need for curtains",
+	  "word": "obviate",
+	  "pronunciation": "ˈäbvēˌāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "extremely unpleasant; repulsive.",
+	  "example": "a pretty odious character",
+	  "word": "odious",
+	  "pronunciation": "ˈōdēəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "the body of work of a painter, composer, or author.",
+	  "example": "the complete oeuvre of Mozart",
+	  "word": "oeuvre",
+	  "pronunciation": "ˈəvrə"
+	},
+	{
+	  "type": "n",
+	  "definition": "the entrails and internal organs of an animal used as food.",
+	  "example": "eating pieces of braised offal turned his stomach",
+	  "word": "offal",
+	  "pronunciation": "ˈôfəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "assertive of authority in a domineering way, especially with regard to trivial matters.",
+	  "example": "the security people were very officious",
+	  "word": "officious",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "stare at in a lecherous manner.",
+	  "example": "he was ogling her breasts",
+	  "word": "ogle",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a small group of people having control of a country or organization.",
+	  "example": "the ruling oligarchy of military men around the president",
+	  "word": "oligarchy",
+	  "pronunciation": "ˈäləˌɡärkē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "knowing everything.",
+	  "example": "a third-person omniscient narrator",
+	  "word": "omniscient",
+	  "pronunciation": "ämˈnisēənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an animal or person) feeding on a variety of food of both plant and animal origin.",
+	  "example": "most duck species are omnivorous",
+	  "word": "omnivorous",
+	  "pronunciation": "ämˈniv(ə)rəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a task or responsibility) involving a great deal of effort, trouble, or difficulty.",
+	  "example": "he found his duties increasingly onerous",
+	  "word": "onerous",
+	  "pronunciation": "ˈōnərəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "something that is one's duty or responsibility.",
+	  "example": "the onus is on you to show that you have suffered loss",
+	  "word": "onus",
+	  "pronunciation": "ˈōnəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "an opaque thing.",
+	  "example": null,
+	  "word": "opaque",
+	  "pronunciation": "ōˈpāk"
+	},
+	{
+	  "type": "v",
+	  "definition": "hold and state as one's opinion.",
+	  "example": "âThe man is a genius,â he opined",
+	  "word": "opine",
+	  "pronunciation": "ōˈpīn"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who takes advantage of opportunities as and when they arise, regardless of planning or principle.",
+	  "example": "most burglaries are committed by casual opportunists",
+	  "word": "opportunist",
+	  "pronunciation": "ˌäpərˈt(y)o͞onəst"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of language) expressing scorn or criticism.",
+	  "example": "opprobrious remarks",
+	  "word": "opprobrious",
+	  "pronunciation": "əˈprōbrēəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "move or swing back and forth in a regular rhythm.",
+	  "example": "the grain pan near the front of the combine oscillates back and forth",
+	  "word": "oscillate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the process of gradual or unconscious assimilation of ideas, knowledge, etc.",
+	  "example": "by some strange political osmosis, private reputations became public",
+	  "word": "osmosis",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "turn into bone or bony tissue.",
+	  "example": "these tracheal cartilages may ossify",
+	  "word": "ossify",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "drive out or expel (someone) from a position or place.",
+	  "example": "the reformists were ousted from power",
+	  "word": "oust",
+	  "pronunciation": "oust"
+	},
+	{
+	  "type": "n",
+	  "definition": "an orchestral piece at the beginning of an opera, play, etc.",
+	  "example": "the overture to Mozart's âDon Giovanniâ",
+	  "word": "overture",
+	  "pronunciation": "ˈōvərCHər"
+	},
+	{
+	  "type": "n",
+	  "definition": "a single step taken when walking or running.",
+	  "example": "Kirov stepped back a pace",
+	  "word": "pace",
+	  "pronunciation": "pās"
+	},
+	{
+	  "type": "n",
+	  "definition": "a very large mammal with thick skin, especially an elephant, rhinoceros, or hippopotamus.",
+	  "example": null,
+	  "word": "pachyderm",
+	  "pronunciation": "ˈpakəˌdərm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of food or drink) pleasant to taste.",
+	  "example": "a very palatable local red wine",
+	  "word": "palatable",
+	  "pronunciation": "ˈpalədəb(ə)l"
+	},
+	{
+	  "type": "v",
+	  "definition": "make (a disease or its symptoms) less severe without removing the cause.",
+	  "example": "treatment works by palliating symptoms",
+	  "word": "palliate",
+	  "pronunciation": "ˈpalēˌāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person's face) pale, typically because of poor health.",
+	  "example": "his face, with its wrinkled, pallid complexion",
+	  "word": "pallid",
+	  "pronunciation": "ˈpaləd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an amount) very small or meagre.",
+	  "example": "she would earn a paltry Â£33 more a month",
+	  "word": "paltry",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a solution or remedy for all difficulties or diseases.",
+	  "example": "the panacea for all corporate ills",
+	  "word": "panacea",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a public speech or published text in praise of someone or something.",
+	  "example": "a panegyric on the pleasures of malt whisky",
+	  "word": "panegyric",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a typical example or pattern of something; a pattern or model.",
+	  "example": "society's paradigm of the âideal womanâ",
+	  "word": "paradigm",
+	  "pronunciation": "ˈperəˌdīm"
+	},
+	{
+	  "type": "n",
+	  "definition": "a piece of illogical or fallacious reasoning, especially one which appears superficially logical or which the reasoner believes to be logical.",
+	  "example": null,
+	  "word": "paralogism",
+	  "pronunciation": "pəˈraləˌjizəm"
+	},
+	{
+	  "type": "n",
+	  "definition": "an outcast.",
+	  "example": "they were treated as social pariahs",
+	  "word": "pariah",
+	  "pronunciation": "pəˈrīə"
+	},
+	{
+	  "type": "n",
+	  "definition": "a sudden attack or outburst of a particular emotion or activity.",
+	  "example": "a paroxysm of weeping",
+	  "word": "paroxysm",
+	  "pronunciation": "ˈperəkˌsizəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "very unwilling to spend money or use resources.",
+	  "example": "even the parsimonious Joe paid for drinks all round",
+	  "word": "parsimonious",
+	  "pronunciation": "ˌpärsəˈmōnēəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "(especially with reference to a country with separate areas of government) the action or state of dividing or being divided into parts.",
+	  "example": "the country's partition into separate states",
+	  "word": "partition",
+	  "pronunciation": "pärˈtiSH(ə)n"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person of humble origin who has gained wealth, influence, or celebrity.",
+	  "example": "the political inexperience of a parvenu",
+	  "word": "parvenu",
+	  "pronunciation": "ˈpärvəˌn(y)o͞o"
+	},
+	{
+	  "type": "n",
+	  "definition": "an artistic work in a style that imitates that of another work, artist, or period.",
+	  "example": "the operetta is a pastiche of 18th century style",
+	  "word": "pastiche",
+	  "pronunciation": "paˈstēSH"
+	},
+	{
+	  "type": "n",
+	  "definition": "a green or brown film on the surface of bronze or similar metals, produced by oxidation over a long period.",
+	  "example": "many bronzes have been overcleaned, their original patina removed and artificially replaced",
+	  "word": "patina",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the dialect of a particular region, especially one with low status in relation to the standard language of the country.",
+	  "example": "the nurse talked to me in a patois that even Italians would have had difficulty in understanding",
+	  "word": "patois",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the presence of something in only small or insufficient quantities or amounts.",
+	  "example": "a paucity of information",
+	  "word": "paucity",
+	  "pronunciation": "ˈpôsədē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "excessively concerned with minor details or rules; overscrupulous.",
+	  "example": "his analyses are careful and even painstaking, but never pedantic",
+	  "word": "pedantic",
+	  "pronunciation": "pəˈdan(t)ik"
+	},
+	{
+	  "type": "n",
+	  "definition": "a strong or habitual liking for something or tendency to do something.",
+	  "example": "he has a penchant for adopting stray dogs",
+	  "word": "penchant",
+	  "pronunciation": "ˈpen(t)SH(ə)nt"
+	},
+	{
+	  "type": "n",
+	  "definition": "the state of being very poor; extreme poverty.",
+	  "example": "he couldn't face another year of penury",
+	  "word": "penury",
+	  "pronunciation": "ˈpenyərē"
+	},
+	{
+	  "type": "n",
+	  "definition": "the quality of having sensitive insight or understanding; perceptiveness.",
+	  "example": null,
+	  "word": "percipience",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "(in Christian theology) a state of eternal punishment and damnation into which a sinful and unrepentant person passes after death.",
+	  "example": "she used her last banknote to buy herself a square meal before perdition",
+	  "word": "perdition",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a journey, especially a long or meandering one.",
+	  "example": "she kept Aunt Ilsa company on her peregrinations",
+	  "word": "peregrination",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "deceitful and untrustworthy.",
+	  "example": "a perfidious lover",
+	  "word": "perfidious",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an action) carried out without real interest, feeling, or effort.",
+	  "example": "he gave a perfunctory nod",
+	  "word": "perfunctory",
+	  "pronunciation": "pərˈfəNG(k)t(ə)rē"
+	},
+	{
+	  "type": "v",
+	  "definition": "spread throughout (something); pervade.",
+	  "example": "the aroma of soup permeated the air",
+	  "word": "permeate",
+	  "pronunciation": "ˈpərmēˌāt"
+	},
+	{
+	  "type": "v",
+	  "definition": "speak at length.",
+	  "example": "he perorated against his colleague",
+	  "word": "perorate",
+	  "pronunciation": "ˈperəˌrāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a benefit which one enjoys or is entitled to on account of one's job or position.",
+	  "example": "the wife of a president has all the perquisites of stardom",
+	  "word": "perquisite",
+	  "pronunciation": "ˈpərkwəzət"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having a ready insight into and understanding of things.",
+	  "example": "it offers quite a few facts to the perspicacious reporter",
+	  "word": "perspicacious",
+	  "pronunciation": "ˌpərspəˈkāSHəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "read (something), typically in a thorough or careful way.",
+	  "example": "he has spent countless hours in libraries perusing art history books and catalogues",
+	  "word": "peruse",
+	  "pronunciation": "pəˈro͞oz"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person or their manner) childishly sulky or bad-tempered.",
+	  "example": "he was moody and petulant",
+	  "word": "petulant",
+	  "pronunciation": "ˈpeCHələnt"
+	},
+	{
+	  "type": "n",
+	  "definition": "an illusion, apparition, or ghost.",
+	  "example": "the cart seemed to glide like a terrible phantasm",
+	  "word": "phantasm",
+	  "pronunciation": "ˈfanˌtazəm"
+	},
+	{
+	  "type": "n",
+	  "definition": "the desire to promote the welfare of others, expressed especially by the generous donation of money to good causes.",
+	  "example": "he acquired a considerable fortune and was noted for his philanthropy",
+	  "word": "philanthropy",
+	  "pronunciation": "fəˈlanTHrəpē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person) having an unemotional and stolidly calm disposition.",
+	  "example": "the phlegmatic British character",
+	  "word": "phlegmatic",
+	  "pronunciation": "fleɡˈmadik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "devoutly religious.",
+	  "example": "a deeply pious woman",
+	  "word": "pious",
+	  "pronunciation": "ˈpīəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having a pleasantly sharp taste or appetizing flavour.",
+	  "example": "a piquant tartare sauce",
+	  "word": "piquant",
+	  "pronunciation": "ˈpēkənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a feeling of irritation or resentment resulting from a slight, especially to one's pride.",
+	  "example": "he left in a fit of pique",
+	  "word": "pique",
+	  "pronunciation": "pēk"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of crucial importance in relation to the development or success of something else.",
+	  "example": "Japan's pivotal role in the world economy",
+	  "word": "pivotal",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "make (someone) less angry or hostile.",
+	  "example": "they attempted to placate the students with promises",
+	  "word": "placate",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a medicine or procedure prescribed for the psychological benefit to the patient rather than for any physiological effect.",
+	  "example": "pacified by the placebos of the previous year, they claimed a moral victory",
+	  "word": "placebo",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an argument or statement) seeming reasonable or probable.",
+	  "example": "a plausible explanation",
+	  "word": "plausible",
+	  "pronunciation": "ˈplôzəb(ə)l"
+	},
+	{
+	  "type": "n",
+	  "definition": "(in ancient Rome) a commoner.",
+	  "example": "the feeling was shared by plebeians, gentry, and clergy",
+	  "word": "plebeian",
+	  "pronunciation": "pləˈbēən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "unqualified; absolute.",
+	  "example": "crusaders were offered a plenary indulgence by the Pope",
+	  "word": "plenary",
+	  "pronunciation": "ˈplenərē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a condition or system in which two or more states, groups, principles, sources of authority, etc., coexist.",
+	  "example": "He spoke of the benefits of cultural pluralism.",
+	  "word": "pluralism",
+	  "pronunciation": "ˈplo͝orəˌlizəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "relating to or characterized by rainfall.",
+	  "example": "the alternation of pluvial and arid periods in the Quaternary",
+	  "word": "pluvial",
+	  "pronunciation": "ˈplo͞ovēəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "evoking a keen sense of sadness or regret.",
+	  "example": "a poignant reminder of the passing of time",
+	  "word": "poignant",
+	  "pronunciation": "ˈpoin(y)ənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "another term for ",
+	  "example": null,
+	  "word": "polemic",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "an utter coward.",
+	  "example": "come on, you poltroons!",
+	  "word": "poltroon",
+	  "pronunciation": "pälˈtro͞on"
+	},
+	{
+	  "type": "n",
+	  "definition": "a sign or warning that a momentous or calamitous event is likely to happen.",
+	  "example": "many birds are regarded as being portents of death",
+	  "word": "portent",
+	  "pronunciation": "ˈpôrˌtent"
+	},
+	{
+	  "type": "n",
+	  "definition": "a general rule intended to regulate behaviour or thought.",
+	  "example": "the legal precept of being innocent until proven guilty",
+	  "word": "precept",
+	  "pronunciation": "ˈprēˌsept"
+	},
+	{
+	  "type": "v",
+	  "definition": "prevent from happening; make impossible.",
+	  "example": "the secret nature of his work precluded official recognition",
+	  "word": "preclude",
+	  "pronunciation": "prəˈklo͞od"
+	},
+	{
+	  "type": "adj",
+	  "definition": "full of meaning; significant or suggestive.",
+	  "example": "a pregnant pause",
+	  "word": "pregnant",
+	  "pronunciation": "ˈpreɡnənt"
+	},
+	{
+	  "type": null,
+	  "definition": "archaic : creating prejudice. : tending to create a favorable impression : attractive. See prepossessing defined for English-language learners.",
+	  "example": null,
+	  "word": "prepossess",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing knowledge of events before they take place.",
+	  "example": "a prescient warning",
+	  "word": "prescient",
+	  "pronunciation": "ˈpreSH(ē)ənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "attempting to impress by affecting greater importance or merit than is actually possessed.",
+	  "example": "pretentious art films",
+	  "word": "pretentious",
+	  "pronunciation": "prəˈten(t)SHəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "speak or act in an evasive way.",
+	  "example": "he seemed to prevaricate when journalists asked pointed questions",
+	  "word": "prevaricate",
+	  "pronunciation": "prəˈverəˌkāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a state in which food and other essentials for well-being are lacking.",
+	  "example": "years of rationing and privation",
+	  "word": "privation",
+	  "pronunciation": "prīˈvāSH(ə)n"
+	},
+	{
+	  "type": "n",
+	  "definition": "the quality of having strong moral principles; honesty and decency.",
+	  "example": "financial probity",
+	  "word": "probity",
+	  "pronunciation": "ˈprōbədē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "recklessly extravagant or wasteful in the use of resources.",
+	  "example": "profligate consumers of energy",
+	  "word": "profligate",
+	  "pronunciation": "ˈpräfləɡət"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a plant, animal, or person) producing much fruit or foliage or many offspring.",
+	  "example": "in captivity tigers are prolific breeders",
+	  "word": "prolific",
+	  "pronunciation": "prəˈlifik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or using the style or diction of prose as opposed to poetry; lacking imaginativeness or originality.",
+	  "example": "prosaic language can't convey the experience",
+	  "word": "prosaic",
+	  "pronunciation": "prəˈzāik"
+	},
+	{
+	  "type": "n",
+	  "definition": "the part of a theatre stage in front of the curtain.",
+	  "example": null,
+	  "word": "proscenium",
+	  "pronunciation": "prəˈsēnēəm"
+	},
+	{
+	  "type": "v",
+	  "definition": "convert or attempt to convert (someone) from one religion, belief, or opinion to another.",
+	  "example": "the programme did have a tremendous evangelical effect, proselytizing many",
+	  "word": "proselytize",
+	  "pronunciation": "ˈpräs(ə)ləˌtīz"
+	},
+	{
+	  "type": "adj",
+	  "definition": "tending or able to change frequently or easily.",
+	  "example": "it is difficult to comprehend the whole of this protean subject",
+	  "word": "protean",
+	  "pronunciation": "ˈprōdēən"
+	},
+	{
+	  "type": "n",
+	  "definition": "the place of origin or earliest known history of something.",
+	  "example": "an orange rug of Iranian provenance",
+	  "word": "provenance",
+	  "pronunciation": "ˈprävənəns"
+	},
+	{
+	  "type": "n",
+	  "definition": "an inhabitant of a province of a country or empire.",
+	  "example": null,
+	  "word": "provincial",
+	  "pronunciation": "prəˈvin(t)SH(ə)l"
+	},
+	{
+	  "type": "n",
+	  "definition": "skill or expertise in a particular activity or field.",
+	  "example": "his prowess as a fisherman",
+	  "word": "prowess",
+	  "pronunciation": "ˈprouəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "acting with or showing care and thought for the future.",
+	  "example": "no prudent money manager would authorize a loan without first knowing its purpose",
+	  "word": "prudent",
+	  "pronunciation": "ˈpro͞odnt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or encouraging an excessive interest in sexual matters, especially the sexual activity of others.",
+	  "example": "she'd been the subject of much prurient curiosity",
+	  "word": "prurient",
+	  "pronunciation": "ˈpro͝orēənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a competitive test of a horse's ability to jump large obstacles in showjumping.",
+	  "example": "nine horses contested last night's Puissance",
+	  "word": "puissance",
+	  "pronunciation": "ˈpwisəns"
+	},
+	{
+	  "type": "n",
+	  "definition": "beauty.",
+	  "example": "the irresistible pulchritude of her friend",
+	  "word": "pulchritude",
+	  "pronunciation": "ˈpəlkrəˌt(y)o͞od"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing great attention to detail or correct behaviour.",
+	  "example": "he was punctilious in providing every amenity for his guests",
+	  "word": "punctilious",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "(of a body or other organic matter) decay or rot and produce a fetid smell.",
+	  "example": "the body was beginning to putrefy",
+	  "word": "putrefy",
+	  "pronunciation": "ˈpyo͞otrəˌfī"
+	},
+	{
+	  "type": "conjunction",
+	  "definition": "in the capacity of; as being.",
+	  "example": "shareholders qua members may be under obligations to the company",
+	  "word": "qua",
+	  "pronunciation": "kwä"
+	},
+	{
+	  "type": "adj",
+	  "definition": "attractively unusual or old-fashioned.",
+	  "example": "quaint country cottages",
+	  "word": "quaint",
+	  "pronunciation": "kwānt"
+	},
+	{
+	  "type": "v",
+	  "definition": "put an end to (a rebellion or other disorder), typically by the use of force.",
+	  "example": "extra police were called to quell the disturbance",
+	  "word": "quell",
+	  "pronunciation": "kwel"
+	},
+	{
+	  "type": null,
+	  "definition": ": marked by inactivity or repose : tranquilly at rest. 2. : causing no trouble or symptoms <quiescent gallstones> â quiÂ·esÂ·centÂ·ly adv. See quiescent defined for English-language learners.",
+	  "example": null,
+	  "word": "quiescence",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "representing the most perfect or typical example of a quality or class.",
+	  "example": "he was the quintessential tough guyâstrong, silent, and self-contained",
+	  "word": "quintessential",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a traitor who collaborates with an enemy force occupying their country.",
+	  "example": "he had the Quisling owner of the factory arrested",
+	  "word": "quisling",
+	  "pronunciation": "ˈkwizliNG"
+	},
+	{
+	  "type": "adj",
+	  "definition": "extremely idealistic; unrealistic and impractical.",
+	  "example": "a vast and perhaps quixotic project",
+	  "word": "quixotic",
+	  "pronunciation": "kwikˈsädik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of or occurring every day; daily.",
+	  "example": "the car sped noisily off through the quotidian traffic",
+	  "word": "quotidian",
+	  "pronunciation": "kwōˈtidēən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "unconventional and slightly disreputable, especially in an attractive way.",
+	  "example": "his raffish air",
+	  "word": "raffish",
+	  "pronunciation": "ˈrafiSH"
+	},
+	{
+	  "type": "n",
+	  "definition": "(especially in international affairs) an establishment or resumption of harmonious relations.",
+	  "example": "there were signs of a growing rapprochement between the two countries",
+	  "word": "rapprochement",
+	  "pronunciation": "ˌrapˌrōSHˈmän"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of air, especially that at high altitudes) of lower pressure than usual; thin.",
+	  "example": "every ounce carried counts triple when you're trudging uphill in rarefied air",
+	  "word": "rarefied",
+	  "pronunciation": "ˈrerəˌfīd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "making or constituting a disturbingly harsh and loud noise.",
+	  "example": "raucous youths",
+	  "word": "raucous",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "reject (someone or something) in an abrupt or ungracious manner.",
+	  "example": "I asked her to be my wife, and was rebuffed in no uncertain terms",
+	  "word": "rebuff",
+	  "pronunciation": "rəˈbəf"
+	},
+	{
+	  "type": "v",
+	  "definition": "express sharp disapproval or criticism of (someone) because of their behaviour or actions.",
+	  "example": "she had rebuked him for drinking too much",
+	  "word": "rebuke",
+	  "pronunciation": "rəˈbyo͞ok"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having an obstinately uncooperative attitude towards authority or discipline.",
+	  "example": "a class of recalcitrant fifteen-year-olds",
+	  "word": "recalcitrant",
+	  "pronunciation": "rəˈkalsətrənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an agreement or obligation) bearing on or binding each of two parties equally.",
+	  "example": "the treaty is a bilateral commitment with reciprocal rights and duties",
+	  "word": "reciprocal",
+	  "pronunciation": "rəˈsiprək(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a subject or knowledge) little known; abstruse.",
+	  "example": "the book is full of recondite information",
+	  "word": "recondite",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person) formidable, especially as an opponent.",
+	  "example": "he was a redoubtable debater",
+	  "word": "redoubtable",
+	  "pronunciation": "rəˈdoudəb(ə)l"
+	},
+	{
+	  "type": "v",
+	  "definition": "assign an inferior rank or position to.",
+	  "example": "they aim to prevent women from being relegated to a secondary role",
+	  "word": "relegate",
+	  "pronunciation": "ˈreləˌɡāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "an object surviving from an earlier time, especially one of historical interest.",
+	  "example": "a museum of railway relics",
+	  "word": "relic",
+	  "pronunciation": "ˈrelik"
+	},
+	{
+	  "type": "n",
+	  "definition": "money paid for work or a service.",
+	  "example": "they work in excess of their contracted hours for no additional remuneration",
+	  "word": "remuneration",
+	  "pronunciation": "rəˌmyo͞onəˈrāSH(ə)n"
+	},
+	{
+	  "type": "n",
+	  "definition": "conversation or speech characterized by quick, witty comments or replies.",
+	  "example": "he had a quick mind and a splendid gift of repartee",
+	  "word": "repartee",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "fill (something) up again.",
+	  "example": "he replenished Justin's glass with mineral water",
+	  "word": "replenish",
+	  "pronunciation": "rəˈpleniSH"
+	},
+	{
+	  "type": "adj",
+	  "definition": "deserving censure or condemnation.",
+	  "example": "his complacency and reprehensible laxity",
+	  "word": "reprehensible",
+	  "pronunciation": "ˌreprəˈhensəb(ə)l"
+	},
+	{
+	  "type": "n",
+	  "definition": "an unprincipled person.",
+	  "example": "he had to present himself as more of a lovable reprobate than a spirit of corruption",
+	  "word": "reprobate",
+	  "pronunciation": "ˈreprəˌbāt"
+	},
+	{
+	  "type": "v",
+	  "definition": "reprimand (someone).",
+	  "example": "he was reproved for obscenity",
+	  "word": "reprove",
+	  "pronunciation": "rəˈpro͞ov"
+	},
+	{
+	  "type": "v",
+	  "definition": "revoke, cancel, or repeal (a law, order, or agreement).",
+	  "example": "the government eventually rescinded the directive",
+	  "word": "rescind",
+	  "pronunciation": "rəˈsind"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a substance or object) able to recoil or spring back into shape after bending, stretching, or being compressed.",
+	  "example": "a shoe with resilient cushioning",
+	  "word": "resilient",
+	  "pronunciation": "rəˈzilyənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a short period of rest or relief from something difficult or unpleasant.",
+	  "example": "the refugee encampments will provide some respite from the suffering",
+	  "word": "respite",
+	  "pronunciation": "ˈrespət"
+	},
+	{
+	  "type": "adj",
+	  "definition": "attractive and impressive through being richly colourful or sumptuous.",
+	  "example": "she was resplendent in a sea-green dress",
+	  "word": "resplendent",
+	  "pronunciation": "rəˈsplendənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not revealing one's thoughts or feelings readily.",
+	  "example": "she was extremely reticent about her personal affairs",
+	  "word": "reticent",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a group of advisers, assistants, or others accompanying an important person.",
+	  "example": "the rock star's retinue of security guards and personal cooks",
+	  "word": "retinue",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "referring to sexual matters in an amusingly rude or irreverent way.",
+	  "example": "a ribald comment",
+	  "word": "ribald",
+	  "pronunciation": "ˈribəld"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of something undesirable) of common occurrence; widespread.",
+	  "example": "male chauvinism was rife in medicine",
+	  "word": "rife",
+	  "pronunciation": "rīf"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an object) sturdy in construction.",
+	  "example": "a robust metal cabinet",
+	  "word": "robust",
+	  "pronunciation": "rōˈbəst"
+	},
+	{
+	  "type": "n",
+	  "definition": "a debauched man, especially an elderly one.",
+	  "example": "he had lived the life of a rouÃ© in the fleshpots of London and Paris",
+	  "word": "roue",
+	  "pronunciation": "ro͞oˈā"
+	},
+	{
+	  "type": "n",
+	  "definition": "a disorderly retreat of defeated troops.",
+	  "example": "the retreat degenerated into a rout",
+	  "word": "rout",
+	  "pronunciation": "rout"
+	},
+	{
+	  "type": "n",
+	  "definition": "a heading on a document.",
+	  "example": "party policies on matters falling under the rubric of law and order",
+	  "word": "rubric",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "think deeply about something.",
+	  "example": "we sat ruminating on the nature of existence",
+	  "word": "ruminate",
+	  "pronunciation": "ˈro͞oməˌnāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of or relating to the countryside; rural.",
+	  "example": "The inn has a rustic atmosphere.",
+	  "word": "rustic",
+	  "pronunciation": "ˈrəstik"
+	},
+	{
+	  "type": "n",
+	  "definition": "another term for ",
+	  "example": null,
+	  "word": "saccharine",
+	  "pronunciation": "ˈsak(ə)rən"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing keen mental discernment and good judgement; wise or shrewd.",
+	  "example": "they were sagacious enough to avoid any outright confrontation",
+	  "word": "sagacious",
+	  "pronunciation": "səˈɡāSHəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person's face or complexion) of an unhealthy yellow or pale brown colour.",
+	  "example": "his skin was sallow and pitted",
+	  "word": "sallow",
+	  "pronunciation": "ˈsalō"
+	},
+	{
+	  "type": "n",
+	  "definition": "a sudden charge out of a besieged place against the enemy; a sortie.",
+	  "example": "the garrison there made a sally against us",
+	  "word": "sally",
+	  "pronunciation": "ˈsalē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "health-giving; healthy.",
+	  "example": "odours of far less salubrious origin",
+	  "word": "salubrious",
+	  "pronunciation": "səˈlo͞obrēəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "composure or coolness shown in danger or under trying circumstances.",
+	  "example": "he recovered his usual sangfroid",
+	  "word": "sangfroid",
+	  "pronunciation": "säNGˈfrwä"
+	},
+	{
+	  "type": "adj",
+	  "definition": "grimly mocking or cynical.",
+	  "example": "Starkey attempted a sardonic smile",
+	  "word": "sardonic",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "relating to tailoring, clothes, or style of dress.",
+	  "example": "sartorial elegance",
+	  "word": "sartorial",
+	  "pronunciation": "särˈtôrēəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a provincial governor in the ancient Persian empire.",
+	  "example": null,
+	  "word": "satrap",
+	  "pronunciation": "ˈsāˌtrap"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person or their manner) gloomy.",
+	  "example": "a saturnine temperament",
+	  "word": "saturnine",
+	  "pronunciation": "ˈsadərˌnīn"
+	},
+	{
+	  "type": "n",
+	  "definition": "a learned person, especially a distinguished scientist.",
+	  "example": "Sir Isaiah Berlin, the Oxford savant",
+	  "word": "savant",
+	  "pronunciation": "saˈvän(t)"
+	},
+	{
+	  "type": "n",
+	  "definition": "women's skimpy knickers or pants.",
+	  "example": null,
+	  "word": "scanty",
+	  "pronunciation": "ˈskan(t)ē"
+	},
+	{
+	  "type": "v",
+	  "definition": "emit flashes of light; sparkle.",
+	  "example": "the sleek boat seemed to scintillate with a dark blue light",
+	  "word": "scintillate",
+	  "pronunciation": "ˈsin(t)lˌāt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who flouts the law, especially by failing to comply with a law that is difficult to enforce effectively.",
+	  "example": "scofflaws who have accumulated large debts in unpaid parking tickets",
+	  "word": "scofflaw",
+	  "pronunciation": "ˈskôflô"
+	},
+	{
+	  "type": "v",
+	  "definition": "decisively put an end to.",
+	  "example": "a spokesman has scotched the rumours",
+	  "word": "scotch",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "(of a cell, gland, or organ) produce and discharge (a substance).",
+	  "example": "insulin is secreted in response to rising levels of glucose in the blood",
+	  "word": "secrete",
+	  "pronunciation": "səˈkrēt"
+	},
+	{
+	  "type": "n",
+	  "definition": "the condition or process of deterioration with age.",
+	  "example": null,
+	  "word": "senescence",
+	  "pronunciation": "səˈnesəns"
+	},
+	{
+	  "type": "adj",
+	  "definition": "given to moralizing in a pompous or affected manner.",
+	  "example": "he tried to encourage his men with sententious rhetoric",
+	  "word": "sententious",
+	  "pronunciation": "senˈten(t)SHəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of rows of people or things) standing close together.",
+	  "example": "serried ranks of soldiers",
+	  "word": "serried",
+	  "pronunciation": "ˈserēd"
+	},
+	{
+	  "type": "n",
+	  "definition": "a table napkin.",
+	  "example": null,
+	  "word": "serviette",
+	  "pronunciation": "ˌsərvēˈet"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing an excessive willingness to serve or please others.",
+	  "example": "bowing his head in a servile manner",
+	  "word": "servile",
+	  "pronunciation": "ˈsərvəl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a dress fabric spun from tussore silk with random irregularities in the surface texture.",
+	  "example": "a shantung blouse",
+	  "word": "shantung",
+	  "pronunciation": "SHanˈtəNG"
+	},
+	{
+	  "type": "n",
+	  "definition": "a custom, principle, or belief distinguishing a particular class or group of people, especially a long-standing one regarded as outmoded or no longer important.",
+	  "example": "liberal shibboleths about education",
+	  "word": "shibboleth",
+	  "pronunciation": "ˈSHibələTH"
+	},
+	{
+	  "type": "v",
+	  "definition": "smile in an affectedly coquettish, coy, or ingratiating manner.",
+	  "example": "she simpered, looking pleased with herself",
+	  "word": "simper",
+	  "pronunciation": "ˈsimpər"
+	},
+	{
+	  "type": "n",
+	  "definition": "an essential condition; a thing that is absolutely necessary.",
+	  "example": "grammar and usage are the sine qua non of language teaching and learning",
+	  "word": "sine qua non",
+	  "pronunciation": "ˌsinā ˌkwä ˈnōn"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having many curves and turns.",
+	  "example": "the river follows a sinuous trail through the dale",
+	  "word": "sinuous",
+	  "pronunciation": "ˈsinyo͞oəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a woman or her appearance) dirty and untidy.",
+	  "example": "a slatternly housekeeper",
+	  "word": "slatternly",
+	  "pronunciation": "ˈsladərnlē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a slow-moving tropical American mammal that hangs upside down from the branches of trees using its long limbs and hooked claws.",
+	  "example": null,
+	  "word": "sloth",
+	  "pronunciation": "slôTH"
+	},
+	{
+	  "type": "adj",
+	  "definition": "sleepy; drowsy.",
+	  "example": "he was feeling decidedly somnolent after his lunch",
+	  "word": "somnolent",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a large number of similar things coming in quick succession.",
+	  "example": "a spate of attacks on holidaymakers",
+	  "word": "spate",
+	  "pronunciation": "spāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not being what it purports to be; false or fake.",
+	  "example": "separating authentic and spurious claims",
+	  "word": "spurious",
+	  "pronunciation": "ˈsp(y)o͝orēəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "(of water or air) cease to flow or move; become stagnant.",
+	  "example": "there should be no points in the system where cleaning solutions can stagnate",
+	  "word": "stagnate",
+	  "pronunciation": "ˈstaɡˌnāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "loyal, reliable, and hard-working.",
+	  "example": "he remained a stalwart supporter of the cause",
+	  "word": "stalwart",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "lacking in movement, action, or change, especially in an undesirable or uninteresting way.",
+	  "example": "demand has grown in what was a fairly static market",
+	  "word": "static",
+	  "pronunciation": "ˈstadik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "resolutely or dutifully firm and unwavering.",
+	  "example": "steadfast loyalty",
+	  "word": "steadfast",
+	  "pronunciation": "ˈstedˌfast"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who can endure pain or hardship without showing their feelings or complaining.",
+	  "example": null,
+	  "word": "stoic",
+	  "pronunciation": "ˈstōik"
+	},
+	{
+	  "type": "n",
+	  "definition": "a plan or scheme, especially one used to outwit an opponent or achieve an end.",
+	  "example": "a series of devious stratagems",
+	  "word": "stratagem",
+	  "pronunciation": "ˈstradəjəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "striped or streaked.",
+	  "example": null,
+	  "word": "striated",
+	  "pronunciation": "ˈstrīˌāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a sound) loud and harsh; grating.",
+	  "example": "his voice had become increasingly strident",
+	  "word": "strident",
+	  "pronunciation": "ˈstrīdnt"
+	},
+	{
+	  "type": "v",
+	  "definition": "prevent or hinder the progress of.",
+	  "example": "the changes must not be allowed to stymie new medical treatments",
+	  "word": "stymie",
+	  "pronunciation": "ˈstīmē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of something written or spoken) briefly and clearly expressed.",
+	  "example": "use short, succinct sentences",
+	  "word": "succinct",
+	  "pronunciation": "sə(k)ˈsiNG(k)t"
+	},
+	{
+	  "type": "adj",
+	  "definition": "unique.",
+	  "example": "the sui generis nature of animals",
+	  "word": "sui generis",
+	  "pronunciation": "ˌso͞oˌī ˈjenərəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "behaving or looking as though one thinks one is superior to others.",
+	  "example": "a supercilious lady's maid",
+	  "word": "supercilious",
+	  "pronunciation": "ˌso͞opərˈsilēəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "occur as an interruption or change to an existing situation.",
+	  "example": "he had appendicitis and as complications supervened, refrained from work for months",
+	  "word": "supervene",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "ending; cessation.",
+	  "example": "he teased us without surcease",
+	  "word": "surcease",
+	  "pronunciation": "sərˈsēs"
+	},
+	{
+	  "type": "n",
+	  "definition": "an excessive amount of something.",
+	  "example": "a surfeit of food and drink",
+	  "word": "surfeit",
+	  "pronunciation": "ˈsərfət"
+	},
+	{
+	  "type": "v",
+	  "definition": "suppose that something is true without having evidence to confirm it.",
+	  "example": "he surmised that something must be wrong",
+	  "word": "surmise",
+	  "pronunciation": "sərˈmīz"
+	},
+	{
+	  "type": "adj",
+	  "definition": "kept secret, especially because it would not be approved of.",
+	  "example": "low wages were supplemented by surreptitious payments from tradesmen",
+	  "word": "surreptitious",
+	  "pronunciation": "ˌsərəpˈtiSHəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who acts obsequiously towards someone important in order to gain advantage.",
+	  "example": "he was surrounded by flatterers and sycophants",
+	  "word": "sycophant",
+	  "pronunciation": "ˈsikəˌfant"
+	},
+	{
+	  "type": "n",
+	  "definition": "an instance of a form of reasoning in which a conclusion is drawn from two given or assumed propositions (premises); a common or middle term is present in the two premises but not in the conclusion, which may be invalid (e.g. all dogs are animals; all animals have four legs; therefore all dogs have four legs ).",
+	  "example": null,
+	  "word": "syllogism",
+	  "pronunciation": "ˈsiləˌjizəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "consisting of or associated with woods; wooded.",
+	  "example": "a sylvan glade",
+	  "word": "sylvan",
+	  "pronunciation": "ˈsilvən"
+	},
+	{
+	  "type": "n",
+	  "definition": "the interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+	  "example": "the synergy between artist and record company",
+	  "word": "synergy",
+	  "pronunciation": "ˈsinərjē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a piece of furniture with a flat top and one or more legs, providing a level surface for eating, writing, or working at.",
+	  "example": "she put the plate on the table",
+	  "word": "table",
+	  "pronunciation": "ˈtābəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "tattered or dilapidated.",
+	  "example": null,
+	  "word": "tatterdemalion",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "too long, slow, or dull; tiresome or monotonous.",
+	  "example": "a tedious journey",
+	  "word": "tedious",
+	  "pronunciation": "ˈtēdēəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "be full of or swarming with.",
+	  "example": "every garden is teeming with wildlife",
+	  "word": "teem",
+	  "pronunciation": "tēm"
+	},
+	{
+	  "type": "n",
+	  "definition": "the explanation of phenomena by the purpose they serve rather than by postulated causes.",
+	  "example": "no theory of history can do without teleology",
+	  "word": "teleology",
+	  "pronunciation": "ˌtelēˈäləjē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "reckless; rash.",
+	  "example": "a young officer of a brave and even temerarious disposition",
+	  "word": "temerarious",
+	  "pronunciation": "ˌteməˈrerēəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "excessive confidence or boldness; audacity.",
+	  "example": "no one had the temerity to question his conclusions",
+	  "word": "temerity",
+	  "pronunciation": "təˈmerədē"
+	},
+	{
+	  "type": "n",
+	  "definition": "abstinence from alcoholic drink.",
+	  "example": "the temperance movement",
+	  "word": "temperance",
+	  "pronunciation": "ˈtemp(ə)rəns"
+	},
+	{
+	  "type": "v",
+	  "definition": "avoid making a decision or committing oneself in order to gain time.",
+	  "example": "the opportunity was missed because the queen still temporized",
+	  "word": "temporize",
+	  "pronunciation": "ˈtempəˌrīz"
+	},
+	{
+	  "type": "adj",
+	  "definition": "expressing or intending to promote a particular cause or point of view, especially a controversial one.",
+	  "example": "a tendentious reading of history",
+	  "word": "tendentious",
+	  "pronunciation": "tenˈdenSHəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "dark; shadowy or obscure.",
+	  "example": "the tenebrous spiral staircase of the self",
+	  "word": "tenebrous",
+	  "pronunciation": "ˈtenəbrəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "a principle or belief, especially one of the main principles of a religion or philosophy.",
+	  "example": "the tenets of classical liberalism",
+	  "word": "tenet",
+	  "pronunciation": "ˈtenət"
+	},
+	{
+	  "type": "adj",
+	  "definition": "not certain or fixed; provisional.",
+	  "example": "a tentative conclusion",
+	  "word": "tentative",
+	  "pronunciation": "ˈten(t)ədiv"
+	},
+	{
+	  "type": "adj",
+	  "definition": "very weak or slight.",
+	  "example": "the tenuous link between interest rates and investment",
+	  "word": "tenuous",
+	  "pronunciation": "ˈtenyo͞oəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of a liquid) only slightly warm; lukewarm.",
+	  "example": "she soaked a flannel in the tepid water",
+	  "word": "tepid",
+	  "pronunciation": "ˈtepəd"
+	},
+	{
+	  "type": "n",
+	  "definition": "a harsh-tempered or ovearing woman.",
+	  "example": null,
+	  "word": "termagant",
+	  "pronunciation": "ˈtərməɡənt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "sparing in the use of words; abrupt.",
+	  "example": "a terse statement",
+	  "word": "terse",
+	  "pronunciation": "tərs"
+	},
+	{
+	  "type": "n",
+	  "definition": "the study of the nature of God and religious belief.",
+	  "example": "a theology degree",
+	  "word": "theology",
+	  "pronunciation": "THēˈäləjē"
+	},
+	{
+	  "type": "n",
+	  "definition": "a structural crosspiece forming a seat for a rower in a boat.",
+	  "example": null,
+	  "word": "thwart",
+	  "pronunciation": "THwôrt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing or suffering from nervousness or a lack of confidence.",
+	  "example": "a timorous voice",
+	  "word": "timorous",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a long, angry speech of criticism or accusation.",
+	  "example": "a tirade of abuse",
+	  "word": "tirade",
+	  "pronunciation": "ˈtīˌrād"
+	},
+	{
+	  "type": "adj",
+	  "definition": "holding or constituting a purely formal position or title without any real authority.",
+	  "example": "the queen is titular head of the Church of England",
+	  "word": "titular",
+	  "pronunciation": "ˈtiCHələr"
+	},
+	{
+	  "type": "n",
+	  "definition": "short for ",
+	  "example": null,
+	  "word": "tonic",
+	  "pronunciation": "ˈtänik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "fashionable among wealthy or stylish people.",
+	  "example": "a tony restaurant",
+	  "word": "tony",
+	  "pronunciation": "ˈtōnē"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of food) temptingly tasty.",
+	  "example": "a toothsome morsel",
+	  "word": "toothsome",
+	  "pronunciation": "ˈto͞oTHsəm"
+	},
+	{
+	  "type": "n",
+	  "definition": "a hill or rocky peak.",
+	  "example": "Glastonbury Tor",
+	  "word": "tor",
+	  "pronunciation": "tôr"
+	},
+	{
+	  "type": "adj",
+	  "definition": "full of twists and turns.",
+	  "example": "the route is remote and tortuous",
+	  "word": "tortuous",
+	  "pronunciation": "ˈtôrCH(o͞o)əs"
+	},
+	{
+	  "type": "v",
+	  "definition": "attempt to sell (something), typically by a direct or persistent approach.",
+	  "example": "Sanjay was touting his wares",
+	  "word": "tout",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "cause (someone) to become motionless with horror, wonder, or astonishment.",
+	  "example": "he was transfixed by the pain in her face",
+	  "word": "transfix",
+	  "pronunciation": "tran(t)sˈfiks"
+	},
+	{
+	  "type": "n",
+	  "definition": "a false, absurd, or distorted representation of something.",
+	  "example": "the absurdly lenient sentence is a travesty of justice",
+	  "word": "travesty",
+	  "pronunciation": "ˈtravəstē"
+	},
+	{
+	  "type": "n",
+	  "definition": "in a moment; very quickly.",
+	  "example": "in a trice, she had flown up the stairs",
+	  "word": "trice",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a remark or idea) lacking originality or freshness; dull on account of overuse.",
+	  "example": "this point may now seem obvious and trite",
+	  "word": "trite",
+	  "pronunciation": "trīt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of little value or importance.",
+	  "example": "huge fines were imposed for trivial offences",
+	  "word": "trivial",
+	  "pronunciation": "ˈtrivēəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "eager or quick to argue or fight; aggressively defiant.",
+	  "example": "the truculent attitude of farmers to cheaper imports",
+	  "word": "truculent",
+	  "pronunciation": "ˈtrəkyələnt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a private romantic rendezvous between lovers.",
+	  "example": "a moonlight tryst",
+	  "word": "tryst",
+	  "pronunciation": "trist"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of a part of the body) swollen.",
+	  "example": "a tumid belly",
+	  "word": "tumid",
+	  "pronunciation": "ˈt(y)o͞oməd"
+	},
+	{
+	  "type": "n",
+	  "definition": "a loud, confused noise, especially one caused by a large mass of people.",
+	  "example": "a tumult of shouting and screaming broke out",
+	  "word": "tumult",
+	  "pronunciation": "ˈt(y)o͞oˌməlt"
+	},
+	{
+	  "type": "n",
+	  "definition": "depraved or wicked behaviour or character.",
+	  "example": "acts of moral turpitude",
+	  "word": "turpitude",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "(in tsarist Russia) a decree with the force of law.",
+	  "example": null,
+	  "word": "ukase",
+	  "pronunciation": "yo͞oˈkās"
+	},
+	{
+	  "type": "n",
+	  "definition": "offence or annoyance.",
+	  "example": "she took umbrage at his remarks",
+	  "word": "umbrage",
+	  "pronunciation": "ˈəmbrij"
+	},
+	{
+	  "type": "v",
+	  "definition": "erode the base or foundation of (a rock formation).",
+	  "example": "the flow of water had undermined pillars supporting the roof",
+	  "word": "undermine",
+	  "pronunciation": "ˌəndərˈmīn"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of a leaf) having a wavy surface or edge.",
+	  "example": null,
+	  "word": "undulate",
+	  "pronunciation": "ˈənjəˌlāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of an action or decision) performed by or affecting only one person, group, or country involved in a situation, without the agreement of another or the others.",
+	  "example": "unilateral nuclear disarmament",
+	  "word": "unilateral",
+	  "pronunciation": "ˌyo͞onəˈladərəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a person, especially a man) courteous and refined in manner.",
+	  "example": "he is charming and urbane",
+	  "word": "urbane",
+	  "pronunciation": "ərˈbān"
+	},
+	{
+	  "type": "n",
+	  "definition": "the right to enjoy the use and advantages of another's property short of the destruction or waste of its substance.",
+	  "example": null,
+	  "word": "usufruct",
+	  "pronunciation": null
+	},
+	{
+	  "type": "v",
+	  "definition": "take (a position of power or importance) illegally or by force.",
+	  "example": "Richard usurped the throne",
+	  "word": "usurp",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "the action or practice of lending money at unreasonably high rates of interest.",
+	  "example": "the medieval prohibition on usury",
+	  "word": "usury",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing a lack of thought or intelligence; mindless.",
+	  "example": "a vacuous smile",
+	  "word": "vacuous",
+	  "pronunciation": "ˈvakyo͞oəs"
+	},
+	{
+	  "type": "n",
+	  "definition": "an unexpected and inexplicable change in a situation or in someone's behaviour.",
+	  "example": "the vagaries of the weather",
+	  "word": "vagary",
+	  "pronunciation": "ˈvāɡərē"
+	},
+	{
+	  "type": null,
+	  "definition": "Vainglorious people are vain, excessively boastful, and have swelled pride. The base word, vainglory, dates all the way back to the 14th century and means âworthless glory.â Definitions of vainglorious.",
+	  "example": null,
+	  "word": "vainglorious",
+	  "pronunciation": "ˌvānˈɡlôrēəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "offering nothing that is stimulating or challenging; bland.",
+	  "example": "tuneful but vapid musical comedies",
+	  "word": "vapid",
+	  "pronunciation": "ˈvapəd"
+	},
+	{
+	  "type": "adj",
+	  "definition": "showing strong feeling; forceful, passionate, or intense.",
+	  "example": "her voice was low but vehement",
+	  "word": "vehement",
+	  "pronunciation": "ˈvēəmənt"
+	},
+	{
+	  "type": "n",
+	  "definition": "Dentistry",
+	  "example": null,
+	  "word": "veneer",
+	  "pronunciation": "vəˈnir"
+	},
+	{
+	  "type": "v",
+	  "definition": "regard with great respect; revere.",
+	  "example": "Philip of Beverley was venerated as a saint",
+	  "word": "venerate",
+	  "pronunciation": "ˈvenəˌrāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "speaking or representing the truth.",
+	  "example": "a veracious account",
+	  "word": "veracious",
+	  "pronunciation": "vəˈrāSHəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "using or expressed in more words than are needed.",
+	  "example": "much academic language is obscure and vose",
+	  "word": "vose",
+	  "pronunciation": "vərˈbōs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of countryside) green with grass or other rich vegetation.",
+	  "example": "verdant valleys",
+	  "word": "verdant",
+	  "pronunciation": "ˈvərdnt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "of, in, or appropriate to spring.",
+	  "example": "the vernal freshness of the land",
+	  "word": "vernal",
+	  "pronunciation": null
+	},
+	{
+	  "type": "n",
+	  "definition": "a trace or remnant of something that is disappearing or no longer exists.",
+	  "example": "the last vestiges of colonialism",
+	  "word": "vestige",
+	  "pronunciation": "ˈvestij"
+	},
+	{
+	  "type": "adj",
+	  "definition": "capable of working successfully; feasible.",
+	  "example": "the proposed investment was economically viable",
+	  "word": "viable",
+	  "pronunciation": "ˈvīəb(ə)l"
+	},
+	{
+	  "type": "adj",
+	  "definition": "acting or done for another.",
+	  "example": "a vicarious atonement",
+	  "word": "vicarious",
+	  "pronunciation": "vəˈkerēəs"
+	},
+	{
+	  "type": "v",
+	  "definition": "compete eagerly with someone in order to do or achieve something.",
+	  "example": "the athletes were vying for a place in the British team",
+	  "word": "vie",
+	  "pronunciation": "vī"
+	},
+	{
+	  "type": "v",
+	  "definition": "speak or write about in an abusively disparaging manner.",
+	  "example": "he has been vilified in the press",
+	  "word": "vilify",
+	  "pronunciation": "ˈviləˌfī"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a disease or poison) extremely severe or harmful in its effects.",
+	  "example": "a virulent strain of influenza",
+	  "word": "virulent",
+	  "pronunciation": "ˈvir(y)ələnt"
+	},
+	{
+	  "type": "n",
+	  "definition": "the state of being thick, sticky, and semi-fluid in consistency, due to internal friction.",
+	  "example": "cooling the fluid raises its viscosity",
+	  "word": "viscosity",
+	  "pronunciation": "ˌviˈskäsədē"
+	},
+	{
+	  "type": "v",
+	  "definition": "spoil or impair the quality or efficiency of.",
+	  "example": "development programmes have been vitiated by the rise in population",
+	  "word": "vitiate",
+	  "pronunciation": "ˈviSHēˌāt"
+	},
+	{
+	  "type": "adj",
+	  "definition": "filled with bitter criticism or malice.",
+	  "example": "vitriolic attacks on the politicians",
+	  "word": "vitriolic",
+	  "pronunciation": "ˌvitrēˈälik"
+	},
+	{
+	  "type": "adj",
+	  "definition": "bitter and abusive.",
+	  "example": "a vituperative outburst",
+	  "word": "vituperative",
+	  "pronunciation": "vīˈt(y)o͞opəˌrādiv"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(especially of a woman) attractively lively and animated.",
+	  "example": "her vivacious and elegant mother",
+	  "word": "vivacious",
+	  "pronunciation": "vəˈvāSHəs"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a computer's memory) retaining data only as long as there is a power supply connected.",
+	  "example": null,
+	  "word": "volatile",
+	  "pronunciation": "ˈvälədl"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person, such as a monk or nun, who has made vows of dedication to religious service.",
+	  "example": "he was a votary of John Keats",
+	  "word": "votary",
+	  "pronunciation": null
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a cruel or violent action) deliberate and unprovoked.",
+	  "example": "sheer wanton vandalism",
+	  "word": "wanton",
+	  "pronunciation": "ˈwänt(ə)n"
+	},
+	{
+	  "type": "v",
+	  "definition": "move in a quivering way; flicker.",
+	  "example": "the flame wavered in the draught",
+	  "word": "waver",
+	  "pronunciation": "ˈwāvər"
+	},
+	{
+	  "type": "v",
+	  "definition": "move in a turbulent fashion.",
+	  "example": "the streams foam and welter",
+	  "word": "welter",
+	  "pronunciation": "ˈweltər"
+	},
+	{
+	  "type": "v",
+	  "definition": "blow a current of air through (grain) in order to remove the chaff.",
+	  "example": "a combine cuts, threshes, and winnows the grain in one operation",
+	  "word": "winnow",
+	  "pronunciation": "ˈwinō"
+	},
+	{
+	  "type": "adj",
+	  "definition": "attractive or appealing in a fresh, innocent way.",
+	  "example": "a winsome smile",
+	  "word": "winsome",
+	  "pronunciation": "ˈwinsəm"
+	},
+	{
+	  "type": "adj",
+	  "definition": "having or showing a feeling of vague or regretful longing.",
+	  "example": "a wistful smile",
+	  "word": "wistful",
+	  "pronunciation": "ˈwis(t)fəl"
+	},
+	{
+	  "type": "adj",
+	  "definition": "shrivelled or wrinkled with age.",
+	  "example": "a wizened, weather-beaten old man",
+	  "word": "wizened",
+	  "pronunciation": "ˈwizənd"
+	},
+	{
+	  "type": "n",
+	  "definition": "one's customary behaviour.",
+	  "example": "Constance, as was her wont, had paid her little attention",
+	  "word": "wont",
+	  "pronunciation": "wônt"
+	},
+	{
+	  "type": "n",
+	  "definition": "a ghost or ghostlike image of someone, especially one seen shortly before or after their death.",
+	  "example": "heart attacks had reduced his mother to a wraith",
+	  "word": "wraith",
+	  "pronunciation": "rāTH"
+	},
+	{
+	  "type": "adj",
+	  "definition": "(of a woman) having a full, rounded figure; plump.",
+	  "example": "a zaftig brunette",
+	  "word": "zaftig",
+	  "pronunciation": "ˈzäftiɡ"
+	},
+	{
+	  "type": "n",
+	  "definition": "a person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.",
+	  "example": "reforming zealots destroyed a vast collection of papers",
+	  "word": "zealot",
+	  "pronunciation": "ˈzelət"
+	},
+	{
+	  "type": "n",
+	  "definition": "the defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time.",
+	  "example": "the story captured the zeitgeist of the late 1960s",
+	  "word": "zeitgeist",
+	  "pronunciation": "ˈzʌɪtɡʌɪst"
+	},
+	{
+	  "type": "n",
+	  "definition": "the time at which something is most powerful or successful.",
+	  "example": "in 1977, punk was at its zenith",
+	  "word": "zenith",
+	  "pronunciation": "ˈzēnəTH"
+	},
+	{
+	  "type": "n",
+	  "definition": "(in ancient Mesopotamia) a rectangular stepped tower, sometimes surmounted by a temple. Ziggurats are first attested in the late 3rd millennium BC and probably inspired the biblical story of the Tower of Babel (Gen. 11:1â9).",
+	  "example": null,
+	  "word": "ziggurat",
+	  "pronunciation": "ˈziɡəˌrat"
+	}
+  ]
