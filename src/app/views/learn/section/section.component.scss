@@ -129,11 +129,22 @@ nav {
 	}
 	
 	.actions {
-		button {
-			display: block;
-			width: 100%;
+		display: flex;
 
-			&:first-of-type { margin-bottom: 1px }
+		button {
+			display: inline-block;
+			width: 50%;
+			position: relative;
+			font-size: 12px;
+
+			&:first-of-type::before, &:last-of-type::before {
+				content: '\2715';
+				position: absolute;
+				left: 7px;
+				top: calc(50% - 0.5rem);
+			}
+
+			&:last-of-type::before { content: '\2713' }
 		}
 	}
 	
