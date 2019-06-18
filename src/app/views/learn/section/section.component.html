@@ -93,7 +93,7 @@
 			</li>
 			<li class="border-bottom text-gray">
 				<span class="mr-1">+</span>
-				<form (ngSubmit)="addNote(noteForm.value)" #noteForm="ngForm">
+				<form (ngSubmit)="addNote(noteForm)" #noteForm="ngForm">
 					<input type="text" name="note" id="note" placeholder="Add a note" ngModel>
 				</form>
 			</li>
