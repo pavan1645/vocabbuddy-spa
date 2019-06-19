@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Globals } from './globals.js';
+import ogProgress from "../assets/section-mapping.json";
 
 const globals = new Globals();
-const ogProgress = require("../assets/section-mapping.json");
 
 @Injectable({
 	providedIn: 'root'
