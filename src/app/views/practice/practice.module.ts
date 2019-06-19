@@ -3,12 +3,17 @@ import { CommonModule } from '@angular/common';
 import { PracticeComponent } from './practice.component';
 import { Routes, RouterModule } from '@angular/router';
 import { SvgsModule } from 'src/app/partials/svgs/svgs.module';
+import { SectionComponent } from './section/section.component';
 
 
 const routes: Routes = [
 	{
 		path: "",
 		component: PracticeComponent
+	},
+	{
+		path: ":section",
+		component: SectionComponent
 	}
 ];
 
@@ -20,7 +25,7 @@ export class PracticeRoutingModule { }
 
 
 @NgModule({
-	declarations: [PracticeComponent],
+	declarations: [PracticeComponent, SectionComponent],
 	imports: [
 		PracticeRoutingModule,
 		SvgsModule,

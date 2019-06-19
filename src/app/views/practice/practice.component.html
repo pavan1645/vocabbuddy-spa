@@ -10,7 +10,7 @@
 		<li class="row justify-content-between f14" *ngFor="let section of sections; index as i" (click)="navigateTest(i)">
 			<p class="my-auto">{{section.name}}</p>
 			<div class="f12 text-center">
-				<p class="text-red mb-1">Practice Test Score:</p>
+				<p class="text-red mb-1">Best Score:</p>
 				<p class="text-gray" *ngIf="section.score === undefined">Not Attempted</p>
 				<p class="text-green" *ngIf="section.score !== undefined">{{section.score}} / {{section.words.length}}</p>
 			</div>

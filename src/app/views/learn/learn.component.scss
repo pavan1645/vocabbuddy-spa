@@ -30,6 +30,8 @@
 	&.completed { background-color: map-get($map: $my-colors, $key: "green"); }
 }
 
+li { padding: 1rem 1.5rem; }
+
 li.grey { color: map-get($map: $colors, $key: "gray"); }
 
 li.red .line .overlay { background-color: map-get($map: $my-colors, $key: "red"); }

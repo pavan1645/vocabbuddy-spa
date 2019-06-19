@@ -28,4 +28,12 @@ export class SharedService {
 		globals.words = words;
 	}
 
+	updateScore(sectionName: string, score: number) {
+		let progress = globals.progress;
+		const sectionIndex = progress.findIndex(s => s.name == sectionName);
+		progress[sectionIndex]["score"] = score;
+
+		globals.progress = progress;
+	}
+
 }
