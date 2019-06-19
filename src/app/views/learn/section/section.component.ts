@@ -156,5 +156,10 @@ export class SectionComponent implements OnInit {
 		if (!match) return "empty";
 		return wordDef.example.replace(regex, "<em>" + match[0] +  "</em>");
 	}
+
+	resetSection() {
+		this.sharedService.resetSection(this.section.name);
+		this.ngOnInit();
+	}
 	
 }

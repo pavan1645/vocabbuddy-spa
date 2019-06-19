@@ -7,17 +7,26 @@
 
 	<div class="holder perfect-center" [ngClass]="{'no-transition': removeCard == 3}">
 		
-		<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'flipped': flipped}">
-			<ng-container *ngTemplateOutlet="flipped ? cardnotes : cardcontent; context:oldWord"></ng-container>
-		</div>
+		<ng-container *ngIf="counts.mc != section.words.length">
+			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'flipped': flipped}">
+				<ng-container *ngTemplateOutlet="flipped ? cardnotes : cardcontent; context:oldWord"></ng-container>
+			</div>
+			
+			<!-- Since show class is never added, definition cannot be shown on this card -->
+			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[1]">
+				<ng-container *ngTemplateOutlet="cardcontent; context:currWord"></ng-container>
+			</div>
+			
+			<div class="card bg-white shadow" [attr.data-index]="dataIndex[2]"></div>
+			<div class="card bg-white shadow" [attr.data-index]="dataIndex[3]"></div>
+		</ng-container>
 		
-		<!-- Since show class is never added, definition cannot be shown on this card -->
-		<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[1]">
-			<ng-container *ngTemplateOutlet="cardcontent; context:currWord"></ng-container>
-		</div>
+		<ng-container *ngIf="counts.mc == section.words.length">
+			<p class="font-bold">You have completed this section!</p>
+			<button class="br-50 font-bold bg-white text-red py-2 px-3 mt-4" (click)="resetSection()">Reset Section!</button>
+			<p class="w-75 mt-2 f12">Warning: It will reset your progress for this section.</p>
+		</ng-container>
 		
-		<div class="card bg-white shadow" [attr.data-index]="dataIndex[2]"></div>
-		<div class="card bg-white shadow" [attr.data-index]="dataIndex[3]"></div>
 		
 	</div>
 
