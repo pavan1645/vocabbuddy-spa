@@ -1,5 +1,10 @@
 @import "../../../assets/variables.scss";
 
+.logo {
+	position: absolute;
+	top: 12.5vh;
+}
+
 .home {
 	// background: radial-gradient(#1488CCAA, #2B32B2AA);
 	background-color: map-get($map: $colors, $key: "light");
@@ -11,21 +16,21 @@ nav { position: fixed; }
 .actions {
 	height: 75vw;
 	overflow: hidden;
-
+	
 	button {
 		height: calc(75vw/2);
 	}
-
+	
 	button.active {
 		&:nth-child(1) { transform: translate(50%, 50%) scale(2); }
 		&:nth-child(2) { transform: translate(-50%, 50%) scale(2); }
 		&:nth-child(3) { transform: translate(50%, -50%) scale(2); }
 		&:nth-child(4) { transform: translate(-50%, -50%) scale(2); }
-
+		
 		z-index: 1;
 		transition: all 0.2s ease 0.3s;
 	}
-
+	
 	h4 {
 		// text-shadow: 0 2px 5px #00000082;
 		margin: 0;
@@ -38,7 +43,7 @@ nav { position: fixed; }
 		fill: white;
 		// filter: drop-shadow(0 2px 5px #00000082);
 	}
-
+	
 	.third .icon, .fourth .icon { transform: scaleX(-1) }
 }
 

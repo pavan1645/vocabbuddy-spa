@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 import { Globals } from 'src/app/globals.js';
 import { SharedService } from 'src/app/shared.service.js';
+import { NgForm } from '@angular/forms';
 
 const globals = new Globals();
 
@@ -134,11 +135,12 @@ export class SectionComponent implements OnInit {
 
 	flipCard() { this.flipped = !this.flipped; }
 
-	addNote(val: any) {
+	addNote(form: NgForm) {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
 		if (!wordNotes) wordNotes = [];
-		wordNotes.push(val.note);
+		wordNotes.push(form.value.note);
 		this.sharedService.updateWord(this.oldWord.wordIndex, wordNotes);
+		form.reset();
 	}
 
 	deleteNote(i: number) {
@@ -153,6 +155,11 @@ export class SectionComponent implements OnInit {
 		const match = wordDef.example.match(regex);
 		if (!match) return "empty";
 		return wordDef.example.replace(regex, "<em>" + match[0] +  "</em>");
+	}
+
+	resetSection() {
+		this.sharedService.resetSection(this.section.name);
+		this.ngOnInit();
 	}
 	
 }

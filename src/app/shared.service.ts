@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Globals } from './globals.js';
+import ogProgress from "../assets/section-mapping.json";
 
 const globals = new Globals();
 
@@ -26,6 +27,22 @@ export class SharedService {
 		words[wordIndex].notes = notes;
 
 		globals.words = words;
+	}
+
+	updateScore(sectionName: string, score: number) {
+		let progress = globals.progress;
+		const sectionIndex = progress.findIndex(s => s.name == sectionName);
+		progress[sectionIndex]["score"] = score;
+
+		globals.progress = progress;
+	}
+
+	resetSection(sectionName: string) {
+		let progress = globals.progress;
+		const sectionIndex = ogProgress.findIndex(s => s.name == sectionName);
+		progress[sectionIndex] = ogProgress[sectionIndex];
+		
+		globals.progress = progress;
 	}
 
 }
