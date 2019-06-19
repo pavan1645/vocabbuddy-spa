@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Globals } from 'src/app/globals.js';
+import { Router } from '@angular/router';
 
 let progress = new Globals().progress;
 
@@ -12,7 +13,7 @@ export class PracticeComponent implements OnInit {
 	
 	sections: any[] = progress;
 	
-	constructor() { }
+	constructor(private router: Router) { }
 	
 	ngOnInit() {
 		this.sections.forEach((s, i) => {
@@ -22,8 +23,9 @@ export class PracticeComponent implements OnInit {
 	}
 
 	navigateTest(i: number) {
-		console.log(i);
-		
+		let section = this.sections[i];
+		if (section.isLocked == 1) return this.router.navigateByUrl("/learn/" + section.name);
+		this.router.navigateByUrl("/practice/" + section.name);
 	}
 	
 }
