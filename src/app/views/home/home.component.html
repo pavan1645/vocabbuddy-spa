@@ -1,23 +1,20 @@
-<div class="home perfect-center w-100">
+<div class="home bg-blue perfect-center w-100">
 	
-	<img src="assets/vocabbuddy.png" class="logo w-75">
+	<h1 class="logo">Vocabbuddy</h1>
+	
+	<div class="row actions w-75 text-white">
+		<div class="btn-wrapper w-50" [ngClass]="{'active': activeBtn == 0}" (click)="loadComponent(0)">
+			<button class="learn w-100 shadow perfect-center">
+				<svg-list-ul class="icon"></svg-list-ul>
+				<h4>LEARN</h4>
+			</button>
+		</div>
 
-	<div class="row actions shadow br-25 w-75 text-white">
-		<button class="learn w-50 perfect-center" [ngClass]="{'active': activeBtn == 0}" (click)="loadComponent(0)">
-			<svg-list-ul class="icon"></svg-list-ul>
-			<h4>LEARN</h4>
-		</button>
-		<button class="quiz w-50 perfect-center" [ngClass]="{'active': activeBtn == 1}" (click)="loadComponent(1)">
-			<svg-quiz class="icon"></svg-quiz>
-			<h4>PRACTICE</h4>
-		</button>
-		<button class="third w-50 perfect-center" [ngClass]="{'active': activeBtn == 2}" (click)="loadComponent(2)">
-			<svg-stopwatch class="icon"></svg-stopwatch>
-			<h4>Coming Soon</h4>
-		</button>
-		<button class="fourth w-50 perfect-center" [ngClass]="{'active': activeBtn == 3}" (click)="loadComponent(3)">
-			<svg-stopwatch class="icon"></svg-stopwatch>
-			<h4>Coming Soon</h4>
-		</button>
+		<div class="btn-wrapper w-50" [ngClass]="{'active': activeBtn == 1}" (click)="loadComponent(1)">
+			<button class="quiz w-100 shadow perfect-center">
+				<svg-quiz class="icon"></svg-quiz>
+				<h4>PRACTICE</h4>
+			</button>
+		</div>
 	</div>
 </div>
