@@ -101,18 +101,20 @@ export class SectionComponent implements OnInit {
 	}
 	
 	answer(val: number) {
-		setTimeout(() => { this.defShow = false; }, 1000);				// let def be shown till card is removed
-		
-		let rememberVal = this.currWord.isRemembered;
-		if (val === -1) {
-			this.currWord.isRemembered = ((rememberVal - 1) < 0) ? 0 : (rememberVal - 1);
-		} else {
-			this.currWord.isRemembered = ((rememberVal + 1) > 2) ? 2 : (rememberVal + 1);
-		}
-		
-		this.sharedService.updateProgress(this.sectionName, this.currWord);
-		this.play();
-		this.calc();
+		setTimeout(() => {
+			setTimeout(() => { this.defShow = false; }, 1000);				// let def be shown till card is removed
+			
+			let rememberVal = this.currWord.isRemembered;
+			if (val === -1) {
+				this.currWord.isRemembered = ((rememberVal - 1) < 0) ? 0 : (rememberVal - 1);
+			} else {
+				this.currWord.isRemembered = ((rememberVal + 1) > 2) ? 2 : (rememberVal + 1);
+			}
+			
+			this.sharedService.updateProgress(this.sectionName, this.currWord);
+			this.play();
+			this.calc();
+		}, 500);															// ripple effect
 	}
 
 	showDef() {

@@ -5,6 +5,7 @@ import { FormsModule } from "@angular/forms";
 import { LearnComponent } from './learn.component';
 import { SvgsModule } from 'src/app/partials/svgs/svgs.module';
 import { SectionComponent } from './section/section.component';
+import { SharedModule } from 'src/app/partials/shared/shared.module';
 
 const components = [ LearnComponent, SectionComponent ];
 
@@ -29,7 +30,8 @@ export class LearnRoutingModule { }
 @NgModule({
   declarations: components,
   imports: [
-    CommonModule,
+	CommonModule,
+	SharedModule,
 	LearnRoutingModule,
 	FormsModule,
 	SvgsModule

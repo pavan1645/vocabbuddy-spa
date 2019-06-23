@@ -8,8 +8,6 @@ export class WaveDirective {
 	constructor(private el: ElementRef) { }
 	
 	@HostListener('click', ['$event']) onClick($event){
-		const position = this.el.nativeElement.style.position;
-		this.el.nativeElement.style.position = "relative";
 
 		const overflow = this.el.nativeElement.style.overflow;
 		this.el.nativeElement.style.overflow = "hidden";
@@ -23,7 +21,6 @@ export class WaveDirective {
 
 		setTimeout(() => {
 			this.el.nativeElement.removeChild(div);
-			this.el.nativeElement.style.position = position;
 			this.el.nativeElement.style.overflow = overflow;	
 		}, 500);
     }

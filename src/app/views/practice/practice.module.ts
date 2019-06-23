@@ -4,6 +4,7 @@ import { PracticeComponent } from './practice.component';
 import { Routes, RouterModule } from '@angular/router';
 import { SvgsModule } from 'src/app/partials/svgs/svgs.module';
 import { SectionComponent } from './section/section.component';
+import { SharedModule } from 'src/app/partials/shared/shared.module';
 
 
 const routes: Routes = [
@@ -28,6 +29,7 @@ export class PracticeRoutingModule { }
 	declarations: [PracticeComponent, SectionComponent],
 	imports: [
 		PracticeRoutingModule,
+		SharedModule,
 		SvgsModule,
 		CommonModule
 	]
