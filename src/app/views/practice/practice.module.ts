@@ -10,11 +10,13 @@ import { SharedModule } from 'src/app/partials/shared/shared.module';
 const routes: Routes = [
 	{
 		path: "",
-		component: PracticeComponent
+		component: PracticeComponent,
+		data: {animation: "Practice"}
 	},
 	{
 		path: ":section",
-		component: SectionComponent
+		component: SectionComponent,
+		data: {animation: "PracticeSection"}
 	}
 ];
 

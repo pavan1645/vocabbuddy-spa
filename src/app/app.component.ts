@@ -2,11 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import SECTIONS from "../assets/section-mapping.json";
 import WORDS from "../assets/words.json";
 import { Globals } from './globals.js';
+import { slideInAnimation } from './animations.js';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
-	styleUrls: ['./app.component.scss']
+	styleUrls: ['./app.component.scss'],
+	animations: [slideInAnimation]
 })
 export class AppComponent implements OnInit{
 
@@ -21,6 +24,10 @@ export class AppComponent implements OnInit{
 		if (!words) words = WORDS;
 
 		globals.words = words;
+	}
+
+	prepareRoute(outlet: RouterOutlet) {
+		return outlet.activatedRouteData['animation'] || "Default";
 	}
 
 }

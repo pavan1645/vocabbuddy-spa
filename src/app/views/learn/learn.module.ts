@@ -12,11 +12,13 @@ const components = [ LearnComponent, SectionComponent ];
 const routes: Routes = [
 	{
 		path: "",
-		component: LearnComponent
+		component: LearnComponent,
+		data: {animation: "Learn"}
 	},
 	{
 		path: ":section",
-		component: SectionComponent
+		component: SectionComponent,
+		data: {animation: "LearnSection"}
 	}
 ];
 

@@ -98,3 +98,9 @@ li {
 @keyframes ripple {
 	to { transform: scale(300); }
 }
+
+router-outlet ~ * {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+  }

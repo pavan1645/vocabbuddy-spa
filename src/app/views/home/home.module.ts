@@ -8,7 +8,8 @@ import { SharedModule } from 'src/app/partials/shared/shared.module';
 const routes: Routes = [
 	{
 		path: "",
-		component: HomeComponent
+		component: HomeComponent,
+		data: {animation: "Home"}
 	}
 ];
 
