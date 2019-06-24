@@ -8,7 +8,7 @@
 	<div class="holder perfect-center" [ngClass]="{'no-transition': removeCard == 3}">
 		
 		<ng-container *ngIf="counts.mc != section.words.length">
-			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'flipped': flipped}">
+			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'flipped': flipped}" (click)="showDef()">
 				<ng-container *ngTemplateOutlet="flipped ? cardnotes : cardcontent; context:oldWord"></ng-container>
 			</div>
 			
