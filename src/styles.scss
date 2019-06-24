@@ -82,3 +82,25 @@ li {
 
 .font-bold { font-weight: bold; }
 .lh-1-3 { line-height: 1.3 }
+
+
+
+.ripple {
+	position: absolute;
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+    z-index: 2;
+	background-color: rgba(255, 255, 255, 0.3);
+	animation: ripple 0.5s;
+}
+
+@keyframes ripple {
+	to { transform: scale(300); }
+}
+
+router-outlet ~ * {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+  }

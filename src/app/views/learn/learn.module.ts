@@ -5,17 +5,20 @@ import { FormsModule } from "@angular/forms";
 import { LearnComponent } from './learn.component';
 import { SvgsModule } from 'src/app/partials/svgs/svgs.module';
 import { SectionComponent } from './section/section.component';
+import { SharedModule } from 'src/app/partials/shared/shared.module';
 
 const components = [ LearnComponent, SectionComponent ];
 
 const routes: Routes = [
 	{
 		path: "",
-		component: LearnComponent
+		component: LearnComponent,
+		data: {animation: "Learn"}
 	},
 	{
 		path: ":section",
-		component: SectionComponent
+		component: SectionComponent,
+		data: {animation: "LearnSection"}
 	}
 ];
 
@@ -29,7 +32,8 @@ export class LearnRoutingModule { }
 @NgModule({
   declarations: components,
   imports: [
-    CommonModule,
+	CommonModule,
+	SharedModule,
 	LearnRoutingModule,
 	FormsModule,
 	SvgsModule

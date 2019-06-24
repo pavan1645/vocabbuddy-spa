@@ -7,6 +7,7 @@ import { HomeModule } from './views/home/home.module';
 import { SvgsModule } from './partials/svgs/svgs.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
 	declarations: [
@@ -16,6 +17,7 @@ import { environment } from '../environments/environment';
 		BrowserModule.withServerTransition({ appId: 'serverApp' }),
 		AppRoutingModule,
 		HomeModule,
+		BrowserAnimationsModule,
 		SvgsModule,
 		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
 	],

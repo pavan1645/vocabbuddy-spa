@@ -4,14 +4,14 @@
 	
 	<div class="row actions w-75 text-white">
 		<div class="btn-wrapper w-50" [ngClass]="{'active': activeBtn == 0}" (click)="loadComponent(0)">
-			<button class="learn w-100 shadow perfect-center">
+			<button appWave class="learn w-100 shadow perfect-center">
 				<svg-list-ul class="icon"></svg-list-ul>
 				<h4>LEARN</h4>
 			</button>
 		</div>
 
 		<div class="btn-wrapper w-50" [ngClass]="{'active': activeBtn == 1}" (click)="loadComponent(1)">
-			<button class="quiz w-100 shadow perfect-center">
+			<button appWave class="quiz w-100 shadow perfect-center">
 				<svg-quiz class="icon"></svg-quiz>
 				<h4>PRACTICE</h4>
 			</button>

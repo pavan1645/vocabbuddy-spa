@@ -7,8 +7,8 @@
 	</nav>
 	
 	<ul>
-		<li [ngClass]="section.completeClass" *ngFor="let section of sections">
-			<a [routerLink]="section.name" class="row">
+		<a [routerLink]="section.name" *ngFor="let section of sections">
+			<li [ngClass]="section.completeClass" class="row">
 				<p class="w-50">{{section.name}}</p>
 				
 				<!-- SECTION NOT STARTED -->
@@ -28,13 +28,13 @@
 				<div class="w-50 f11 row align-content-end" *ngIf="section.state == 2">
 					<span class="tag ml-auto completed">Completed</span>
 				</div>
-			</a>
-
-			<div class="cta-practice f12 pt-3" *ngIf="section.state == 2">
-				<span></span>
-				<a routerLink="/practice" class="text-center">Take a Quiz!</a>
-				<span></span>
-			</div>
-		</li>
+				
+				<div class="cta-practice f12 pt-3 w-100" *ngIf="section.state == 2">
+					<span></span>
+					<a [routerLink]="'/practice/' + section.name" class="text-center">Take a Quiz!</a>
+					<span></span>
+				</div>
+			</li>
+		</a>
 	</ul>
 </div>
