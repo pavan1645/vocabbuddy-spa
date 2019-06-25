@@ -59,7 +59,7 @@ export class SectionComponent implements OnInit {
 
 			}, 300);	// card pushed up animation
 
-		}, 1000);		// card removing animation
+		}, 750);		// card removing animation
 	}
 	
 	calc(firstItr: boolean = false) {
@@ -114,14 +114,15 @@ export class SectionComponent implements OnInit {
 			this.sharedService.updateProgress(this.sectionName, this.currWord);
 			this.play();
 			this.calc();
-		}, 500);															// ripple effect
+		}, 300);															// ripple effect
 	}
 
 	showDef() {
-		this.defShow = true;
+		if (!this.flipped) this.defShow = true;
 	}
 
-	readWord() {
+	readWord(e) {
+		e.stopPropagation();
 		const _this = this;
 		this.speakActive = true;
 
@@ -135,7 +136,7 @@ export class SectionComponent implements OnInit {
 		})
 	}
 
-	flipCard() { this.flipped = !this.flipped; }
+	flipCard(e) { e.stopPropagation(); this.flipped = !this.flipped; }
 
 	addNote(form: NgForm) {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
