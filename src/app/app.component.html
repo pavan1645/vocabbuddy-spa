@@ -1,3 +1,14 @@
 <div [@routeAnimations]="prepareRoute(outlet)" >
 	<router-outlet #outlet="outlet"></router-outlet>
+
+	<div class="update-wrapper perfect-center" *ngIf="updateAvailable">
+		<div class="update bg-white px-3 w-75 shadow br-10">
+			<p class="border-bottom py-3">A new update is available!</p>
+			<p class="f13 py-3 text-left lh-1-3">Updating usually takes a few seconds. We promise before you realize anything it will be done!</p>
+			<div class="actions d-flex mb-3">
+				<button appWave class="ml-auto py-2 px-3 text-gray" (click)="update(false)">Cancel</button>
+				<button appWave class="py-2 px-3 text-green font-bold br-0" (click)="update(true)">Update</button>
+			</div>
+		</div>
+	</div>
 </div>  
