@@ -82,7 +82,7 @@
 
 		<button class="f12 text-blue" (click)="showDef()">Show Definition <svg-chevron-up class="icon"></svg-chevron-up> </button>
 		
-		<p class="f12 mt-1 pronunciation"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].pronunciation}}</p>
+		<p class="f12 mt-2 pronunciation"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].phonetic}}</p>
 		<p class="f13 my-2 meaning">{{wordDefs[wordIndex].definition}}</p>
 		
 	</div>
@@ -107,7 +107,7 @@
 				<span class="icon-wrapper mr-2 perfect-center" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
 					<svg-microphone class="icon perfect-center"></svg-microphone>					
 				</span>
-				<div class="f14"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].pronunciation}}</div>
+				<div class="f14"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].phonetic}}</div>
 			</section>
 	
 			<section class="pt-4">
@@ -122,12 +122,12 @@
 	
 			<section class="pt-4">
 				<p class="font-bold">Synonyms</p>
-				<p class="f13 pt-1" [innerHTML]="italicizeEg(wordDefs[wordIndex])"></p>
+				<p class="f13 pt-1">{{splitString(wordDefs[wordIndex].synonyms.toString())}}</p>
 			</section>
 	
 			<section class="pt-4">
-				<p class="font-bold">Antonyms</p>
-				<p class="f13 pt-1" [innerHTML]="italicizeEg(wordDefs[wordIndex])"></p>
+				<p class="font-bold">Origin</p>
+				<p class="f13 pt-1">{{wordDefs[wordIndex].origin}}</p>
 			</section>
 	
 			<section class="pt-4">
