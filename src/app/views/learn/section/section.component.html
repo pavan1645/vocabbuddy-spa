@@ -1,10 +1,11 @@
 <div class="main">
 	<nav class="p-3 ">
-		<a routerLink="/learn">
+		<div (click)="sharedService.goBack()">
 			<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
-		</a>
+		</div>
 	</nav>
 
+	<!-- Card holder -->
 	<div class="holder perfect-center" [ngClass]="{'no-transition': removeCard == 3}">
 		
 		<ng-container *ngIf="counts.mc != section.words.length">
@@ -30,6 +31,7 @@
 		
 	</div>
 
+	<!-- Progress box -->
 	<div class="progress-box f14">
 		<div class="row">
 			<span class="desc text-white">Mastered</span>
@@ -63,14 +65,16 @@
 </div>
 
 
+<!-- Card Content -->
 <ng-template #cardcontent let-wordIndex="wordIndex">
 	<p class="pending f12 text-gray">{{pendingWords.length}} remaining</p>
-	<button class="notes f18 perfect-center" (click)="flipCard()">
-		<svg-notes class="icon"></svg-notes>
+	<button class="expand-icon f18 perfect-center" (click)="flipCard($event)">
+		<svg-expand class="icon"></svg-expand>
 	</button>
-	<div class="def perfect-center pt-4 px-2 lh-1-3">
-		<p class="font-bold d-flex align-items-center word">
-			<span class="icon-wrapper mr-2 perfect-center" (click)="readWord()" [ngClass]="{'speak': speakActive}">
+
+	<div class="def perfect-center pt-4 px-3">
+		<p class="font-bold perfect-center word">
+			<span class="icon-wrapper mr-2 perfect-center" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
 				<svg-microphone class="icon perfect-center"></svg-microphone>					
 			</span>
 			<span>{{wordDefs[wordIndex].word}}</span>
@@ -78,10 +82,9 @@
 
 		<button class="f12 text-blue" (click)="showDef()">Show Definition <svg-chevron-up class="icon"></svg-chevron-up> </button>
 		
-		<p class="f12 mt-1 pronunciation"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].pronunciation}}</p>
+		<p class="f12 mt-2 pronunciation"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].phonetic}}</p>
 		<p class="f13 my-2 meaning">{{wordDefs[wordIndex].definition}}</p>
 		
-		<p class="f12 text-gray-dark example">Eg. <span [innerHTML]="italicizeEg(wordDefs[wordIndex])"></span></p>
 	</div>
 	
 	<div class="actions">
@@ -90,22 +93,58 @@
 	</div>
 </ng-template>
 
+
+
+<!-- Full screen -->
 <ng-template #cardnotes let-wordIndex="wordIndex">
-	<div class="back d-flex-column">
-		<button class="notes f18 perfect-center" (click)="flipCard()">+</button>
-		<p class="py-4 border-bottom">Notes on <span class="text-red text-underline">{{wordDefs[wordIndex].word}}</span></p>
-		<ul class="f14">
-			<!-- TODO: Populate and add notes -->
-			<li class="border-bottom" *ngFor="let n of wordDefs[wordIndex].notes; index as i">
-				{{n}}
-				<button class="delete" (click)="deleteNote(i)" title="Delete note">+</button>
-			</li>
-			<li class="border-bottom text-gray">
-				<span class="mr-1">+</span>
-				<form (ngSubmit)="addNote(noteForm)" #noteForm="ngForm">
-					<input type="text" name="note" id="note" placeholder="Add a note" ngModel>
-				</form>
-			</li>
-		</ul>
+	<div class="back text-left p-3">
+		<button class="expand-icon f18 perfect-center" (click)="flipCard($event)">+</button>
+
+		<p class="f18 font-bold text-center pb-3 border-bottom">{{wordDefs[wordIndex].word}}</p>
+
+		<div class="overflow-auto">
+			<section class="row align-items-center pt-4">
+				<span class="icon-wrapper mr-2 perfect-center" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
+					<svg-microphone class="icon perfect-center"></svg-microphone>					
+				</span>
+				<div class="f14"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].phonetic}}</div>
+			</section>
+	
+			<section class="pt-4">
+				<p class="font-bold">Definition</p>
+				<p class="f13 pt-1">{{wordDefs[wordIndex].definition}}</p>
+			</section>
+	
+			<section class="pt-4">
+				<p class="font-bold">Example</p>
+				<p class="f13 pt-1" [innerHTML]="italicizeEg(wordDefs[wordIndex])"></p>
+			</section>
+	
+			<section class="pt-4">
+				<p class="font-bold">Synonyms</p>
+				<p class="f13 pt-1">{{splitString(wordDefs[wordIndex].synonyms.toString())}}</p>
+			</section>
+	
+			<section class="pt-4">
+				<p class="font-bold">Origin</p>
+				<p class="f13 pt-1">{{wordDefs[wordIndex].origin}}</p>
+			</section>
+	
+			<section class="pt-4">
+				<p class="font-bold">Notes</p>
+				<ul class="f13 pt-1">
+					<li class="" *ngFor="let n of wordDefs[wordIndex].notes; index as i">
+						{{n}}
+						<button class="delete" (click)="deleteNote(i)" title="Delete note">+</button>
+					</li>
+					<li class="text-gray">
+						<span class="mr-1">+</span>
+						<form (ngSubmit)="addNote(noteForm)" #noteForm="ngForm">
+							<input type="text" name="note" id="note" placeholder="Add a note" class="w-100" ngModel>
+						</form>
+					</li>
+				</ul>
+			</section>
+		</div>
 	</div>
 </ng-template>

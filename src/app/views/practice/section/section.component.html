@@ -1,8 +1,8 @@
 <div class="main bg-red perfect-center">
 	<nav class="row justify-content-between">
-		<a routerLink="/practice">
+		<div (click)="sharedService.goBack()" class="p-3">
 			<svg-arrow-left class="icon"></svg-arrow-left>
-		</a>
+		</div>
 		<p class="f12 text-white">{{remainingWords.length}} words remaining</p>
 	</nav>
 	
@@ -15,7 +15,7 @@
 	</div>
 	
 	<button appWave class="next shadow" [ngClass]="{'show': showNext}" (click)="next()"><svg-chevron-up class="icon"></svg-chevron-up></button>
-
+	
 	<div class="score text-white" [ngClass]="{'show': showScore}">
 		<p>Your score:</p>
 		<h1 class="mt-2 mb-3">{{currentScore}}/{{section.words.length}}</h1>
@@ -27,7 +27,7 @@
 
 <ng-template #card>
 	<p class="py-3 bg-light">{{wordDefs[currentWord.wordIndex].word}}</p>
-	<ul class="lh-1-3">
+	<ul>
 		<li *ngFor="let def of currentWord.defs; index as i" (click)="answer(i)" [ngClass]="{'wrong': answeredIndex == i, 'right': correctIndex == i}">{{def}}</li>
 	</ul>
 </ng-template>

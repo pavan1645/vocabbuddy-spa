@@ -30,7 +30,7 @@ export class SectionComponent implements OnInit {
 	speakActive: boolean = false;
 	flipped: boolean = false;
 
-	constructor(private activatedRoute: ActivatedRoute, private sharedService: SharedService) { }
+	constructor(private activatedRoute: ActivatedRoute, public sharedService: SharedService) { }
 	
 	ngOnInit() {
 		this.activatedRoute.params.subscribe(params => {
@@ -59,10 +59,11 @@ export class SectionComponent implements OnInit {
 
 			}, 300);	// card pushed up animation
 
-		}, 1000);		// card removing animation
+		}, 750);		// card removing animation
 	}
 	
 	calc(firstItr: boolean = false) {
+		this.stats();
 		this.pendingWords = this.section.words.filter(f => f.isRemembered < 2);
 				
 		let randInt: number = Math.floor(Math.random() * this.pendingWords.length);
@@ -85,8 +86,6 @@ export class SectionComponent implements OnInit {
 		setTimeout(() => {
 			this.oldWord = JSON.parse(JSON.stringify(this.currWord));
 		}, 1000);
-
-		this.stats();
 	}
 	
 	stats() {
@@ -114,14 +113,15 @@ export class SectionComponent implements OnInit {
 			this.sharedService.updateProgress(this.sectionName, this.currWord);
 			this.play();
 			this.calc();
-		}, 500);															// ripple effect
+		}, 300);															// ripple effect
 	}
 
 	showDef() {
-		this.defShow = true;
+		if (!this.flipped) this.defShow = true;
 	}
 
-	readWord() {
+	readWord(e) {
+		e.stopPropagation();
 		const _this = this;
 		this.speakActive = true;
 
@@ -135,7 +135,7 @@ export class SectionComponent implements OnInit {
 		})
 	}
 
-	flipCard() { this.flipped = !this.flipped; }
+	flipCard(e) { e.stopPropagation(); this.flipped = !this.flipped; }
 
 	addNote(form: NgForm) {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
@@ -157,6 +157,10 @@ export class SectionComponent implements OnInit {
 		const match = wordDef.example.match(regex);
 		if (!match) return "empty";
 		return wordDef.example.replace(regex, "<em>" + match[0] +  "</em>");
+	}
+
+	splitString(str: string): string {
+		return str.replace(/,/g, ", ")
 	}
 
 	resetSection() {
