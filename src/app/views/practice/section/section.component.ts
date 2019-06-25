@@ -32,7 +32,7 @@ export class SectionComponent implements OnInit {
 	showScore: boolean = false;
 
 	
-	constructor(private activatedRoute: ActivatedRoute, private sharedService: SharedService) {}
+	constructor(private activatedRoute: ActivatedRoute, public sharedService: SharedService) {}
 	
 	ngOnInit() {
 		this.activatedRoute.params.subscribe(p => {

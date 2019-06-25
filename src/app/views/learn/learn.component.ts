@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Globals } from 'src/app/globals.js';
+import { SharedService } from 'src/app/shared.service';
 
 let progress = new Globals().progress;
 
@@ -11,7 +12,7 @@ let progress = new Globals().progress;
 export class LearnComponent implements OnInit {
 	sections: any[] = progress;
 	
-	constructor() { }
+	constructor(public sharedService: SharedService) { }
 	
 	ngOnInit() {
 		this.sections.forEach(s => {

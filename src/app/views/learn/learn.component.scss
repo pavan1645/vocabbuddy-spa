@@ -56,7 +56,7 @@ li.green .line .overlay { background-color: map-get($map: $my-colors, $key: "gre
 	a {
 		border: 1px solid;
 		border-radius: 25px;
-		padding: 4px;
+		padding: 8px 4px;
 		border-color: map-get($map: $my-colors, $key: "green");
 		color: map-get($map: $my-colors, $key: "green");
 		width: 34%;

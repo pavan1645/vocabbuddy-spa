@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Globals } from 'src/app/globals.js';
 import { Router } from '@angular/router';
+import { SharedService } from 'src/app/shared.service';
 
 let progress = new Globals().progress;
 
@@ -13,7 +14,7 @@ export class PracticeComponent implements OnInit {
 	
 	sections: any[] = progress;
 	
-	constructor(private router: Router) { }
+	constructor(private router: Router, public sharedService: SharedService) { }
 	
 	ngOnInit() {
 		this.sections.forEach((s, i) => {

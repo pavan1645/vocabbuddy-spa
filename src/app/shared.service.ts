@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Globals } from './globals.js';
 import ogProgress from "../assets/section-mapping.json";
+import { Location } from '@angular/common';
 
 const globals = new Globals();
 
@@ -9,7 +10,7 @@ const globals = new Globals();
 })
 export class SharedService {
 	
-	constructor() { }
+	constructor(private location: Location) { }
 	
 	updateProgress(sectionName: string, word: any): void {
 		let progress = globals.progress;
@@ -43,6 +44,10 @@ export class SharedService {
 		progress[sectionIndex] = ogProgress[sectionIndex];
 		
 		globals.progress = progress;
+	}
+
+	goBack() {
+		this.location.back();
 	}
 
 }

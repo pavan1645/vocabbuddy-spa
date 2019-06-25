@@ -1,8 +1,8 @@
 <div>
 	<nav class="p-3 border-bottom f18 d-flex bg-red text-white">
-		<a routerLink="/">
+		<div (click)="sharedService.goBack()">
 			<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
-		</a>
+		</div>
 		Practice
 	</nav>
 	
@@ -14,7 +14,7 @@
 				<p class="text-gray" *ngIf="section.score === undefined">Not Attempted</p>
 				<p class="text-green" *ngIf="section.score !== undefined">{{section.score}} / {{section.words.length}}</p>
 			</div>
-
+			
 			<div class="overlay perfect-center" *ngIf="section.isLocked == 1">
 				<svg-lock class="icon"></svg-lock>
 				Complete learning {{section.name}}
