@@ -2,6 +2,13 @@ export class Globals {
 	private static progressJson: any[];
 	private static words: any[];
 
+	constructor() {
+		if (localStorage.getItem("progress")) {
+			localStorage.removeItem("progress");
+			localStorage.removeItem("words");
+		}
+	}
+
 	get progress() {
 		return [...Globals.progressJson];
 	}
@@ -10,7 +17,7 @@ export class Globals {
 		console.log("setter called");
 		
 		Globals.progressJson = val;
-		localStorage.setItem("progress", JSON.stringify(Globals.progressJson));
+		localStorage.setItem("progress2", JSON.stringify(Globals.progressJson));
 	}
 
 	get words() {
@@ -21,6 +28,6 @@ export class Globals {
 		console.log("words setter called");
 		
 		Globals.words = val;
-		localStorage.setItem("words", JSON.stringify(Globals.words));
+		localStorage.setItem("words2", JSON.stringify(Globals.words));
 	}
 }
