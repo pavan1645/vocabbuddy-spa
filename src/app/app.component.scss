@@ -1,4 +1,4 @@
-.update-wrapper { background-color: rgba(0, 0, 0, 0.4); }
+.update-wrapper { background-color: rgba(0, 0, 0, 0.4); z-index: 3; }
 .update { opacity: 0; animation: fadeIn 0.3s 0.3s ease-out forwards; }
 .actions button { position: relative; }
 

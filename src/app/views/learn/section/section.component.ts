@@ -65,6 +65,7 @@ export class SectionComponent implements OnInit {
 	calc(firstItr: boolean = false) {
 		this.stats();
 		this.pendingWords = this.section.words.filter(f => f.isRemembered < 2);
+		if (this.pendingWords.length == 0) return;
 				
 		let randInt: number = Math.floor(Math.random() * this.pendingWords.length);
 
@@ -159,8 +160,8 @@ export class SectionComponent implements OnInit {
 		return wordDef.example.replace(regex, "<em>" + match[0] +  "</em>");
 	}
 
-	splitString(str: string): string {
-		return str.replace(/,/g, ", ")
+	splitString(str: string[]): string {
+		return (str) ? str.toString().replace(/,/g, ", ") : "";
 	}
 
 	resetSection() {

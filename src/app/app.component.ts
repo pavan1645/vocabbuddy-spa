@@ -22,12 +22,12 @@ export class AppComponent implements OnInit{
 	
 	ngOnInit() {
 		let globals = new Globals();
-		let progressJson = JSON.parse(localStorage.getItem("progress"));
+		let progressJson = JSON.parse(localStorage.getItem("progress2"));
 		if (!progressJson) progressJson = SECTIONS;
 		
 		globals.progress = progressJson;
 
-		let words = JSON.parse(localStorage.getItem("words"));
+		let words = JSON.parse(localStorage.getItem("words2"));
 		if (!words) words = WORDS;
 
 		globals.words = words;
