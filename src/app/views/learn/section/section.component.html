@@ -1,16 +1,23 @@
 <div class="main">
-	<nav class="p-3 ">
+	<nav class="p-3 row">
 		<div (click)="sharedService.goBack()">
-			<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
+			<svg-arrow-left class="icon d-block"></svg-arrow-left>
+		</div>
+		<div (click)="onboard(0)" class="ml-auto" *ngIf="(boardStep < 0 || boardStep > 3)">
+			<svg-question class="icon d-block"></svg-question>
 		</div>
 	</nav>
-
+	
 	<!-- Card holder -->
 	<div class="holder perfect-center" [ngClass]="{'no-transition': removeCard == 3}">
 		
+		<div class="on-boarding">
+			<ng-container *ngTemplateOutlet="(boardStep == 0) ? tapBoard : ((boardStep == 1) ? fullscreenBoard : ((boardStep == 2) ? swipeBoard : (boardStep == 3) ? progressBoard : ''))"></ng-container>
+		</div>
+		
 		<ng-container *ngIf="counts.mc != section.words.length">
-			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'flipped': flipped}" (click)="showDef()">
-				<ng-container *ngTemplateOutlet="flipped ? cardnotes : cardcontent; context:oldWord"></ng-container>
+			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [attr.data-answer]="answerVal" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'fullscreen': fullscreen, 'shake': boardStep == 0, 'promptSwipe': (boardStep == 2 && !fullscreen)}" (click)="showDef()" (touchstart)="touchstart($event)" (touchmove)="touchmove($event)"  (touchend)="touchend($event)" [ngStyle]="{'transform': 'translate(' + transform[0] + 'px, ' + transform[1] + 'px) rotate(' + transform[2] + 'deg)'}">
+				<ng-container *ngTemplateOutlet="fullscreen ? cardnotes : cardcontent; context:oldWord"></ng-container>
 			</div>
 			
 			<!-- Since show class is never added, definition cannot be shown on this card -->
@@ -30,7 +37,7 @@
 		
 		
 	</div>
-
+	
 	<!-- Progress box -->
 	<div class="progress-box f14">
 		<div class="row">
@@ -68,10 +75,10 @@
 <!-- Card Content -->
 <ng-template #cardcontent let-wordIndex="wordIndex">
 	<p class="pending f12 text-gray">{{pendingWords.length}} remaining</p>
-	<button class="expand-icon f18 perfect-center" (click)="flipCard($event)">
+	<button class="expand-icon f18 perfect-center" (click)="showFullscreen($event)" [ngClass]="{'shake': boardStep == 1}">
 		<svg-expand class="icon"></svg-expand>
 	</button>
-
+	
 	<div class="def perfect-center pt-4 px-3">
 		<p class="font-bold perfect-center word">
 			<span class="icon-wrapper mr-2 perfect-center" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
@@ -79,7 +86,7 @@
 			</span>
 			<span>{{wordDefs[wordIndex].word}}</span>
 		</p>
-
+		
 		<button class="f12 text-blue" (click)="showDef()">Show Definition <svg-chevron-up class="icon"></svg-chevron-up> </button>
 		
 		<p class="f12 mt-2 pronunciation"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].phonetic}}</p>
@@ -98,10 +105,10 @@
 <!-- Full screen -->
 <ng-template #cardnotes let-wordIndex="wordIndex">
 	<div class="back text-left p-3">
-		<button class="expand-icon f18 perfect-center" (click)="flipCard($event)">+</button>
-
+		<button class="expand-icon f18 perfect-center" (click)="showFullscreen($event)">+</button>
+		
 		<p class="f18 font-bold text-center pb-3 border-bottom">{{wordDefs[wordIndex].word}}</p>
-
+		
 		<div class="overflow-auto">
 			<section class="row align-items-center pt-4">
 				<span class="icon-wrapper mr-2 perfect-center" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
@@ -109,29 +116,30 @@
 				</span>
 				<div class="f14"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].phonetic}}</div>
 			</section>
-	
+			
 			<section class="pt-4">
 				<p class="font-bold">Definition</p>
 				<p class="f13 pt-1">{{wordDefs[wordIndex].definition}}</p>
 			</section>
-	
+			
 			<section class="pt-4">
 				<p class="font-bold">Example</p>
 				<p class="f13 pt-1" [innerHTML]="italicizeEg(wordDefs[wordIndex])"></p>
 			</section>
-	
+			
 			<section class="pt-4">
 				<p class="font-bold">Synonyms</p>
 				<p class="f13 pt-1">{{splitString(wordDefs[wordIndex].synonyms)}}</p>
 			</section>
-	
+			
 			<section class="pt-4">
 				<p class="font-bold">Origin</p>
 				<p class="f13 pt-1">{{wordDefs[wordIndex].origin}}</p>
 			</section>
-	
+			
 			<section class="pt-4">
 				<p class="font-bold">Notes</p>
+				<small class="text-gray f12">Add your personal notes, mnemonics, translations, etc.</small>
 				<ul class="f13 pt-1">
 					<li class="" *ngFor="let n of wordDefs[wordIndex].notes; index as i">
 						{{n}}
@@ -140,7 +148,7 @@
 					<li class="text-gray">
 						<span class="mr-1">+</span>
 						<form (ngSubmit)="addNote(noteForm)" #noteForm="ngForm">
-							<input type="text" name="note" id="note" placeholder="Add a note" class="w-100" ngModel>
+							<input type="text" name="note" id="note" placeholder="Add a note" class="w-100" autocomplete="off" ngModel>
 						</form>
 					</li>
 				</ul>
@@ -148,3 +156,40 @@
 		</div>
 	</div>
 </ng-template>
+
+<ng-template #swipeBoard>
+	<h3 class="m-0 mb-2">
+		Swipe card
+		<svg-swipe class="icon d-inline-block"></svg-swipe>
+		if you knew the definition
+	</h3>
+	<h3 class="m-0 mb-4">
+		Swipe card
+		<svg-swipe class="icon d-inline-block left"></svg-swipe>
+		if you didn't know the definition
+	</h3>
+</ng-template>
+
+<ng-template #tapBoard>
+	<h3 class="m-0 mb-3">
+		Tap card
+		<svg-touch class="icon d-inline-block"></svg-touch>
+		to see the definition
+	</h3>
+</ng-template>
+
+<ng-template #fullscreenBoard>
+	<h3 class="m-0 mb-3">
+		Tap
+		<svg-expand class="icon d-inline-block"></svg-expand>		
+		icon to see more-info about this word
+	</h3>
+</ng-template>
+
+<ng-template #progressBoard>
+		<h4 class="m-0 mb-3">
+			View your progress at the bottom of this page. <br>
+			Complete the section to unlock a quiz.
+		</h4>
+	</ng-template>
+	

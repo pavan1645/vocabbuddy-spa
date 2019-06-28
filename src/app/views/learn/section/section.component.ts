@@ -7,6 +7,11 @@ import { NgForm } from '@angular/forms';
 
 const globals = new Globals();
 
+let touchstartPoints: number[] = [];
+let screenWidth: number = 0;
+
+let stop = false;
+
 @Component({
 	selector: 'app-section',
 	templateUrl: './section.component.html',
@@ -23,22 +28,37 @@ export class SectionComponent implements OnInit {
 	oldWord: any;
 	private switchVal: number = 0;
 
+
 	counts: any = {}
 	removeCard: number = 0;
 	dataIndex: number[] = [0, 1, 2, 3];
 	defShow: boolean = false;
 	speakActive: boolean = false;
-	flipped: boolean = false;
+	fullscreen: boolean = false;
+	answerVal: number = -1;
+	transform: number[] = [0, 0, 0];									// translateX, translateY, rotate
+	boardStep: number = -1;
 
 	constructor(private activatedRoute: ActivatedRoute, public sharedService: SharedService) { }
 	
 	ngOnInit() {
+		screenWidth = window.innerWidth;
 		this.activatedRoute.params.subscribe(params => {
 			this.sectionName = params["section"];
 			this.secWords = globals.progress.find(s => s.name == this.sectionName).words;
 			this.section = globals.progress.find(s => s.name == this.sectionName);
 			this.calc(true);
 		})	
+
+		let onboarding = localStorage.getItem("onboarding");
+		if (!onboarding) this.onboard(0);
+		else this.onboard(Number(onboarding));
+	}
+
+	onboard(step: number) {
+		if (step == 3) setTimeout(() => this.onboard(4), 10000);
+		this.boardStep = step;
+		localStorage.setItem("onboarding", step.toString());
 	}
 
 	play() {
@@ -69,7 +89,8 @@ export class SectionComponent implements OnInit {
 				
 		let randInt: number = Math.floor(Math.random() * this.pendingWords.length);
 
-		if (this.currWord && this.currWord.wordIndex == this.pendingWords[randInt].wordIndex) return this.calc();		// Same word check
+		// Same word check
+		if (this.pendingWords.length > 2 && this.currWord && this.currWord.wordIndex == this.pendingWords[randInt].wordIndex) return this.calc();
 		
 		// Determine switchVal value
 		if (this.pendingWords.length >= 4) this.switchVal = 0;
@@ -100,7 +121,17 @@ export class SectionComponent implements OnInit {
 		this.counts.mp = (this.counts.mc / total) * 100;
 	}
 	
-	answer(val: number) {
+	answer(val: number, rippleWait: boolean = true) {
+		if (stop) return;
+		stop = true;
+		setTimeout(() => { stop = false }, 1300);
+
+		this.answerVal = val;
+
+		let rippleTime = 300;
+		if (!rippleWait) rippleTime = 0;
+		
+
 		setTimeout(() => {
 			setTimeout(() => { this.defShow = false; }, 1000);				// let def be shown till card is removed
 			
@@ -114,14 +145,18 @@ export class SectionComponent implements OnInit {
 			this.sharedService.updateProgress(this.sectionName, this.currWord);
 			this.play();
 			this.calc();
-		}, 300);															// ripple effect
+		}, rippleTime);															// ripple effect
+
+		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(3);
 	}
 
 	showDef() {
-		if (!this.flipped) this.defShow = true;
+		if (this.defShow) return;
+		if (!this.fullscreen) this.defShow = true;
+		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(1);
 	}
 
-	readWord(e) {
+	readWord(e: TouchEvent) {
 		e.stopPropagation();
 		const _this = this;
 		this.speakActive = true;
@@ -136,7 +171,11 @@ export class SectionComponent implements OnInit {
 		})
 	}
 
-	flipCard(e) { e.stopPropagation(); this.flipped = !this.flipped; }
+	showFullscreen(e: TouchEvent) {
+		e.stopPropagation(); 
+		this.fullscreen = !this.fullscreen; 
+		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(2);
+	}
 
 	addNote(form: NgForm) {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
@@ -150,6 +189,52 @@ export class SectionComponent implements OnInit {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
 		wordNotes.splice(i, 1);
 		this.sharedService.updateWord(this.oldWord.wordIndex, wordNotes);
+	}
+
+
+	touchstart(e: TouchEvent) {
+		touchstartPoints[0] = e.touches[0].screenX;
+		touchstartPoints[1] = e.touches[0].screenY;
+	}
+
+	touchmove(e: TouchEvent) {
+		if (this.fullscreen) return;
+		if (!touchstartPoints[0] || !touchstartPoints[1]) return;
+		
+		let currX = e.touches[0].screenX;
+		let currY = e.touches[0].screenY;
+
+		let xDiff = touchstartPoints[0] - currX;
+		let yDiff = touchstartPoints[1] - currY;
+
+		if (yDiff > 0) {
+			
+			if (yDiff > 100) {										// play animamtion
+				if (xDiff < 0) this.answer(1, false);				// up right
+				if (xDiff > 0) this.answer(-1, false)				// up left
+
+				this.touchend();									// force touchend
+
+			} else {
+				this.transform[1] = yDiff * -1;
+				const totalTranslate = screenWidth * 2;
+				this.transform[0] = Math.round(this.transform[1] * 0.5);
+				this.transform[2] = Math.round(this.transform[1] / totalTranslate * 60);
+
+				if (xDiff < 0) {									// up right
+					this.transform[0] = this.transform[0] * -1;
+					this.transform[2] = this.transform[2] * -1;
+				}
+				
+			}
+		}
+	}
+
+	touchend(e?: TouchEvent) {
+		setTimeout(() => {
+			this.transform = [0, 0, 0];
+			touchstartPoints = [];
+		}, 100);
 	}
 
 	italicizeEg(wordDef): string {
