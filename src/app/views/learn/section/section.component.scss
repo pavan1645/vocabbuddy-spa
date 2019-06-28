@@ -3,10 +3,12 @@
 .main { 
 	background: radial-gradient(rgba($color: map-get($map: $my-colors, $key: "green"), $alpha: 0.8), map-get($map: $my-colors, $key: "green"));
 	position: relative;
+	overflow: hidden;
 }
 
 .holder { 
 	height: 100vh;
+	width: 100vw;
 }
 
 nav {
@@ -41,7 +43,7 @@ nav {
 		border-radius: 0px;
 	}
 
-	&:first-of-type { transition-duration: 0.3s }
+	&:first-of-type { transition-duration: 0.1s }
 	
 	.pending {
 		position: absolute;
@@ -200,7 +202,13 @@ nav {
 .no-transition .card { transition: none; }
 
 .card.removed {
-	animation: removeCard 0.75s forwards;
+	transform: translateX(80%) translateY(-100%) rotate(60deg) !important; 
+	opacity: 0; 
+	transition: all 0.75s;
+
+	&[data-answer="-1"] {
+		transform: translateX(-80%) translateY(-100%) rotate(-60deg)  !important; 
+	}
 }
 
 
@@ -267,13 +275,6 @@ nav {
 		&:nth-of-type(3) .line { background-color: rgba($color: map-get($map: $my-colors, $key: "red"), $alpha: 0.8); }
 	}
 	
-}
-
-@keyframes removeCard {
-	to { 
-		transform: rotate(60deg) translateY(-200%); 
-		opacity: 0; 
-	}
 }
 
 @keyframes slideInRight {
