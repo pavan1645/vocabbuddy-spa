@@ -9,8 +9,8 @@
 	<div class="holder perfect-center" [ngClass]="{'no-transition': removeCard == 3}">
 		
 		<ng-container *ngIf="counts.mc != section.words.length">
-			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [attr.data-answer]="answerVal" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'flipped': flipped}" (click)="showDef()" (touchstart)="touchstart($event)" (touchmove)="touchmove($event)"  (touchend)="touchend($event)" [ngStyle]="{'transform': 'translate(' + transform[0] + 'px, ' + transform[1] + 'px) rotate(' + transform[2] + 'deg)'}">
-				<ng-container *ngTemplateOutlet="flipped ? cardnotes : cardcontent; context:oldWord"></ng-container>
+			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [attr.data-answer]="answerVal" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'fullscreen': fullscreen}" (click)="showDef()" (touchstart)="touchstart($event)" (touchmove)="touchmove($event)"  (touchend)="touchend($event)" [ngStyle]="{'transform': 'translate(' + transform[0] + 'px, ' + transform[1] + 'px) rotate(' + transform[2] + 'deg)'}">
+				<ng-container *ngTemplateOutlet="fullscreen ? cardnotes : cardcontent; context:oldWord"></ng-container>
 			</div>
 			
 			<!-- Since show class is never added, definition cannot be shown on this card -->
@@ -68,7 +68,7 @@
 <!-- Card Content -->
 <ng-template #cardcontent let-wordIndex="wordIndex">
 	<p class="pending f12 text-gray">{{pendingWords.length}} remaining</p>
-	<button class="expand-icon f18 perfect-center" (click)="flipCard($event)">
+	<button class="expand-icon f18 perfect-center" (click)="showFullscreen($event)">
 		<svg-expand class="icon"></svg-expand>
 	</button>
 
@@ -98,7 +98,7 @@
 <!-- Full screen -->
 <ng-template #cardnotes let-wordIndex="wordIndex">
 	<div class="back text-left p-3">
-		<button class="expand-icon f18 perfect-center" (click)="flipCard($event)">+</button>
+		<button class="expand-icon f18 perfect-center" (click)="showFullscreen($event)">+</button>
 
 		<p class="f18 font-bold text-center pb-3 border-bottom">{{wordDefs[wordIndex].word}}</p>
 
@@ -140,7 +140,7 @@
 					<li class="text-gray">
 						<span class="mr-1">+</span>
 						<form (ngSubmit)="addNote(noteForm)" #noteForm="ngForm">
-							<input type="text" name="note" id="note" placeholder="Add a note" class="w-100" ngModel>
+							<input type="text" name="note" id="note" placeholder="Add a note" class="w-100" autocomplete="off" ngModel>
 						</form>
 					</li>
 				</ul>

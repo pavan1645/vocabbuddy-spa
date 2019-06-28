@@ -34,7 +34,7 @@ export class SectionComponent implements OnInit {
 	dataIndex: number[] = [0, 1, 2, 3];
 	defShow: boolean = false;
 	speakActive: boolean = false;
-	flipped: boolean = false;
+	fullscreen: boolean = false;
 	answerVal: number = -1;
 	transform: number[] = [0, 0, 0];									// translateX, translateY, rotate
 
@@ -138,10 +138,10 @@ export class SectionComponent implements OnInit {
 	}
 
 	showDef() {
-		if (!this.flipped) this.defShow = true;
+		if (!this.fullscreen) this.defShow = true;
 	}
 
-	readWord(e) {
+	readWord(e: TouchEvent) {
 		e.stopPropagation();
 		const _this = this;
 		this.speakActive = true;
@@ -156,7 +156,7 @@ export class SectionComponent implements OnInit {
 		})
 	}
 
-	flipCard(e) { e.stopPropagation(); this.flipped = !this.flipped; }
+	showFullscreen(e: TouchEvent) { e.stopPropagation(); this.fullscreen = !this.fullscreen; }
 
 	addNote(form: NgForm) {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
@@ -179,6 +179,7 @@ export class SectionComponent implements OnInit {
 	}
 
 	touchmove(e: TouchEvent) {
+		if (this.fullscreen) return;
 		if (!touchstartPoints[0] || !touchstartPoints[1]) return;
 		
 		let currX = e.touches[0].screenX;
@@ -211,8 +212,10 @@ export class SectionComponent implements OnInit {
 	}
 
 	touchend(e?: TouchEvent) {
-		this.transform = [0, 0, 0];
-		touchstartPoints = [];
+		setTimeout(() => {
+			this.transform = [0, 0, 0];
+			touchstartPoints = [];
+		}, 100);
 	}
 
 	italicizeEg(wordDef): string {
