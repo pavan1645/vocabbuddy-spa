@@ -37,6 +37,7 @@ export class SectionComponent implements OnInit {
 	fullscreen: boolean = false;
 	answerVal: number = -1;
 	transform: number[] = [0, 0, 0];									// translateX, translateY, rotate
+	boardStep: number = -1;
 
 	constructor(private activatedRoute: ActivatedRoute, public sharedService: SharedService) { }
 	
@@ -48,6 +49,16 @@ export class SectionComponent implements OnInit {
 			this.section = globals.progress.find(s => s.name == this.sectionName);
 			this.calc(true);
 		})	
+
+		let onboarding = localStorage.getItem("onboarding");
+		if (!onboarding) this.onboard(0);
+		else this.onboard(Number(onboarding));
+	}
+
+	onboard(step: number) {
+		if (step == 3) setTimeout(() => this.onboard(4), 10000);
+		this.boardStep = step;
+		localStorage.setItem("onboarding", step.toString());
 	}
 
 	play() {
@@ -135,10 +146,14 @@ export class SectionComponent implements OnInit {
 			this.play();
 			this.calc();
 		}, rippleTime);															// ripple effect
+
+		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(3);
 	}
 
 	showDef() {
+		if (this.defShow) return;
 		if (!this.fullscreen) this.defShow = true;
+		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(1);
 	}
 
 	readWord(e: TouchEvent) {
@@ -156,7 +171,11 @@ export class SectionComponent implements OnInit {
 		})
 	}
 
-	showFullscreen(e: TouchEvent) { e.stopPropagation(); this.fullscreen = !this.fullscreen; }
+	showFullscreen(e: TouchEvent) {
+		e.stopPropagation(); 
+		this.fullscreen = !this.fullscreen; 
+		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(2);
+	}
 
 	addNote(form: NgForm) {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
