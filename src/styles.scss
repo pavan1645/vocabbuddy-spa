@@ -61,15 +61,6 @@ li {
 
 .shadow { box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15); }
 
-@each $i in $font-sizes {
-	.f#{$i} { font-size: #{$i}px }	
-}
-
-@include desktop {
-	@each $i in $font-sizes {
-		.f#{$i} { font-size: #{$i + 2}px }	
-	}
-}
 
 @each $el, $hex in $colors {
 	.bg-#{$el} { background-color: $hex }
@@ -112,4 +103,5 @@ router-outlet ~ * {
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	left: 0;
 }

@@ -33,3 +33,14 @@ $mw: 100vw;
 		@content;
 	}
 }
+
+
+@each $i in $font-sizes {
+	.f#{$i} { font-size: #{$i}px }	
+}
+
+@include desktop {
+	@each $i in $font-sizes {
+		.f#{$i} { font-size: #{$i + 2}px }	
+	}
+}
