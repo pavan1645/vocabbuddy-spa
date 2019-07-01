@@ -25,3 +25,11 @@ $my-colors: (
 );
 
 $sides: "top", "right", "bottom", "left";
+
+$mw: 100vw;
+
+@mixin desktop {
+	@media screen and (min-width: 992px) {
+		@content;
+	}
+}

@@ -22,6 +22,7 @@ nav { position: fixed; }
 	
 	button {
 		height: calc(75vw/2);
+		@include desktop { height: calc(75vw/6); }
 		animation: translateX0 0.5s ease-out forwards;
 	}
 

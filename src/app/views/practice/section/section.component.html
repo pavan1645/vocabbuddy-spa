@@ -5,21 +5,25 @@
 		</div>
 		<p class="f12 text-white">{{remainingWords.length}} words remaining</p>
 	</nav>
+
+	<ng-container *ngIf="!showScore">
+		
+		<div class="card bg-white shadow" [ngClass]="{'animate': (animating || showScore)}">
+			<ng-container *ngTemplateOutlet="card"></ng-container>
+		</div>
+		
+		<div class="card bg-white shadow" [ngClass]="{'animate': animating}">
+			<ng-container *ngTemplateOutlet="card"></ng-container>
+		</div>
+		
+		<button appWave class="next shadow pointer" [ngClass]="{'show': showNext}" (click)="next()"><svg-chevron-up class="icon"></svg-chevron-up></button>
+	</ng-container>
 	
-	<div class="card bg-white shadow" [ngClass]="{'animate': (animating || showScore)}">
-		<ng-container *ngTemplateOutlet="card"></ng-container>
-	</div>
-	
-	<div class="card bg-white shadow" [ngClass]="{'animate': animating}">
-		<ng-container *ngTemplateOutlet="card"></ng-container>
-	</div>
-	
-	<button appWave class="next shadow pointer" [ngClass]="{'show': showNext}" (click)="next()"><svg-chevron-up class="icon"></svg-chevron-up></button>
 	
 	<div class="score text-white" [ngClass]="{'show': showScore}">
 		<p>Your score:</p>
 		<h1 class="mt-2 mb-3">{{currentScore}}/{{section.words.length}}</h1>
-		<a class="reload f12 bg-white font-bold py-1 px-3" (click)="ngOnInit()">Take test again !</a>
+		<a class="reload f12 bg-white font-bold py-1 px-3 pointer" (click)="reset()">Take test again !</a>
 	</div>
 </div>
 
