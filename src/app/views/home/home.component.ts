@@ -13,13 +13,5 @@ export class HomeComponent implements OnInit {
 	
 	ngOnInit() {
 	}
-	
-	loadComponent(n: number) {
-		this.activeBtn = n;
-		setTimeout(() => {
-			if (this.activeBtn == 0) this.router.navigateByUrl("/learn");
-			if (this.activeBtn == 1) this.router.navigateByUrl("/practice");
-		}, 500);
-	}
 
 }

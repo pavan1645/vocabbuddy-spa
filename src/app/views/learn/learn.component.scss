@@ -32,7 +32,7 @@
 
 ul { height: calc(100vh - 57px); }
 
-li { padding: 1rem 1.5rem; }
+li { padding: 1rem 1.5rem; position: relative; }
 
 li.grey { color: map-get($map: $colors, $key: "gray"); }
 

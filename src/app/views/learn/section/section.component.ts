@@ -147,13 +147,13 @@ export class SectionComponent implements OnInit {
 			this.calc();
 		}, rippleTime);															// ripple effect
 
-		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(3);
+		if (this.boardStep == 2) this.onboard(3);
 	}
 
 	showDef() {
+		if (this.boardStep == 0) this.onboard(1);
 		if (this.defShow) return;
 		if (!this.fullscreen) this.defShow = true;
-		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(1);
 	}
 
 	readWord(e: TouchEvent) {
@@ -174,7 +174,7 @@ export class SectionComponent implements OnInit {
 	showFullscreen(e: TouchEvent) {
 		e.stopPropagation(); 
 		this.fullscreen = !this.fullscreen; 
-		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(2);
+		if (this.boardStep == 1) this.onboard(2);
 	}
 
 	addNote(form: NgForm) {
@@ -232,10 +232,8 @@ export class SectionComponent implements OnInit {
 	}
 
 	swipeend() {
-		setTimeout(() => {
-			this.transform = [0, 0, 0];
-			startPoints = [];
-		}, 100);
+		this.transform = [0, 0, 0];
+		startPoints = [];
 	}
 
 	italicizeEg(wordDef): string {

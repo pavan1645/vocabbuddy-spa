@@ -7,7 +7,7 @@
 	</nav>
 	
 	<ul>
-		<li class="row justify-content-between f14 pointer" *ngFor="let section of sections; index as i" (click)="navigateTest(i)">
+		<li appWave class="row justify-content-between f14 pointer" *ngFor="let section of sections; index as i" (click)="navigateTest(i)">
 			<p class="my-auto">{{section.name}}</p>
 			<div class="f12 text-center">
 				<p class="text-red mb-1">Best Score:</p>
