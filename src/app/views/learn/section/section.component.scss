@@ -55,6 +55,7 @@ nav {
 	display: none;
 	overflow: hidden;
 	transition: all 0.3s;
+	user-select: none;
 	
 	&.show {
 		.def { margin-top: auto; margin-bottom: auto }
@@ -106,7 +107,11 @@ nav {
 			transform: none;
 		}
 
-		.overflow-auto { overflow-y: auto; max-height: calc(100vh - 60px); }
+		.overflow-auto {
+			overflow-y: auto;
+			overflow-x: hidden;
+			max-height: calc(100vh - 60px);
+		}
 
 		section {
 			transform: translateX(100vw);

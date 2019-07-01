@@ -7,7 +7,7 @@ import { NgForm } from '@angular/forms';
 
 const globals = new Globals();
 
-let touchstartPoints: number[] = [];
+let startPoints: number[] = [];
 let screenWidth: number = 0;
 
 let stop = false;
@@ -191,21 +191,22 @@ export class SectionComponent implements OnInit {
 		this.sharedService.updateWord(this.oldWord.wordIndex, wordNotes);
 	}
 
+	touchstart(e: TouchEvent) { this.swipestart(e.touches[0].screenX, e.touches[0].screenY); }
+	touchmove(e: TouchEvent) { this.swipemove(e.touches[0].screenX, e.touches[0].screenY); }
+	mousedown(e: MouseEvent) { this.swipestart(e.pageX, e.pageY); }
+	mousemove(e: MouseEvent) { this.swipemove(e.pageX, e.pageY); }
 
-	touchstart(e: TouchEvent) {
-		touchstartPoints[0] = e.touches[0].screenX;
-		touchstartPoints[1] = e.touches[0].screenY;
+	swipestart(x: number, y: number) {
+		startPoints[0] = x;
+		startPoints[1] = y;
 	}
 
-	touchmove(e: TouchEvent) {
+	swipemove(x: number, y: number) {
 		if (this.fullscreen) return;
-		if (!touchstartPoints[0] || !touchstartPoints[1]) return;
+		if (!startPoints[0] || !startPoints[1]) return;
 		
-		let currX = e.touches[0].screenX;
-		let currY = e.touches[0].screenY;
-
-		let xDiff = touchstartPoints[0] - currX;
-		let yDiff = touchstartPoints[1] - currY;
+		let xDiff = startPoints[0] - x;
+		let yDiff = startPoints[1] - y;
 
 		if (yDiff > 0) {
 			
@@ -213,7 +214,7 @@ export class SectionComponent implements OnInit {
 				if (xDiff < 0) this.answer(1, false);				// up right
 				if (xDiff > 0) this.answer(-1, false)				// up left
 
-				this.touchend();									// force touchend
+				this.swipeend();									// force touchend
 
 			} else {
 				this.transform[1] = yDiff * -1;
@@ -230,10 +231,10 @@ export class SectionComponent implements OnInit {
 		}
 	}
 
-	touchend(e?: TouchEvent) {
+	swipeend() {
 		setTimeout(() => {
 			this.transform = [0, 0, 0];
-			touchstartPoints = [];
+			startPoints = [];
 		}, 100);
 	}
 

@@ -75,6 +75,8 @@ li {
 	.text-#{$el} { color: $hex }
 }
 
+.pointer { cursor: pointer; }
+
 .position-relative { position: relative; }
 
 .text-center { text-align: center; }
