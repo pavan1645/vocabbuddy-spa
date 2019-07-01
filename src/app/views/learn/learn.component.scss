@@ -30,6 +30,8 @@
 	&.completed { background-color: map-get($map: $my-colors, $key: "green"); }
 }
 
+ul { height: calc(100vh - 57px); }
+
 li { padding: 1rem 1.5rem; }
 
 li.grey { color: map-get($map: $colors, $key: "gray"); }

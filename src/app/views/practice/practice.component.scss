@@ -5,6 +5,8 @@
 	fill: white;
 }
 
+ul { height: calc(100vh - 57px); }
+
 li {
 	position: relative;
 	padding: 1rem 1.5rem;

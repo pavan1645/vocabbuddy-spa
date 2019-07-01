@@ -19,7 +19,7 @@ a, a:focus {
 }
 
 p { margin: 0 }
-ul { padding: 0; margin: 0 }
+ul { padding: 0; margin: 0; overflow: auto; }
 li {
 	list-style: none;
 	border-bottom: 1px solid lightgray;
@@ -65,6 +65,12 @@ li {
 	.f#{$i} { font-size: #{$i}px }	
 }
 
+@include desktop {
+	@each $i in $font-sizes {
+		.f#{$i} { font-size: #{$i + 2}px }	
+	}
+}
+
 @each $el, $hex in $colors {
 	.bg-#{$el} { background-color: $hex }
 	.text-#{$el} { color: $hex }
@@ -106,4 +112,4 @@ router-outlet ~ * {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-  }
+}
