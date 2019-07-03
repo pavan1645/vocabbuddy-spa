@@ -1,6 +1,6 @@
 <div>
 	<nav class="p-3 border-bottom f18 d-flex bg-green text-white">
-		<div (click)="sharedService.goBack()">
+		<div (click)="sharedService.goBack()" class="pointer perfect-center">
 			<svg-arrow-left class="icon mr-2 d-flex-column justify-content-center"></svg-arrow-left>
 		</div>
 		Learn
@@ -8,7 +8,7 @@
 	
 	<ul>
 		<a [routerLink]="section.name" *ngFor="let section of sections">
-			<li [ngClass]="section.completeClass" class="row">
+			<li appWave [ngClass]="section.completeClass" class="row">
 				<p class="w-50">{{section.name}}</p>
 				
 				<!-- SECTION NOT STARTED -->

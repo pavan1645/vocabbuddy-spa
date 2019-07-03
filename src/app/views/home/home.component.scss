@@ -22,7 +22,8 @@ nav { position: fixed; }
 	
 	button {
 		height: calc(75vw/2);
-		animation: translateX0 0.5s ease-out forwards;
+		@include desktop { height: calc(75vw/6); }
+		animation: translateX0 0.5s 0.5s ease-out forwards;
 	}
 
 	h4 {
@@ -41,16 +42,15 @@ nav { position: fixed; }
 .learn { 
 	background: linear-gradient(-45deg, rgba($color: map-get($my-colors, "red"), $alpha: 0.82), map-get($my-colors, "red")); 
 	transform: translateX(37.5vw);
-	border-top-left-radius: 100px;
-	border-bottom-left-radius: 100px;
+	border-top-left-radius: 300px;
+	border-bottom-left-radius: 300px;
 }
 .quiz { 
 	background: linear-gradient(45deg, rgba($color: map-get($my-colors, "yellow"), $alpha: 0.82), map-get($my-colors, "yellow")); 
 	transform: translateX(-37.5vw);
-	border-top-right-radius: 100px;
-	border-bottom-right-radius: 100px;
+	border-top-right-radius: 300px;
+	border-bottom-right-radius: 300px;
 }
-
 @keyframes translateX0 {
 	to { transform: translateX(0); }
 }

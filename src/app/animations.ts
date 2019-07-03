@@ -5,11 +5,11 @@ const forwards = [
 		query(':enter', [style({ transform: "translateX(100%)" })], { optional: true }),
 		query(':leave', [
 			style({ transform: "translateX(0)" }),
-			animate('0.3s', style({ transform: "translateX(-100%)" }))
+			animate('0.3s 0.3s', style({ transform: "translateX(-100%)" }))
 		], { optional: true }),
 		query(':enter', [
 			style({ transform: "translateX(100%)" }),
-			animate('0.3s', style({ transform: "translateX(0)" }))
+			animate('0.3s 0.3s', style({ transform: "translateX(0)" }))
 		], { optional: true })
 	])
 ];
@@ -19,11 +19,11 @@ const backwards = [
 		query(':enter', [style({ transform: "translateX(-100%)" })], { optional: true }),
 		query(':leave', [
 			style({ transform: "translateX(0)" }),
-			animate('0.3s', style({ transform: "translateX(100%)" }))
+			animate('0.3s 0.3s', style({ transform: "translateX(100%)" }))
 		], { optional: true }),
 		query(':enter', [
 			style({ transform: "translateX(-100%)" }),
-			animate('0.3s', style({ transform: "translateX(0)" }))
+			animate('0.3s 0.3s', style({ transform: "translateX(0)" }))
 		], { optional: true })
 	])
 ];
@@ -33,11 +33,11 @@ const opacity = [
 		query(':enter', [style({ opacity: "0" })], { optional: true }),
 		query(':leave', [
 			style({ transform: "translateX(0)" }),
-			animate('0.3s', style({ transform: "translateX(-100%)" }))
+			animate('0.3s 0.3s', style({ transform: "translateX(-100%)" }))
 		], { optional: true }),
 		query(':enter', [
 			style({ transform: "translateX(100%)" }),
-			animate('0.3s', style({ transform: "translateX(0)" }))
+			animate('0.3s 0.3s', style({ transform: "translateX(0)" }))
 		], { optional: true })
 	])
 ]

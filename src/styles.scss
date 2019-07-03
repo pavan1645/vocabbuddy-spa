@@ -19,7 +19,7 @@ a, a:focus {
 }
 
 p { margin: 0 }
-ul { padding: 0; margin: 0 }
+ul { padding: 0; margin: 0; overflow: auto; }
 li {
 	list-style: none;
 	border-bottom: 1px solid lightgray;
@@ -61,9 +61,6 @@ li {
 
 .shadow { box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15); }
 
-@each $i in $font-sizes {
-	.f#{$i} { font-size: #{$i}px }	
-}
 
 @each $el, $hex in $colors {
 	.bg-#{$el} { background-color: $hex }
@@ -74,6 +71,8 @@ li {
 	.bg-#{$el} { background-color: $hex }
 	.text-#{$el} { color: $hex }
 }
+
+.pointer { cursor: pointer; }
 
 .position-relative { position: relative; }
 
@@ -104,4 +103,5 @@ router-outlet ~ * {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-  }
+	left: 0;
+}

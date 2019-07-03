@@ -18,7 +18,7 @@ export class SectionComponent implements OnInit {
 	wordDefs: any[] = words;
 	currentScore: number = 0;
 	bestScore: number = 0;
-	remainingWords: any[];
+	remainingWords: any[] = [];
 	currentWord: any = {
 		wordIndex: -1,
 		defs: []
@@ -29,7 +29,7 @@ export class SectionComponent implements OnInit {
 	answeredIndex: number = -1;
 	animating: boolean = false;
 	showNext: boolean = false;
-	showScore: boolean = false;
+	showScore: boolean = true;
 
 	
 	constructor(private activatedRoute: ActivatedRoute, public sharedService: SharedService) {}
@@ -37,8 +37,11 @@ export class SectionComponent implements OnInit {
 	ngOnInit() {
 		this.activatedRoute.params.subscribe(p => {
 			this.section = progress.find(s => s.name == p.section);
-			this.reset();
-			this.calcWord();
+			if (this.section.score) {
+				this.currentScore = this.section.score;
+			} else {
+				this.reset();
+			}
 		})
 	}
 
@@ -109,5 +112,7 @@ export class SectionComponent implements OnInit {
 		if (this.bestScore === undefined) this.bestScore = 0;
 
 		this.showScore = false;
+
+		this.calcWord();
 	}
 }

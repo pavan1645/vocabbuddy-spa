@@ -7,7 +7,7 @@ import { NgForm } from '@angular/forms';
 
 const globals = new Globals();
 
-let touchstartPoints: number[] = [];
+let startPoints: number[] = [];
 let screenWidth: number = 0;
 
 let stop = false;
@@ -147,13 +147,13 @@ export class SectionComponent implements OnInit {
 			this.calc();
 		}, rippleTime);															// ripple effect
 
-		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(3);
+		if (this.boardStep == 2) this.onboard(3);
 	}
 
 	showDef() {
+		if (this.boardStep == 0) this.onboard(1);
 		if (this.defShow) return;
 		if (!this.fullscreen) this.defShow = true;
-		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(1);
 	}
 
 	readWord(e: TouchEvent) {
@@ -174,7 +174,7 @@ export class SectionComponent implements OnInit {
 	showFullscreen(e: TouchEvent) {
 		e.stopPropagation(); 
 		this.fullscreen = !this.fullscreen; 
-		if (this.boardStep > -1 && this.boardStep < 4) this.onboard(2);
+		if (this.boardStep == 1) this.onboard(2);
 	}
 
 	addNote(form: NgForm) {
@@ -191,21 +191,22 @@ export class SectionComponent implements OnInit {
 		this.sharedService.updateWord(this.oldWord.wordIndex, wordNotes);
 	}
 
+	touchstart(e: TouchEvent) { this.swipestart(e.touches[0].screenX, e.touches[0].screenY); }
+	touchmove(e: TouchEvent) { this.swipemove(e.touches[0].screenX, e.touches[0].screenY); }
+	mousedown(e: MouseEvent) { this.swipestart(e.pageX, e.pageY); }
+	mousemove(e: MouseEvent) { this.swipemove(e.pageX, e.pageY); }
 
-	touchstart(e: TouchEvent) {
-		touchstartPoints[0] = e.touches[0].screenX;
-		touchstartPoints[1] = e.touches[0].screenY;
+	swipestart(x: number, y: number) {
+		startPoints[0] = x;
+		startPoints[1] = y;
 	}
 
-	touchmove(e: TouchEvent) {
+	swipemove(x: number, y: number) {
 		if (this.fullscreen) return;
-		if (!touchstartPoints[0] || !touchstartPoints[1]) return;
+		if (!startPoints[0] || !startPoints[1]) return;
 		
-		let currX = e.touches[0].screenX;
-		let currY = e.touches[0].screenY;
-
-		let xDiff = touchstartPoints[0] - currX;
-		let yDiff = touchstartPoints[1] - currY;
+		let xDiff = startPoints[0] - x;
+		let yDiff = startPoints[1] - y;
 
 		if (yDiff > 0) {
 			
@@ -213,7 +214,7 @@ export class SectionComponent implements OnInit {
 				if (xDiff < 0) this.answer(1, false);				// up right
 				if (xDiff > 0) this.answer(-1, false)				// up left
 
-				this.touchend();									// force touchend
+				this.swipeend();									// force touchend
 
 			} else {
 				this.transform[1] = yDiff * -1;
@@ -230,11 +231,9 @@ export class SectionComponent implements OnInit {
 		}
 	}
 
-	touchend(e?: TouchEvent) {
-		setTimeout(() => {
-			this.transform = [0, 0, 0];
-			touchstartPoints = [];
-		}, 100);
+	swipeend() {
+		this.transform = [0, 0, 0];
+		startPoints = [];
 	}
 
 	italicizeEg(wordDef): string {

@@ -1,9 +1,9 @@
 <div class="main">
 	<nav class="p-3 row">
-		<div (click)="sharedService.goBack()">
+		<div (click)="sharedService.goBack()" class="pointer">
 			<svg-arrow-left class="icon d-block"></svg-arrow-left>
 		</div>
-		<div (click)="onboard(0)" class="ml-auto" *ngIf="(boardStep < 0 || boardStep > 3)">
+		<div (click)="onboard(0)" class="ml-auto pointer" *ngIf="(boardStep < 0 || boardStep > 3)">
 			<svg-question class="icon d-block"></svg-question>
 		</div>
 	</nav>
@@ -16,7 +16,7 @@
 		</div>
 		
 		<ng-container *ngIf="counts.mc != section.words.length">
-			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [attr.data-answer]="answerVal" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'fullscreen': fullscreen, 'shake': boardStep == 0, 'promptSwipe': (boardStep == 2 && !fullscreen)}" (click)="showDef()" (touchstart)="touchstart($event)" (touchmove)="touchmove($event)"  (touchend)="touchend($event)" [ngStyle]="{'transform': 'translate(' + transform[0] + 'px, ' + transform[1] + 'px) rotate(' + transform[2] + 'deg)'}">
+			<div class="card bg-white shadow d-flex-column" [attr.data-index]="dataIndex[0]" [attr.data-answer]="answerVal" [ngClass]="{'removed': removeCard == 1, 'show': defShow, 'fullscreen': fullscreen, 'shake': boardStep == 0, 'promptSwipe': (boardStep == 2 && !fullscreen)}" (click)="showDef()" (touchstart)="touchstart($event)" (touchmove)="touchmove($event)" (touchend)="swipeend()" (mousedown)="mousedown($event)" (mousemove)="mousemove($event)"  (mouseup)="swipeend()" [ngStyle]="{'transform': 'translate(' + transform[0] + 'px, ' + transform[1] + 'px) rotate(' + transform[2] + 'deg)'}">
 				<ng-container *ngTemplateOutlet="fullscreen ? cardnotes : cardcontent; context:oldWord"></ng-container>
 			</div>
 			
@@ -75,13 +75,13 @@
 <!-- Card Content -->
 <ng-template #cardcontent let-wordIndex="wordIndex">
 	<p class="pending f12 text-gray">{{pendingWords.length}} remaining</p>
-	<button class="expand-icon f18 perfect-center" (click)="showFullscreen($event)" [ngClass]="{'shake': boardStep == 1}">
+	<button class="expand-icon f18 perfect-center pointer" (click)="showFullscreen($event)" [ngClass]="{'shake': boardStep == 1}">
 		<svg-expand class="icon"></svg-expand>
 	</button>
 	
 	<div class="def perfect-center pt-4 px-3">
 		<p class="font-bold perfect-center word">
-			<span class="icon-wrapper mr-2 perfect-center" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
+			<span class="icon-wrapper mr-2 perfect-center pointer" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
 				<svg-microphone class="icon perfect-center"></svg-microphone>					
 			</span>
 			<span>{{wordDefs[wordIndex].word}}</span>
@@ -111,7 +111,7 @@
 		
 		<div class="overflow-auto">
 			<section class="row align-items-center pt-4">
-				<span class="icon-wrapper mr-2 perfect-center" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
+				<span class="icon-wrapper mr-2 perfect-center pointer" (click)="readWord($event)" [ngClass]="{'speak': speakActive}">
 					<svg-microphone class="icon perfect-center"></svg-microphone>					
 				</span>
 				<div class="f14"><em class="mr-1">{{wordDefs[wordIndex].type}}.</em>&#9679; {{wordDefs[wordIndex].phonetic}}</div>
