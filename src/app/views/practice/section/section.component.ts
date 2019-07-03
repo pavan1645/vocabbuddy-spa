@@ -37,6 +37,11 @@ export class SectionComponent implements OnInit {
 	ngOnInit() {
 		this.activatedRoute.params.subscribe(p => {
 			this.section = progress.find(s => s.name == p.section);
+
+			this.sharedService.setSeo({
+				title: "Practicing " + this.section.name + " | Vocabbuddy"
+			})
+
 			if (this.section.score) {
 				this.currentScore = this.section.score;
 			} else {

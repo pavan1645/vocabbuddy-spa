@@ -48,6 +48,11 @@ export class SectionComponent implements OnInit {
 			this.secWords = globals.progress.find(s => s.name == this.sectionName).words;
 			this.section = globals.progress.find(s => s.name == this.sectionName);
 			this.calc(true);
+
+
+			this.sharedService.setSeo({
+				title: "Learning " + this.sectionName + " | Vocabbuddy"
+			})
 		})	
 
 		let onboarding = localStorage.getItem("onboarding");

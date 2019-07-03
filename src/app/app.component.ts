@@ -13,9 +13,9 @@ import { PwaService } from './pwa.service.js';
 	animations: [slideInAnimation]
 })
 export class AppComponent implements OnInit{
-
+	
 	updateAvailable: boolean = false;
-
+	
 	constructor(private pwaService: PwaService) {
 		pwaService.updateAvailable.subscribe(e => this.updateAvailable = e);
 	}
@@ -26,17 +26,17 @@ export class AppComponent implements OnInit{
 		if (!progressJson) progressJson = SECTIONS;
 		
 		globals.progress = progressJson;
-
+		
 		let words = JSON.parse(localStorage.getItem("words2"));
 		if (!words) words = WORDS;
-
+		
 		globals.words = words;
 	}
-
+	
 	prepareRoute(outlet: RouterOutlet) {
 		return outlet.activatedRouteData['animation'] || "Default";
 	}
-
+	
 	update(val: boolean) {
 		setTimeout(() => {
 			if (val) window.location.reload();

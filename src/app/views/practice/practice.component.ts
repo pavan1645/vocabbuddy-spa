@@ -17,6 +17,11 @@ export class PracticeComponent implements OnInit {
 	constructor(private router: Router, public sharedService: SharedService) { }
 	
 	ngOnInit() {
+
+		this.sharedService.setSeo({
+			title: "Practice Section | Vocabbuddy"
+		})
+
 		this.sections.forEach((s, i) => {
 			let index = s.words.findIndex(w => w.isRemembered == 0);
 			if (index > -1) s["isLocked"] = 1;
