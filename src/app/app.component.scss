@@ -1,5 +1,72 @@
 @import "../assets/variables.scss";
 
+.app-wrapper {
+	position: relative;
+	@include desktop { overflow: hidden; }
+}
+
+.overlay, .landing, .bg {
+	@include desktop { display: flex; }
+}
+
+.overlay, .bg {
+	background: url("../assets/bg.svg") no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 66.66vw;
+	height: 100vh;
+	z-index: 2;
+}
+
+.bg { background-color: white; z-index: 1; }
+
+.landing {
+	background-color: #ffffff60;
+	width: 66.66vw;
+	height: 100vh;
+	z-index: 3;
+	position: relative;
+
+	
+	.title, .sub-title, .features {
+		margin: 0;
+		text-shadow: 0px 4px 7px #00000020;
+	}
+
+	.mockup {
+		width: 300px;
+	}
+
+	.title {
+		font-size: 50px;    
+		margin-top: 100px;
+	}
+
+	.sub-title {
+		 font-size: 20px;
+		 font-weight: normal;
+	}
+
+	.features {
+		margin-top: 210px;
+		font-size: 30px;
+	}
+
+	ul li {
+		padding: 0.75rem 2rem;
+		border: none;
+
+		&::before {
+			content: '\2714';
+			margin-left: -1.5rem;
+			margin-right: 0.5rem;
+		}
+	}
+
+}
+
 .update-wrapper { background-color: rgba(0, 0, 0, 0.4); z-index: 3; }
 .update { opacity: 0; animation: fadeIn 0.3s 0.3s ease-out forwards; }
 .actions button { position: relative; }
@@ -11,6 +78,6 @@
 
 .app {
 	width: 100vw;
-	@include desktop { width: 33.33vw; }
+	@include desktop { width: 33.33vw; flex: 0 0 33.33%; }
 	position: relative;
 }
