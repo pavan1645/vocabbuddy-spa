@@ -51,6 +51,14 @@ nav { position: fixed; }
 	border-top-right-radius: 300px;
 	border-bottom-right-radius: 300px;
 }
+
+
+.feedback {
+	position: absolute;
+	top: 96vh;
+}
+
+
 @keyframes translateX0 {
 	to { transform: translateX(0); }
 }

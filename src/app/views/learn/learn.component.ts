@@ -15,6 +15,11 @@ export class LearnComponent implements OnInit {
 	constructor(public sharedService: SharedService) { }
 	
 	ngOnInit() {
+		
+		this.sharedService.setSeo({
+			title: "Learning Section | Vocabbuddy"
+		})
+
 		this.sections.forEach(s => {
 			s["remainingWords"] = s.words.filter(f => f.isRemembered < 2).length;
 			
