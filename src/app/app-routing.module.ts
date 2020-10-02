@@ -9,11 +9,15 @@ const routes: Routes = [
 	{
 		path: "learn",
 		loadChildren: () => import("./views/learn/learn.module").then(mod => mod.LearnModule)
+	},
+	{
+		path: "practice",
+		loadChildren: () => import("./views/practice/practice.module").then(mod => mod.PracticeModule)
 	}
 ];
 
 @NgModule({
-	imports: [RouterModule.forRoot(routes)],
+	imports: [RouterModule.forRoot(routes, {onSameUrlNavigation: "reload"})],
 	exports: [RouterModule]
 })
 export class AppRoutingModule { }

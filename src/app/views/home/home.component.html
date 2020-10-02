@@ -1,21 +1,26 @@
-<div class="home perfect-center w-100">
-	<nav></nav>
-	<div class="row actions shadow br-25 w-75 text-white">
-		<button class="learn w-50 perfect-center" [ngClass]="{'active': activeBtn == 0}" (click)="loadComponent(0)">
-			<svg-list-ul class="icon"></svg-list-ul>
-			<h4>LEARN</h4>
-		</button>
-		<button class="quiz w-50 perfect-center" [ngClass]="{'active': activeBtn == 1}" (click)="loadComponent(1)">
-			<svg-quiz class="icon"></svg-quiz>
-			<h4>PRACTICE</h4>
-		</button>
-		<button class="third w-50 perfect-center" [ngClass]="{'active': activeBtn == 2}" (click)="loadComponent(2)">
-			<svg-stopwatch class="icon"></svg-stopwatch>
-			<h4>Coming Soon</h4>
-		</button>
-		<button class="fourth w-50 perfect-center" [ngClass]="{'active': activeBtn == 3}" (click)="loadComponent(3)">
-			<svg-stopwatch class="icon"></svg-stopwatch>
-			<h4>Coming Soon</h4>
-		</button>
+<div class="home bg-blue perfect-center w-100">
+	
+	<h1 class="logo">Vocabbuddy</h1>
+	
+	<div class="row actions w-75 text-white">
+		<a routerLink="/learn" class="btn-wrapper w-50" [ngClass]="{'active': activeBtn == 0}">
+			<button appWave class="learn pointer w-100 shadow perfect-center">
+				<svg-list-ul class="icon"></svg-list-ul>
+				<h4>LEARN</h4>
+			</button>
+		</a>
+
+		<a routerLink="/practice" class="btn-wrapper w-50" [ngClass]="{'active': activeBtn == 1}">
+			<button appWave class="quiz pointer w-100 shadow perfect-center">
+				<svg-quiz class="icon"></svg-quiz>
+				<h4>PRACTICE</h4>
+			</button>
+		</a>
 	</div>
+
+	<div class="feedback f14 text-white w-100 row px-3">
+		<a href="mailto:pavan1645@gmail.com?subject=Vocabbuddy Feedback" target="_blank">Feedback</a>
+		<a href="http://pavanmahadik.tk" target="_blank" class="ml-auto">Pavan Mahadik</a>
+	</div>
+
 </div>

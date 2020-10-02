@@ -3,8 +3,14 @@ import { ActivatedRoute } from '@angular/router';
 
 import { Globals } from 'src/app/globals.js';
 import { SharedService } from 'src/app/shared.service.js';
+import { NgForm } from '@angular/forms';
 
 const globals = new Globals();
+
+let startPoints: number[] = [];
+let screenWidth: number = 0;
+
+let stop = false;
 
 @Component({
 	selector: 'app-section',
@@ -22,22 +28,42 @@ export class SectionComponent implements OnInit {
 	oldWord: any;
 	private switchVal: number = 0;
 
+
 	counts: any = {}
 	removeCard: number = 0;
 	dataIndex: number[] = [0, 1, 2, 3];
 	defShow: boolean = false;
 	speakActive: boolean = false;
-	flipped: boolean = false;
+	fullscreen: boolean = false;
+	answerVal: number = -1;
+	transform: number[] = [0, 0, 0];									// translateX, translateY, rotate
+	boardStep: number = -1;
 
-	constructor(private activatedRoute: ActivatedRoute, private sharedService: SharedService) { }
+	constructor(private activatedRoute: ActivatedRoute, public sharedService: SharedService) { }
 	
 	ngOnInit() {
+		screenWidth = window.innerWidth;
 		this.activatedRoute.params.subscribe(params => {
 			this.sectionName = params["section"];
 			this.secWords = globals.progress.find(s => s.name == this.sectionName).words;
 			this.section = globals.progress.find(s => s.name == this.sectionName);
 			this.calc(true);
+
+
+			this.sharedService.setSeo({
+				title: "Learning " + this.sectionName + " | Vocabbuddy"
+			})
 		})	
+
+		let onboarding = localStorage.getItem("onboarding");
+		if (!onboarding) this.onboard(0);
+		else this.onboard(Number(onboarding));
+	}
+
+	onboard(step: number) {
+		if (step == 3) setTimeout(() => this.onboard(4), 10000);
+		this.boardStep = step;
+		localStorage.setItem("onboarding", step.toString());
 	}
 
 	play() {
@@ -58,15 +84,18 @@ export class SectionComponent implements OnInit {
 
 			}, 300);	// card pushed up animation
 
-		}, 1000);		// card removing animation
+		}, 750);		// card removing animation
 	}
 	
 	calc(firstItr: boolean = false) {
+		this.stats();
 		this.pendingWords = this.section.words.filter(f => f.isRemembered < 2);
+		if (this.pendingWords.length == 0) return;
 				
 		let randInt: number = Math.floor(Math.random() * this.pendingWords.length);
 
-		if (this.currWord && this.currWord.wordIndex == this.pendingWords[randInt].wordIndex) return this.calc();		// Same word check
+		// Same word check
+		if (this.pendingWords.length > 2 && this.currWord && this.currWord.wordIndex == this.pendingWords[randInt].wordIndex) return this.calc();
 		
 		// Determine switchVal value
 		if (this.pendingWords.length >= 4) this.switchVal = 0;
@@ -84,8 +113,6 @@ export class SectionComponent implements OnInit {
 		setTimeout(() => {
 			this.oldWord = JSON.parse(JSON.stringify(this.currWord));
 		}, 1000);
-
-		this.stats();
 	}
 	
 	stats() {
@@ -99,26 +126,43 @@ export class SectionComponent implements OnInit {
 		this.counts.mp = (this.counts.mc / total) * 100;
 	}
 	
-	answer(val: number) {
-		setTimeout(() => { this.defShow = false; }, 1000);				// let def be shown till card is removed
+	answer(val: number, rippleWait: boolean = true) {
+		if (stop) return;
+		stop = true;
+		setTimeout(() => { stop = false }, 1300);
+
+		this.answerVal = val;
+
+		let rippleTime = 300;
+		if (!rippleWait) rippleTime = 0;
 		
-		let rememberVal = this.currWord.isRemembered;
-		if (val === -1) {
-			this.currWord.isRemembered = ((rememberVal - 1) < 0) ? 0 : (rememberVal - 1);
-		} else {
-			this.currWord.isRemembered = ((rememberVal + 1) > 2) ? 2 : (rememberVal + 1);
-		}
-		
-		this.sharedService.updateProgress(this.sectionName, this.currWord);
-		this.play();
-		this.calc();
+
+		setTimeout(() => {
+			setTimeout(() => { this.defShow = false; }, 1000);				// let def be shown till card is removed
+			
+			let rememberVal = this.currWord.isRemembered;
+			if (val === -1) {
+				this.currWord.isRemembered = ((rememberVal - 1) < 0) ? 0 : (rememberVal - 1);
+			} else {
+				this.currWord.isRemembered = ((rememberVal + 1) > 2) ? 2 : (rememberVal + 1);
+			}
+			
+			this.sharedService.updateProgress(this.sectionName, this.currWord);
+			this.play();
+			this.calc();
+		}, rippleTime);															// ripple effect
+
+		if (this.boardStep == 2) this.onboard(3);
 	}
 
 	showDef() {
-		this.defShow = true;
+		if (this.boardStep == 0) this.onboard(1);
+		if (this.defShow) return;
+		if (!this.fullscreen) this.defShow = true;
 	}
 
-	readWord() {
+	readWord(e: TouchEvent) {
+		e.stopPropagation();
 		const _this = this;
 		this.speakActive = true;
 
@@ -132,13 +176,18 @@ export class SectionComponent implements OnInit {
 		})
 	}
 
-	flipCard() { this.flipped = !this.flipped; }
+	showFullscreen(e: TouchEvent) {
+		e.stopPropagation(); 
+		this.fullscreen = !this.fullscreen; 
+		if (this.boardStep == 1) this.onboard(2);
+	}
 
-	addNote(val: any) {
+	addNote(form: NgForm) {
 		let wordNotes: string[] = this.wordDefs[this.oldWord.wordIndex].notes;
 		if (!wordNotes) wordNotes = [];
-		wordNotes.push(val.note);
+		wordNotes.push(form.value.note);
 		this.sharedService.updateWord(this.oldWord.wordIndex, wordNotes);
+		form.reset();
 	}
 
 	deleteNote(i: number) {
@@ -147,12 +196,66 @@ export class SectionComponent implements OnInit {
 		this.sharedService.updateWord(this.oldWord.wordIndex, wordNotes);
 	}
 
+	touchstart(e: TouchEvent) { this.swipestart(e.touches[0].screenX, e.touches[0].screenY); }
+	touchmove(e: TouchEvent) { this.swipemove(e.touches[0].screenX, e.touches[0].screenY); }
+	mousedown(e: MouseEvent) { this.swipestart(e.pageX, e.pageY); }
+	mousemove(e: MouseEvent) { this.swipemove(e.pageX, e.pageY); }
+
+	swipestart(x: number, y: number) {
+		startPoints[0] = x;
+		startPoints[1] = y;
+	}
+
+	swipemove(x: number, y: number) {
+		if (this.fullscreen) return;
+		if (!startPoints[0] || !startPoints[1]) return;
+		
+		let xDiff = startPoints[0] - x;
+		let yDiff = startPoints[1] - y;
+
+		if (yDiff > 0) {
+			
+			if (yDiff > 100) {										// play animamtion
+				if (xDiff < 0) this.answer(1, false);				// up right
+				if (xDiff > 0) this.answer(-1, false)				// up left
+
+				this.swipeend();									// force touchend
+
+			} else {
+				this.transform[1] = yDiff * -1;
+				const totalTranslate = screenWidth * 2;
+				this.transform[0] = Math.round(this.transform[1] * 0.5);
+				this.transform[2] = Math.round(this.transform[1] / totalTranslate * 60);
+
+				if (xDiff < 0) {									// up right
+					this.transform[0] = this.transform[0] * -1;
+					this.transform[2] = this.transform[2] * -1;
+				}
+				
+			}
+		}
+	}
+
+	swipeend() {
+		this.transform = [0, 0, 0];
+		startPoints = [];
+	}
+
 	italicizeEg(wordDef): string {
 		if (!wordDef.example) return "";
 		const regex = new RegExp(wordDef.word.substring(0, wordDef.word.length - 2) + "\\w+");
 		const match = wordDef.example.match(regex);
 		if (!match) return "empty";
 		return wordDef.example.replace(regex, "<em>" + match[0] +  "</em>");
+	}
+
+	splitString(str: string[]): string {
+		return (str) ? str.toString().replace(/,/g, ", ") : "";
+	}
+
+	resetSection() {
+		this.sharedService.resetSection(this.section.name);
+		this.ngOnInit();
 	}
 	
 }

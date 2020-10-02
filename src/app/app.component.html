@@ -1,1 +1,42 @@
-<router-outlet></router-outlet>
+<div class="app-wrapper row">
+	<div class="d-none bg"></div>
+	<div class="d-none overlay"></div>
+	<div class="d-none landing col-8 px-0 row" alt="">
+
+		<div class="col-4 offset-1">
+			<h1 class="title">Vocabbuddy</h1>
+			<h3 class="sub-title pl-3">A Flashcard based Vocab Trainer</h3>
+	
+			<img src="../assets/ss21.png" class="mockup mt-4 w-100" alt="">
+		</div>
+
+		<div class="col-4 offset-1">
+			<h2 class="features">Features</h2>
+			<ul>
+				<li>700+ words with definitions, examples, synonyms and pronunciations</li>
+				<li>Add notes, mnemonics, personal translations, etc.</li>
+				<li>Interactive learning and practice sections</li>
+				<li>Take quizzes to test your vocabulary</li>
+				<li>Works offline!</li>
+				<li>Can be installed on your phone</li>
+				<li>Available as Progressive Web App (PWA)</li>
+			</ul>
+		</div>
+
+	</div>
+	
+	<div class="col-12 app" [@routeAnimations]="prepareRoute(outlet)" >
+		<router-outlet #outlet="outlet"></router-outlet>
+		
+		<div class="update-wrapper perfect-center" *ngIf="updateAvailable">
+			<div class="update bg-white px-3 w-75 shadow br-10">
+				<p class="border-bottom py-3">A new update is available!</p>
+				<p class="f13 py-3 text-left">Updating usually takes a few seconds. We promise before you realize anything it will be done!</p>
+				<div class="actions d-flex mb-3">
+					<button appWave class="ml-auto py-2 px-3 text-gray" (click)="update(false)">Cancel</button>
+					<button appWave class="py-2 px-3 text-green font-bold br-0" (click)="update(true)">Update</button>
+				</div>
+			</div>
+		</div>
+	</div>  
+</div>

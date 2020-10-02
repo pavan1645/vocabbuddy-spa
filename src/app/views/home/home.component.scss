@@ -1,33 +1,32 @@
 @import "../../../assets/variables.scss";
 
+.logo {
+	position: absolute;
+    top: 15vh;
+    font-size: 40px;
+    color: #F9A825;
+    text-shadow: 0 5px 11px #e91e6385;
+}
+
 .home {
-	// background: radial-gradient(#1488CCAA, #2B32B2AA);
-	background-color: map-get($map: $colors, $key: "light");
+	background: radial-gradient(#005C97, #363795);
+	// background-color: map-get($map: $my-colors, $key: "purple");
 	height: 100vh;
 }
 
 nav { position: fixed; }
 
 .actions {
-	height: 75vw;
-	overflow: hidden;
-
+	
+	.btn-wrapper { overflow: hidden; }
+	
 	button {
 		height: calc(75vw/2);
-	}
-
-	button.active {
-		&:nth-child(1) { transform: translate(50%, 50%) scale(2); }
-		&:nth-child(2) { transform: translate(-50%, 50%) scale(2); }
-		&:nth-child(3) { transform: translate(50%, -50%) scale(2); }
-		&:nth-child(4) { transform: translate(-50%, -50%) scale(2); }
-
-		z-index: 1;
-		transition: all 0.2s ease 0.3s;
+		@include desktop { height: calc(75vw/6); }
+		animation: translateX0 0.5s 0.5s ease-out forwards;
 	}
 
 	h4 {
-		// text-shadow: 0 2px 5px #00000082;
 		margin: 0;
 		color: white;
 	}
@@ -37,12 +36,29 @@ nav { position: fixed; }
 		margin-bottom: 0.5rem;
 		fill: white;
 		// filter: drop-shadow(0 2px 5px #00000082);
-	}
-
-	.third .icon, .fourth .icon { transform: scaleX(-1) }
+	}	
 }
 
-.learn { background: linear-gradient(-45deg, rgba($color: map-get($my-colors, "green"), $alpha: 0.82), map-get($my-colors, "green")); }
-.quiz { background: linear-gradient(45deg, rgba($color: map-get($my-colors, "red"), $alpha: 0.82), map-get($my-colors, "red")); }
-.third { background: linear-gradient(-135deg, rgba($color: map-get($my-colors, "blue"), $alpha: 0.82), map-get($my-colors, "blue")); }
-.fourth { background: linear-gradient(135deg, rgba($color: map-get($my-colors, "yellow"), $alpha: 0.82), map-get($my-colors, "yellow")); }
+.learn { 
+	background: linear-gradient(-45deg, rgba($color: map-get($my-colors, "red"), $alpha: 0.82), map-get($my-colors, "red")); 
+	transform: translateX(37.5vw);
+	border-top-left-radius: 300px;
+	border-bottom-left-radius: 300px;
+}
+.quiz { 
+	background: linear-gradient(45deg, rgba($color: map-get($my-colors, "yellow"), $alpha: 0.82), map-get($my-colors, "yellow")); 
+	transform: translateX(-37.5vw);
+	border-top-right-radius: 300px;
+	border-bottom-right-radius: 300px;
+}
+
+
+.feedback {
+	position: absolute;
+	top: 96vh;
+}
+
+
+@keyframes translateX0 {
+	to { transform: translateX(0); }
+}

@@ -1,6 +1,6 @@
 {
   "name": "gre-word-list",
-  "version": "0.0.0",
+  "version": "0.4.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,7 +21,9 @@
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/platform-server": "~8.0.0",
+    "@angular/pwa": "^0.800.3",
     "@angular/router": "~8.0.0",
+    "@angular/service-worker": "~8.0.0",
     "@nguniversal/express-engine": "^7.0.2",
     "@nguniversal/module-map-ngfactory-loader": "v7.0.2",
     "compression": "^1.7.4",

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { SharedService } from 'src/app/shared.service';
 
 @Component({
 	selector: 'app-home',
@@ -9,17 +10,10 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 	activeBtn = -1;
 
-	constructor(private router: Router) { }
+	constructor(private router: Router, private sharedService: SharedService) { }
 	
 	ngOnInit() {
-	}
-	
-	loadComponent(n: number) {
-		this.activeBtn = n;
-		setTimeout(() => {
-			if (this.activeBtn == 0) this.router.navigateByUrl("/learn");
-			if (this.activeBtn == 1) this.router.navigateByUrl("/practice");
-		}, 600);
+		this.sharedService.setSeo();
 	}
 
 }
